@@ -1,15 +1,16 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
-    "test": "node lambdas/combinatorics-contast.js"
+    "test": "node lambdas/combinatorics-contast.js",
+    "out": "jest src/create-multiple-theme.spec.js"
   },
   "version": "3.52.0",
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "@stylistic/eslint-plugin": "1.5.1",
-    "babel-cli": "7.0.0-beta.3",
-    "babel-preset-env": "7.0.0-beta.3",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
     "colord": "2.9.3",
     "eslint": "8.56.0",
     "fs-extra": "11.2.0",
@@ -25,10 +26,6 @@
     "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "license": "MIT",
-  "depFn": [
-    "babel-cli",
-    "babel-preset-env"
-  ],
   "displayName": "Niketa Theme Dark",
   "description": "Large collection of handmade dark themes",
   "publisher": "selfrefactor",
