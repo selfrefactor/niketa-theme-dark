@@ -4,7 +4,7 @@
     "test": "node lambdas/combinatorics-contast.js",
     "out": "jest src/create-multiple-theme.spec.js"
   },
-  "version": "3.52.0",
+  "version": "3.53.0",
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
