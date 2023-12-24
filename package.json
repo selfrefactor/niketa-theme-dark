@@ -1,6 +1,8 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
+    "test:lint": "node scripts/lint.js",
+    "x": "yarn test:lint",
     "test": "node lambdas/combinatorics-contast.js",
     "out": "jest src/create-multiple-theme.spec.js"
   },
