@@ -1,6 +1,5 @@
 {
   "name": "niketa-dark-theme",
-  "type": "module",
   "scripts": {
     "test:lint": "node scripts/lint.js",
     "x": "yarn test:lint",

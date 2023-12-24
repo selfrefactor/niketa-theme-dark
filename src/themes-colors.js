@@ -1,3 +1,5 @@
+const { forEach } = require("rambdax")
+
 const BLUE_DARK = '#00A6FB'
 const BLUE_LIGHT = '#0fc2f9'
 const BLUE_SKY = '#36F9F6'
@@ -14,7 +16,7 @@ const PINK_RED = '#e34ba9'
 const PURPLE = '#bf7af0'
 const TEAL = '#279CB2'
 const WHITE = '#fdfdfd'
-const YELLOW = '#F7ECB5'
+const YELLOW = '#F7ECB4'
 
 const allThemes = {
   AmericanDad         : [ GREEN_DARK, PINK_RED, BROWN, BLUE_SKY, WHITE ],

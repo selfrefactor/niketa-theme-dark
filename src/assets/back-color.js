@@ -1,3 +1,3 @@
-export const BACK_COLOR = '#1F2023'
-export const PUNCTUATION_COLOR = '#667788EE'
-export const SUBTLE_COLOR = '#777799EE'
+exports.BACK_COLOR = '#1F2023'
+exports.PUNCTUATION_COLOR = '#667788EE'
+exports.SUBTLE_COLOR = '#777799EE'
