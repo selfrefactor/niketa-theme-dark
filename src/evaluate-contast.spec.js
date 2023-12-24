@@ -1,10 +1,9 @@
-import { colorContrastRatioCalculator } from '@mdhnpm/color-contrast-ratio-calculator'
-import { map, sortObject } from 'rambdax'
-import { BACK_COLOR } from './assets/back-color'
-import { allThemes as allThemesInput } from './themes-colors'
-import { allThemes as allThemesLight } from '../../../../niketa-theme/src/assets/themes-colors'
-import { writeJson } from 'fs-extra'
-
+const { colorContrastRatioCalculator } = require('@mdhnpm/color-contrast-ratio-calculator');
+const { map, sortObject } = require('rambdax');
+const { BACK_COLOR } = require('./assets/back-color');
+const { allThemes: allThemesInput } = require('./themes-colors');
+const { allThemes: allThemesLight } = require('../../../../niketa-theme/src/assets/themes-colors');
+const { writeJson } = require('fs-extra');
 
 async function evaluateContrast(allThemes = allThemesInput, label = 'dark', bgColor = BACK_COLOR){
   let max = Infinity

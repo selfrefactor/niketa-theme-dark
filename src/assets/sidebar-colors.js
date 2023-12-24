@@ -1,6 +1,6 @@
-import { CHROME_COLOR } from './common'
+const { CHROME_COLOR } = require("./common");
 
-export const sidebarColors = {
+exports.sidebarColors = {
   'sideBar.background'              : CHROME_COLOR,
   // It means the color of files in explorer, not yet modified
   // ============================================

@@ -1,20 +1,18 @@
-import { map } from 'rambdax'
-import { pascalCase } from 'string-fn'
-
-import { readJsonAnt } from './ants/readJson.js'
-import { saveToPackageJsonAnt } from './ants/saveToPackageJson.js'
-import { writeJsonAnt } from './ants/writeJson.js'
-import { getChromeColors } from './assets/chrome-colors.js'
-import { generateThemeData } from './generateThemeData.js'
-import { SETTINGS } from './themes-colors.js'
-
-const settings = {}
-
-map((x, i) => {
-  settings[ i ] = x
-}, SETTINGS)
+const { map } = require('rambdax');
+const { pascalCase } = require('string-fn');
+const { readJson } = require('./lib/read-json');
+const { generateThemeData } = require('./generate-theme-data');
+const { getSettings } = require('./themes-colors');
+const { getChromeColors } = require('./assets/chrome-colors');
+const { saveToPackageJson } = require('./lib/save-to-package-json');
+const { writeJson } = require('./lib/write-json');
 
 test('happy', () => {
+  const settings = {}
+  
+  map((x, i) => {
+    settings[ i ] = x
+  }, getSettings())
   const allThemes = []
 
   map(val => {
@@ -22,7 +20,7 @@ test('happy', () => {
     if (!colors.COLOR_4){
       throw new Error('All themes require 5 colors')
     }
-    const palette = readJsonAnt('src/palette.json')
+    const palette = readJson('src/palette.json')
     const themeData = generateThemeData({
       palette,
       chromeColors : getChromeColors(),
@@ -30,7 +28,7 @@ test('happy', () => {
     })
     themeData.name = pascalCase(name)
 
-    writeJsonAnt(`themes/${ themeData.name }.json`, themeData)
+    writeJson(`themes/${ themeData.name }.json`, themeData)
 
     allThemes.push({
       label   : themeData.name,
@@ -39,5 +37,5 @@ test('happy', () => {
     })
   })(settings)
 
-  saveToPackageJsonAnt(allThemes)
+  saveToPackageJson(allThemes)
 })

@@ -1,4 +1,4 @@
-import {generateColors} from './generateColors'
+const { generateColors } = require('./generate-colors')
 
 test('happy', () => {
   const input = [ '#a7b3ce', '#fff']

@@ -1,6 +1,6 @@
-import { colord, extend } from "colord";
-import harmoniesPlugin from "colord/plugins/harmonies";
-import { writeJsonAnt } from "./ants/writeJson";
+const { colord, extend } = require("colord");
+const harmoniesPlugin = require("colord/plugins/harmonies");
+const { writeJsonAnt } = require("./ants/writeJson");
 
 const inputColor = '#fe5dce'
 

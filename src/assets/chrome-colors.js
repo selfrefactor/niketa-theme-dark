@@ -1,9 +1,8 @@
-import { BACK_COLOR } from './back-color.js'
-// import { colors as importedChromeColors } from './chrome-themes/theme'
-import { CHROME_COLOR } from './common.js'
-import { listColors } from './list-colors.js'
-import { otherColors } from './other-colors.js'
-import { sidebarColors } from './sidebar-colors.js'
+const { BACK_COLOR } = require('./back-color.js');
+const { CHROME_COLOR } = require('./common.js');
+const { listColors } = require('./list-colors.js');
+const { otherColors } = require('./other-colors.js');
+const { sidebarColors } = require('./sidebar-colors.js');
 
 const scrollbarColors = {
   'editorOverviewRuler.addedForeground': '#47ffa0',
@@ -38,21 +37,6 @@ const selectionColors = {
   'editor.wordHighlightStrongBackground': `#aee${MATCH_OPACITY}`,
   'peekViewEditor.matchHighlightBackground':  `#888${MATCH_OPACITY}`,
   'terminal.selectionBackground': '#ffffff',
-}
-
-export function getChromeColors() {
-  return {
-    'editor.background': BACK_COLOR,
-    ...newColors(),
-    ...otherColors,
-    ...sidebarColors,
-    ...bracketColors,
-    ...tabColors,
-    ...scrollbarColors,
-    ...selectionColors,
-    ...listColors,
-    ...gitColors,
-  }
 }
 
 function newColors() {
@@ -94,3 +78,20 @@ const gitColors = {
   'gitDecoration.submoduleResourceForeground': '#8db9e2',
   'gitDecoration.untrackedResourceForeground': '#c2aa4d',
 }
+
+function getChromeColors() {
+  return {
+    'editor.background': BACK_COLOR,
+    ...newColors(),
+    ...otherColors,
+    ...sidebarColors,
+    ...bracketColors,
+    ...tabColors,
+    ...scrollbarColors,
+    ...selectionColors,
+    ...listColors,
+    ...gitColors,
+  }
+}
+
+exports.getChromeColors = getChromeColors

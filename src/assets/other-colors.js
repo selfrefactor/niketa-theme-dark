@@ -1,7 +1,7 @@
-import { BACK_COLOR } from './back-color'
-import { SOFT_WARNING } from './common'
+const { BACK_COLOR } = require("./back-color");
+const { SOFT_WARNING } = require("./common");
 
-export const otherColors = {
+exports.otherColors = {
   'statusBar.background': '#0f141c',
   "statusBar.foreground": "#fcfafc",
   "textLink.foreground": "#d8dc88",

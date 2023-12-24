@@ -1,6 +1,5 @@
-import { map } from 'rambdax'
-
-import { PUNCTUATION_COLOR, SUBTLE_COLOR } from './assets/back-color.js'
+const { map } = require('rambdax');
+const {PUNCTUATION_COLOR, SUBTLE_COLOR} = require('./assets/back-color');
 
 const PUNCTUATIONS = [
   'meta.group.braces.round.function.arguments',
@@ -39,7 +38,7 @@ function getForeground(tokenColor, colors){
   return colors[ tokenColor.settings.foreground ]
 }
 
-export function generateThemeData({ palette, chromeColors, themeColors }){
+function generateThemeData({ palette, chromeColors, themeColors }){
   const tokenColors = map(tokenColor => ({
     ...tokenColor,
     settings : {
@@ -57,3 +56,5 @@ export function generateThemeData({ palette, chromeColors, themeColors }){
 
   return newTheme
 }
+
+exports.generateThemeData = generateThemeData

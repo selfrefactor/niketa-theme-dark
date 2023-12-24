@@ -1,6 +1,6 @@
 const toHex = (red, green, blue, alpha) => ((blue | green << 8 | red << 16) | 1 << 24).toString(16).slice(1) + alpha;
 
-export function rgbHex(red, green, blue, alpha) {
+function rgbHex(red, green, blue, alpha) {
 	let isPercent = (red + (alpha || '')).toString().includes('%');
 
 	if (typeof red === 'string' && !green) { // Single string parameter.
@@ -69,3 +69,5 @@ const parseCssRgbString = input => {
 
 	return [red, green, blue, alpha];
 };
+
+exports.rgbHex = rgbHex;

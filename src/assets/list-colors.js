@@ -1,4 +1,4 @@
-export const listColors = {
+exports.listColors = {
   'quickInput.list.focusBackground'  : '#6d50a177',
   // in change of themes
   // in the circle of unsaved changes
