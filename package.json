@@ -6,9 +6,9 @@
     "jest:file": "node scripts/run/jest.js",
     "test": "node src/combinatorics-contast.js",
     "out": "jest src/create-multiple-theme.spec.js",
-    "check:all": "node scripts/checks/check-dependant-repos.js",
-    "dev": "yarn check:all",
+    "check:all": "node scripts/__checks/check-dependant-repos.js",
     "lint:check": "node scripts/__checks/lint.js",
+    "dev": "yarn check:all",
     "x": "yarn lint:file src/combinatorics-contast.js"
   },
   "lintAllFolders": [
