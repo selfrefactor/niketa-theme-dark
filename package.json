@@ -7,7 +7,8 @@
     "test": "node src/combinatorics-contast.js",
     "out": "jest src/create-multiple-theme.spec.js",
     "check:all": "node scripts/check-dependant-repos.js",
-    "dev": "yarn check:all"
+    "dev": "yarn check:all",
+    "x": "yarn lint:file src/combinatorics-contast.js"
   },
   "lintAllFolders": [
     "src",
