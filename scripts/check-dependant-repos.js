@@ -1,9 +1,13 @@
+const DEPENDANT_REPOS = ['../../niketa-theme']
+
+
 const { existsSync } = require('fs')
-const { readFile } = require('fs-extra')
+const { readFile, readJson } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
-const { endsWith } = require('rambdax')
-// check package.json
+const { endsWith, filter } = require('rambdax')
+
+
 const EXPECTED_FILES = [
   'constants.js',
   'lint/lint-all-fn.js',
@@ -20,8 +24,57 @@ const EXPECTED_GIT_IGNORE = [
   'scripts/outputs/jest-output-file.txt',
   'scripts/outputs/eslint-all-output-file.txt'
 ]
+const EXPECTED_SCRIPTS = [
+  'lint:file',
+  'lint:all',
+  'jest:file'
+]
 
-const DEPENDANT_REPOS = ['../../niketa-theme']
+let EXPECTED_DEV_DEPENDENCIES = [
+  "@biomejs/biome",
+  "@stylistic/eslint-plugin",
+  "eslint",
+  "eslint-plugin-babel",
+  "eslint-plugin-jest",
+  "eslint-plugin-node",
+  "eslint-plugin-perfectionist",
+  "eslint-plugin-sonarjs",
+  "eslint-plugin-unused-imports",
+  "fs-extra",
+  "helpers-fn",
+  "jest",
+  "prettier",
+  "rambdax"
+]
+
+function checkPackageJson({scripts, niketaScripts, devDependencies}) {
+  const correctScripts = filter(
+    (_, prop) => EXPECTED_SCRIPTS.includes(prop),
+  )(scripts)
+  if(Object.keys(correctScripts).length !== EXPECTED_SCRIPTS.length){
+    return { error: `Scripts are not correct`, errorData:{correctScripts, scripts} }
+  }
+  if(niketaScripts === undefined){
+    return { error: `niketaScripts is empty`, }
+  }
+  // Keep it simple
+  // if there is case, where more is used, then read and evaluate
+  if(niketaScripts.length !== 2){
+    return { error: `niketaScripts are not correct`, errorData:niketaScripts }
+  }
+  const devDependenciesKeys = Object.keys(devDependencies)
+  const wrongDevDependencies = filter(
+    prop => !devDependenciesKeys.includes(prop),
+  )(EXPECTED_DEV_DEPENDENCIES)
+
+  if(wrongDevDependencies.length > 0){
+    return { error: `devDependencies are not correct`, errorData: `Run: yarn add -D ${  
+       wrongDevDependencies.join(' ')
+     }` }
+  }
+
+  return { success: true }
+}
 
 async function checkDependantRepo(relativePath) {
   try {
@@ -40,14 +93,14 @@ async function checkDependantRepo(relativePath) {
       folder: `${directoryPath}/scripts`,
     })
     const wrongFiles = EXPECTED_FILES.filter((filePath) => files.find(endsWith(filePath)) === undefined)
-    
+
     if (wrongFiles.length > 0) {
       return { error: `Files are not correct`, errorData:wrongFiles }
     }
-    return { ok: true }
+    const {scripts, niketaScripts, devDependencies} = await readJson(`${directoryPath}/package.json`)
+    return checkPackageJson({scripts, niketaScripts, devDependencies})
   }catch(err){
-    console.log(err)
-    return { error: err.message }
+    return { error: err.message, data: 'in try/catch' }
   }
 }
 
