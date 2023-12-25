@@ -1,13 +1,13 @@
-const {filter} = require('rambdax')
+const { filter } = require('rambdax')
 const {
   configs: {
-    'recommended-alphabetical': {rules: perfectionistRulesImport},
+    'recommended-alphabetical': { rules: perfectionistRulesImport },
   },
 } = require('eslint-plugin-perfectionist')
 
 function getPerfectionistRules() {
   let rules = {}
-  Object.keys(perfectionistRulesImport).forEach(key => {
+  Object.keys(perfectionistRulesImport).forEach((key) => {
     rules[key] = [1, ...perfectionistRulesImport[key].slice(1)]
   })
   return rules
@@ -17,52 +17,6 @@ const perfectionistRules = getPerfectionistRules()
 
 const rules = {
   ...perfectionistRules,
-  'unused-imports/no-unused-imports': 1,
-  'unused-imports/no-unused-vars': 1,
-  'no-prototype-builtins': 0,
-  '@typescript-eslint/consistent-type-assertions': 0,
-  '@typescript-eslint/no-unsafe-argument': 0,
-  '@typescript-eslint/require-await': 2,
-  '@typescript-eslint/no-empty-function': 0,
-  '@typescript-eslint/no-floating-promises': 0,
-  '@typescript-eslint/restrict-template-expressions': 0,
-  '@typescript-eslint/no-unsafe-member-access': 0,
-  '@typescript-eslint/no-unsafe-return': 0,
-  '@typescript-eslint/no-unsafe-call': 0,
-  '@typescript-eslint/explicit-module-boundary-types': 0,
-  '@typescript-eslint/no-unsafe-assignment': 0,
-  '@typescript-eslint/prefer-nullish-coalescing': [
-    0,
-    {
-      ignoreConditionalTests: true,
-      ignoreMixedLogicalExpressions: true,
-      forceSuggestionFixer: true,
-    },
-  ],
-  '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
-  '@typescript-eslint/no-array-constructor': 1,
-  '@typescript-eslint/no-empty-interface': 1,
-  '@typescript-eslint/no-explicit-any': 1,
-  '@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
-  '@typescript-eslint/no-unnecessary-condition': 0,
-  '@typescript-eslint/no-unnecessary-type-arguments': 1,
-  '@typescript-eslint/no-unnecessary-type-assertion': 1,
-  '@typescript-eslint/prefer-as-const': 1,
-  '@typescript-eslint/prefer-function-type': 1,
-  '@typescript-eslint/prefer-includes': 1,
-  '@typescript-eslint/prefer-optional-chain': 0,
-  '@typescript-eslint/no-non-null-assertion': 0,
-  '@typescript-eslint/member-delimiter-style': [
-    1,
-    {
-      multiline: {
-        delimiter: 'comma',
-      },
-      singleline: {
-        delimiter: 'comma',
-      },
-    },
-  ],
   '@typescript-eslint/array-type': [
     1,
     {
@@ -76,15 +30,48 @@ const rules = {
       allowSingleLine: true,
     },
   ],
-  '@typescript-eslint/func-call-spacing': [1, 'never'],
   '@typescript-eslint/comma-spacing': [
     1,
     {
-      before: false,
       after: true,
+      before: false,
     },
   ],
+  '@typescript-eslint/consistent-type-assertions': 0,
+  '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
+  '@typescript-eslint/explicit-module-boundary-types': 0,
+  '@typescript-eslint/func-call-spacing': [1, 'never'],
+  '@typescript-eslint/indent': [1, 2],
+  '@typescript-eslint/member-delimiter-style': [
+    1,
+    {
+      multiline: {
+        delimiter: 'comma',
+      },
+      singleline: {
+        delimiter: 'comma',
+      },
+    },
+  ],
+  '@typescript-eslint/no-array-constructor': 1,
+  '@typescript-eslint/no-confusing-void-expression': 0,
+  '@typescript-eslint/no-empty-function': 0,
+  '@typescript-eslint/no-empty-interface': 1,
+  '@typescript-eslint/no-explicit-any': 1,
+  '@typescript-eslint/no-extra-non-null-assertion': 1,
   '@typescript-eslint/no-extra-parens': 1,
+  '@typescript-eslint/no-floating-promises': 0,
+  '@typescript-eslint/no-non-null-assertion': 0,
+  '@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
+  '@typescript-eslint/no-unnecessary-condition': 0,
+  '@typescript-eslint/no-unnecessary-type-arguments': 1,
+  '@typescript-eslint/no-unnecessary-type-assertion': 1,
+  '@typescript-eslint/no-unnecessary-type-constraint': 1,
+  '@typescript-eslint/no-unsafe-argument': 0,
+  '@typescript-eslint/no-unsafe-assignment': 0,
+  '@typescript-eslint/no-unsafe-call': 0,
+  '@typescript-eslint/no-unsafe-member-access': 0,
+  '@typescript-eslint/no-unsafe-return': 0,
   '@typescript-eslint/no-unused-vars': [
     0,
     {
@@ -92,16 +79,29 @@ const rules = {
       varsIgnorePattern: '^_$',
     },
   ],
-  '@typescript-eslint/indent': [1, 2],
-  '@typescript-eslint/type-annotation-spacing': 1,
-  '@typescript-eslint/non-nullable-type-assertion-style': 1,
-  '@typescript-eslint/no-unnecessary-type-constraint': 1,
-  '@typescript-eslint/prefer-string-starts-ends-with': 1,
-  '@typescript-eslint/no-extra-non-null-assertion': 1,
-  '@typescript-eslint/no-confusing-void-expression': 0,
   '@typescript-eslint/no-use-before-define': 2,
+  '@typescript-eslint/non-nullable-type-assertion-style': 1,
+  '@typescript-eslint/prefer-as-const': 1,
+  '@typescript-eslint/prefer-function-type': 1,
+  '@typescript-eslint/prefer-includes': 1,
+  '@typescript-eslint/prefer-nullish-coalescing': [
+    0,
+    {
+      forceSuggestionFixer: true,
+      ignoreConditionalTests: true,
+      ignoreMixedLogicalExpressions: true,
+    },
+  ],
+  '@typescript-eslint/prefer-optional-chain': 0,
+  '@typescript-eslint/prefer-string-starts-ends-with': 1,
+  '@typescript-eslint/require-await': 2,
+  '@typescript-eslint/restrict-template-expressions': 0,
+  '@typescript-eslint/type-annotation-spacing': 1,
+  'no-prototype-builtins': 0,
   'no-undef': 0,
   'no-unused-vars': 0,
+  'unused-imports/no-unused-imports': 1,
+  'unused-imports/no-unused-vars': 1,
 }
 
 const deprecatedRules = [
@@ -174,19 +174,15 @@ const deprecatedRules = [
   'yield-star-spacing',
 ]
 
-function getRules (){
+function getRules() {
   let rulesToSkip = []
 
-  let result = filter(
-    (_, property) => {
-      let found = deprecatedRules.find(x => property.includes(x)) !== undefined
-      if (found) rulesToSkip.push(property)
-      return !found && !property.startsWith('@typescript-eslint')
-    },
-    rules
-  )
   // console.log({rulesToSkip})
-  return result
+  return filter((_, property) => {
+    let found = deprecatedRules.find((x) => property.includes(x)) !== undefined
+    if (found) rulesToSkip.push(property)
+    return !found && !property.startsWith('@typescript-eslint')
+  }, rules)
 }
 
 exports.rules = getRules()

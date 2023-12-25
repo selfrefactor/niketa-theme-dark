@@ -2,6 +2,7 @@ const { mapAsync } = require('rambdax')
 const { lintFn } = require('./lint-fn.js')
 const { scanFolder } = require('helpers-fn')
 const { writeFileSync } = require('fs-extra')
+const { OUTPUT_LINT_ALL_FILE } = require('../constants.js')
 
 let filterFn = (filePath) => filePath.endsWith('.js')
 
@@ -11,15 +12,27 @@ async function lintFolder(folder) {
     filterFn,
     folder,
   })
-  const result = await mapAsync(lintFn, files)
-  writeFileSync(OUTPUT_LINT_ALL_FILE, result, 'utf8')
+  const result = await mapAsync(async (filePath) => {
+    let lintResult = await lintFn(filePath)
+    return `
+File: ${filePath}
+
+Lint result: 
+
+${lintResult}
+------------------------
+    `.trim()
+  }, files)
+
+  return result.join('\n')
 }
 
 async function lintAllFn() {
   const { lintAllFolders: lintAllFoldersInit } = require('../../package.json')
   const lintAllFolders = lintAllFoldersInit || ['src']
 
-  await mapAsync(lintFolder, lintAllFolders)
+  const result = await mapAsync(lintFolder, lintAllFolders)
+  writeFileSync(OUTPUT_LINT_ALL_FILE, result.join('\n'), 'utf8')
 }
 
 exports.lintAllFn = lintAllFn

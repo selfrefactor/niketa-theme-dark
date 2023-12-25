@@ -1,12 +1,12 @@
 const {
-  exec,
   check,
-  PRETTIER,
   ESLINT,
   eslintConfig,
+  exec,
   OUTPUT_LINT_FILE,
+  PRETTIER,
 } = require('../constants')
-const {readFileSync} = require('fs')
+const { readFileSync } = require('fs')
 
 async function lintFileWithPrettier(filePath) {
   const command = `${PRETTIER} --write ${filePath} --print-width=80 --semi=false --jsx-single-quote ${
@@ -16,15 +16,15 @@ async function lintFileWithPrettier(filePath) {
 }
 
 async function lintFileWithEslint(filePath) {
-  let label = `${ filePath } - eslint`
+  let label = `${filePath} - eslint`
   const command = `${ESLINT} --fix ${filePath} --config ${eslintConfig} > ${OUTPUT_LINT_FILE}`
   await exec(command)
   console.time(label)
   let output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
   console.timeEnd(label)
-  if(output === ''){
+  if (output === '') {
     console.log('ESLINT: OK')
-    return
+    return 'OK'
   }
   console.log(output)
 }

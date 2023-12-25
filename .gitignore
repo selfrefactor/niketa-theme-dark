@@ -5,3 +5,4 @@ coverage
 *_COLORS.json
 scripts/outputs/eslint-output-file.txt
 scripts/outputs/jest-output-file.txt
+scripts/outputs/eslint-all-output-file.txt
