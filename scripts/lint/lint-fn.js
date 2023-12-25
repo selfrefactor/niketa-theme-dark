@@ -17,9 +17,12 @@ async function lintFileWithPrettier(filePath) {
 
 async function lintFileWithEslint(filePath) {
   let label = `${filePath} - eslint`
-  const command = `${ESLINT} --fix ${filePath} --config ${eslintConfig} > ${OUTPUT_LINT_FILE}`
+  // need to run with execa to test error output
+  let baseCommand = `${ESLINT} --fix ${filePath} --config ${eslintConfig}`
+  const command = `${baseCommand} > ${OUTPUT_LINT_FILE}`
   await exec(command)
   console.time(label)
+  console.log(baseCommand)
   let output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
   console.timeEnd(label)
   if (output === '') {

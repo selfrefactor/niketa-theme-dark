@@ -2,10 +2,10 @@ const { existsSync } = require('fs')
 const { execSafe } = require('helpers-fn')
 let { resolve } = require('path')
 
+const cwd = resolve(__dirname, '../')
 const PRETTIER = 'node_modules/prettier/bin/prettier.cjs'
 const ESLINT = 'node_modules/eslint/bin/eslint.js'
 const JEST = 'node_modules/jest/bin/jest.js'
-const cwd = resolve(__dirname, '../')
 
 let eslintConfig = `${cwd}/.eslintrc.js`
 

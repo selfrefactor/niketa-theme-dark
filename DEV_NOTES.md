@@ -1,6 +1,3 @@
-# TODO
-
-- use lint staged https://github.com/formbricks/formbricks/blob/main/package.json
-
+combinatorics-contast.js holds example lint errors
 
 

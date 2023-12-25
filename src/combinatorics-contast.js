@@ -1,5 +1,5 @@
-const $C = require('js-combinatorics')
 const { allThemes } = require('./themes-colors.js')
+const $C = require('js-combinatorics')
 const {
   colorContrastRatioCalculator,
 } = require('@mdhnpm/color-contrast-ratio-calculator')
@@ -7,7 +7,20 @@ const { range, uniq } = require('rambdax')
 const { writeJson } = require('fs-extra')
 
 function getReport(theme) {
-  const colors = uniq(theme)
+  // to test sonarjs
+  // if (theme != undefined) {
+  //   if (theme === '2') {
+  //     console.log('brand is 2')
+  //   }
+  // }
+
+  // to test '@stylistic'
+//   var a = [];
+// var b = [1];
+// var c = [1, 2];
+// var d = [1,
+//        2];
+      const colors = uniq(theme)
   const themeIndexes = range(0, colors.length).join('')
   const it = new $C.Combination(themeIndexes, 2)
   let minContrast = Infinity

@@ -1,11 +1,8 @@
 const { rules } = require('./scripts/lint/lint-rules');
 
 module.exports = {
-  root: true,
-  env: {
-    es2021: true,
-  },
   plugins: [
+    '@stylistic',
     'sonarjs',
     'unused-imports',
     'perfectionist',
@@ -16,7 +13,6 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2020,
-    project: './tsconfig.json',
   },
   rules,
 };

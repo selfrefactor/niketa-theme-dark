@@ -1,6 +1,6 @@
 const DEPENDANT_REPOS = ['../../niketa-theme']
 
-
+// check .eslintrc.js
 const { existsSync } = require('fs')
 const { readFile, readJson } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
@@ -103,7 +103,8 @@ async function checkDependantRepo(relativePath) {
     return { error: err.message, data: 'in try/catch' }
   }
 }
-
+// Start simple
+// on too many changes, then introduce script that syncs
 void (async function checkDependantRepos() {
   const errors = await Promise.all(DEPENDANT_REPOS.map(checkDependantRepo))
   console.log(errors)
