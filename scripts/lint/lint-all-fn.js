@@ -14,6 +14,8 @@ async function lintFolder(folder) {
   })
   const result = await mapAsync(async (filePath) => {
     let lintResult = await lintFn(filePath)
+    if (lintResult === 'OK') return ''
+
     return `
 File: ${filePath}
 
@@ -24,7 +26,7 @@ ${lintResult}
     `.trim()
   }, files)
 
-  return result.join('\n')
+  return result.filter(Boolean).join('\n')
 }
 
 async function lintAllFn() {

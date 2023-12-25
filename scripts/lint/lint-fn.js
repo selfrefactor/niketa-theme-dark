@@ -27,13 +27,14 @@ async function lintFileWithEslint(filePath) {
     return 'OK'
   }
   console.log(output)
+  return output
 }
 
 async function lintFn(filePath) {
   if (!(await check())) process.exit(1)
 
   await lintFileWithPrettier(filePath)
-  await lintFileWithEslint(filePath)
+  return lintFileWithEslint(filePath)
 }
 
 exports.lintFn = lintFn
