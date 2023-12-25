@@ -1,100 +1,107 @@
 {
-  "name": "niketa-dark-theme",
-  "scripts": {
-    "test:lint": "node scripts/lint.js",
-    "x": "yarn test:lint",
-    "test": "node lambdas/combinatorics-contast.js",
-    "out": "jest src/create-multiple-theme.spec.js"
-  },
-  "version": "3.53.0",
-  "devDependencies": {
-    "@biomejs/biome": "1.4.1",
-    "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
-    "@stylistic/eslint-plugin": "1.5.1",
-    "colord": "2.9.3",
-    "eslint": "8.56.0",
-    "fs-extra": "11.2.0",
-    "get-contrast-ratio": "0.2.1",
-    "hexsorter": "1.5.0",
-    "jest": "29.7.0",
-    "js-combinatorics": "2.1.2",
-    "rambdax": "10.1.0",
-    "string-fn": "3.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/selfrefactor/niketa-theme-dark.git"
-  },
-  "license": "MIT",
-  "displayName": "Niketa Theme Dark",
-  "description": "Large collection of handmade dark themes",
-  "publisher": "selfrefactor",
-  "engines": {
-    "vscode": "^1.27.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "bugs": {
-    "url": "https://github.com/selfrefactor/niketa-themes/issues"
-  },
-  "icon": "logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "AmericanDad",
-        "uiTheme": "vs-dark",
-        "path": "./themes/AmericanDad.json"
-      },
-      {
-        "label": "AquaTeenHungerForce",
-        "uiTheme": "vs-dark",
-        "path": "./themes/AquaTeenHungerForce.json"
-      },
-      {
-        "label": "Archer",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Archer.json"
-      },
-      {
-        "label": "ClevelandShow",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ClevelandShow.json"
-      },
-      {
-        "label": "Dilbert",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dilbert.json"
-      },
-      {
-        "label": "HomeMovies",
-        "uiTheme": "vs-dark",
-        "path": "./themes/HomeMovies.json"
-      },
-      {
-        "label": "SouthPark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/SouthPark.json"
-      },
-      {
-        "label": "TripTank",
-        "uiTheme": "vs-dark",
-        "path": "./themes/TripTank.json"
-      },
-      {
-        "label": "UglyAmericans",
-        "uiTheme": "vs-dark",
-        "path": "./themes/UglyAmericans.json"
-      }
-    ]
-  },
-  "keywords": [
-    "theme",
-    "color-theme",
-    "light",
-    "collection",
-    "themes",
-    "bundle"
-  ],
-  "dependencies": {}
+	"name": "niketa-dark-theme",
+	"scripts": {
+		"test:lint": "node scripts/lint.js",
+		"x": "yarn test:lint",
+		"test": "node lambdas/combinatorics-contast.js",
+		"out": "jest src/create-multiple-theme.spec.js"
+	},
+	"version": "3.53.0",
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
+		"@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
+		"@stylistic/eslint-plugin": "1.5.1",
+		"colord": "2.9.3",
+		"eslint": "8.56.0",
+		"eslint-plugin-babel": "5.3.1",
+		"eslint-plugin-jest": "27.6.0",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-perfectionist": "2.5.0",
+		"eslint-plugin-sonarjs": "0.23.0",
+		"eslint-plugin-unused-imports": "3.0.0",
+		"fs-extra": "11.2.0",
+		"get-contrast-ratio": "0.2.1",
+		"helpers-fn": "1.8.1",
+		"hexsorter": "1.5.0",
+		"jest": "29.7.0",
+		"js-combinatorics": "2.1.2",
+		"rambdax": "10.1.0",
+		"string-fn": "3.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/selfrefactor/niketa-theme-dark.git"
+	},
+	"license": "MIT",
+	"displayName": "Niketa Theme Dark",
+	"description": "Large collection of handmade dark themes",
+	"publisher": "selfrefactor",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"bugs": {
+		"url": "https://github.com/selfrefactor/niketa-themes/issues"
+	},
+	"icon": "logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "AmericanDad",
+				"uiTheme": "vs-dark",
+				"path": "./themes/AmericanDad.json"
+			},
+			{
+				"label": "AquaTeenHungerForce",
+				"uiTheme": "vs-dark",
+				"path": "./themes/AquaTeenHungerForce.json"
+			},
+			{
+				"label": "Archer",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Archer.json"
+			},
+			{
+				"label": "ClevelandShow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ClevelandShow.json"
+			},
+			{
+				"label": "Dilbert",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dilbert.json"
+			},
+			{
+				"label": "HomeMovies",
+				"uiTheme": "vs-dark",
+				"path": "./themes/HomeMovies.json"
+			},
+			{
+				"label": "SouthPark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/SouthPark.json"
+			},
+			{
+				"label": "TripTank",
+				"uiTheme": "vs-dark",
+				"path": "./themes/TripTank.json"
+			},
+			{
+				"label": "UglyAmericans",
+				"uiTheme": "vs-dark",
+				"path": "./themes/UglyAmericans.json"
+			}
+		]
+	},
+	"keywords": [
+		"theme",
+		"color-theme",
+		"light",
+		"collection",
+		"themes",
+		"bundle"
+	],
+	"dependencies": {}
 }

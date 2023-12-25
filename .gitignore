@@ -1,11 +1,5 @@
-screens/raw_screens/*.png
 node_modules
 coverage
 *.vsix
-*.go
 .cache
-sk.json
-after.json
-skip.json
 *_COLORS.json
-out
