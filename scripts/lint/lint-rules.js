@@ -42,7 +42,7 @@ const rules = {
   '@typescript-eslint/consistent-type-definitions': [1, 'interface'],
   '@typescript-eslint/no-array-constructor': 1,
   '@typescript-eslint/no-empty-interface': 1,
-  '@typescript-eslint/no-explicit-any': STRICT_MODE ? 1 : 0,
+  '@typescript-eslint/no-explicit-any': 1,
   '@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
   '@typescript-eslint/no-unnecessary-condition': 0,
   '@typescript-eslint/no-unnecessary-type-arguments': 1,
