@@ -4,6 +4,7 @@ let {resolve} = require('path')
 
 const PRETTIER = 'node_modules/prettier/bin/prettier.cjs'
 const ESLINT = 'node_modules/eslint/bin/eslint.js'
+const JEST = ' node_modules/jest/bin/jest.js '
 const cwd = resolve(__dirname, '../')
 
 let eslintConfig = `${cwd}/.eslintrc.js`
@@ -30,16 +31,24 @@ async function check() {
     console.log('eslint config found', eslintConfig)
     return false
   }
+  if (!existsSync(`${cwd}/${JEST}`)) {
+    console.log('jest not found', `${cwd}/${JEST}`)
+    return false
+  }
   return true
 }
 
-let OUTPUT_COMMAND_FILE_NAME = `eslint-output-file.txt`;
-let OUTPUT_LINT_FILE = `${__dirname}/outputs/${OUTPUT_COMMAND_FILE_NAME}`;
+let OUTPUT_LINT_FILE_NAME = `eslint-output-file.txt`;
+let OUTPUT_LINT_FILE = `${__dirname}/outputs/${OUTPUT_LINT_FILE_NAME}`;
+let OUTPUT_JEST_FILE_NAME = `jest-output-file.txt`;
+let OUTPUT_JEST_FILE = `${__dirname}/outputs/${OUTPUT_JEST_FILE_NAME}`;
 
-exports.exec = exec
-exports.cwd = cwd
-exports.check = check
-exports.PRETTIER = PRETTIER
 exports.ESLINT = ESLINT
-exports.eslintConfig = eslintConfig
+exports.JEST = JEST
+exports.OUTPUT_JEST_FILE = OUTPUT_JEST_FILE
 exports.OUTPUT_LINT_FILE = OUTPUT_LINT_FILE
+exports.PRETTIER = PRETTIER
+exports.check = check
+exports.cwd = cwd
+exports.eslintConfig = eslintConfig
+exports.exec = exec

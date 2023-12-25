@@ -1,9 +1,9 @@
-import { writeJson } from '../../src/lib/write-json';
-import { getGradient } from '../../src/lib/get-gradient';
+import { writeJson } from '../lib/write-json';
+import { getGradient } from '../lib/get-gradient';
 
 const { flatten, piped, uniq } = require('rambdax');
 
-const base = 'lambdas/generate_colors/colors'
+const base = 'src/generate_colors/colors'
 
 function generateColors({ input, levels = 20, label = '' }){
   const [ first, second ] = input

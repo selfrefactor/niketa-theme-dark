@@ -1,5 +1,5 @@
 const $C = require('js-combinatorics')
-const { allThemes } = require('../src/themes-colors.js')
+const { allThemes } = require('./themes-colors.js')
 const { colorContrastRatioCalculator } = require('@mdhnpm/color-contrast-ratio-calculator')
 const { range, uniq } = require('rambdax')
 const { writeJson } = require('fs-extra')
@@ -47,7 +47,7 @@ async function combinatoricsContast(){
   const minContrast = [minContrastList[0], minContrastList[ minContrastList.length - 1 ]]
   console.log(report)
   await writeJson(
-    'contrast-report.json', {report, minContrast, maxContrast}, { spaces : 2 }
+    'outputs/contrast-report.json', {report, minContrast, maxContrast}, { spaces : 2 }
   )
 }
 
