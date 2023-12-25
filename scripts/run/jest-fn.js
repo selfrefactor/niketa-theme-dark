@@ -1,32 +1,29 @@
 const {
   exec,
   check,
-  PRETTIER,
-  ESLINT,
-  eslintConfig,
-  OUTPUT_LINT_FILE,
+  OUTPUT_JEST_FILE,
+  JEST,
 } = require('../constants')
 const {readFileSync} = require('fs')
 
-
 async function runJestWithFile(filePath) {
   let label = `${ filePath } - jest`
-  const command = `${ESLINT} --fix ${filePath} --config ${eslintConfig} > ${OUTPUT_LINT_FILE}`
+  const command = `${JEST} ${filePath} > ${OUTPUT_JEST_FILE}`
   await exec(command)
   console.time(label)
-  let output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
-  // console.log(command)
+  let output = readFileSync(OUTPUT_JEST_FILE, 'utf8')
+  console.log(command)
   console.timeEnd(label)
   if(output === ''){
-    console.log('ESLINT: OK')
+    console.log('JEST: OK')
     return
   }
   console.log(output)
 }
 
 async function runJestFn(filePath) {
-  if (!check()) process.exit(1)
-
+  if (!(await check())) process.exit(1)
+  await runJestWithFile(filePath)
 }
 
-exports.lintFn = lintFn
+exports.runJestFn = runJestFn

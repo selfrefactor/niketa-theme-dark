@@ -32,7 +32,7 @@ async function lintFileWithEslint(filePath) {
 }
 
 async function lintFn(filePath) {
-  if (!check()) process.exit(1)
+  if (!(await check())) process.exit(1)
 
   await lintFileWithPrettier(filePath)
   await lintFileWithEslint(filePath)

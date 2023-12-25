@@ -1,0 +1,8 @@
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In /home/sr/repos/niketa-theme-dark
+  57 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 6 matches
+  testPathIgnorePatterns: /node_modules/ - 57 matches
+  testRegex:  - 0 matches
+Pattern: src/generate_colors/generate-colors-spec.js - 0 matches
