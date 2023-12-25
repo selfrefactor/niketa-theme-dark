@@ -10,7 +10,7 @@ const parseGradient = input => {
   return map(val => Number(val.trim()), split(',', str));
 }
 
-function getGradientBee(
+function getGradient(
   from, to, levels = 5
 ){
   let gradient;
@@ -33,4 +33,4 @@ function getGradientBee(
   return gradient;
 }
 
-exports.getGradient = getGradientBee;
+exports.getGradient = getGradient;
