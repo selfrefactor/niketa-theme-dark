@@ -15,12 +15,12 @@ function getReport(theme) {
   // }
 
   // to test '@stylistic'
-//   var a = [];
-// var b = [1];
-// var c = [1, 2];
-// var d = [1,
-//        2];
-      const colors = uniq(theme)
+  // const arrowFn = () => {}
+  // var a = []
+  // var b = [1]
+  // var c = [1, 2]
+  // var d = [1, 2]
+  const colors = uniq(theme)
   const themeIndexes = range(0, colors.length).join('')
   const it = new $C.Combination(themeIndexes, 2)
   let minContrast = Infinity
@@ -35,7 +35,8 @@ function getReport(theme) {
     if (score < minContrast) {
       minContrast = score
       minContastColor = `${color1} - ${color2} - ${score}`
-    } else if (score > maxContrast) {
+    }
+    else if (score > maxContrast) {
       maxContrast = score
       maxContastColor = `${color1} - ${color2} - ${score}`
     }
@@ -57,14 +58,14 @@ async function combinatoricsContast() {
     report[themeName] = themeReport
   })
   const maxContrastList = Object.values(report)
-    .map((x) => x.maxContrast)
+    .map(x => x.maxContrast)
     .sort()
   const maxContrast = [
     maxContrastList[0],
     maxContrastList[maxContrastList.length - 1],
   ]
   const minContrastList = Object.values(report)
-    .map((x) => x.minContrast)
+    .map(x => x.minContrast)
     .sort()
   const minContrast = [
     minContrastList[0],

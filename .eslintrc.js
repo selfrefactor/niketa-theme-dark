@@ -10,6 +10,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:sonarjs/recommended',
+    'plugin:@stylistic/recommended-extends'
   ],
   parserOptions: {
     ecmaVersion: 2020,
