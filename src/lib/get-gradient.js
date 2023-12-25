@@ -1,4 +1,4 @@
-require('../ants/gradStop');
+require('./grad-stop.js');
 const { map, replace, split } = require('rambdax');
 const { rgbHex } = require('./rgb-hex');
 

@@ -1,5 +1,5 @@
-import { writeJson } from '../lib/write-json';
-import { getGradient } from '../lib/get-gradient';
+const { writeJson } = require('../lib/write-json');
+const { getGradient } = require('../lib/get-gradient');
 
 const { flatten, piped, uniq } = require('rambdax');
 
@@ -12,7 +12,7 @@ function generateColors({ input, levels = 20, label = '' }){
   const colors = piped(getGradient(
     first, second, levels
   ), uniq)
-
+  console.log(colors)
   return writeJson(OUTPUT, flatten(colors))
 }
 
