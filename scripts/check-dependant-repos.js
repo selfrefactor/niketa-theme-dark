@@ -1,12 +1,10 @@
 const DEPENDANT_REPOS = ['../../niketa-theme']
 
-// check .eslintrc.js
 const { existsSync } = require('fs')
 const { readFile, readJson } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, filter } = require('rambdax')
-
 
 const EXPECTED_FILES = [
   'constants.js',
@@ -30,6 +28,11 @@ const EXPECTED_SCRIPTS = [
   'jest:file'
 ]
 
+const CHECK_CONTENT = [
+  '.eslintrc.js',
+  'scripts/lint/lint-rules.js',
+]
+
 let EXPECTED_DEV_DEPENDENCIES = [
   "@biomejs/biome",
   "@stylistic/eslint-plugin",
@@ -46,6 +49,8 @@ let EXPECTED_DEV_DEPENDENCIES = [
   "prettier",
   "rambdax"
 ]
+
+const BASE = resolve(__dirname, '../../')
 
 function checkPackageJson({scripts, niketaScripts, devDependencies}) {
   const correctScripts = filter(
@@ -97,6 +102,19 @@ async function checkDependantRepo(relativePath) {
     if (wrongFiles.length > 0) {
       return { error: `Files are not correct`, errorData:wrongFiles }
     }
+    const wrongContent = await Promise.all(CHECK_CONTENT.map(async filePath => {
+      const content = (await readFile(`${directoryPath}/${filePath}`)).toString().trim()
+      const expectedContent = (await readFile(`${BASE}/${filePath}`)).toString().trim()
+      if(
+        content !== expectedContent
+      ) console.log('unexpected content', filePath)
+
+      return content !== expectedContent
+    }))
+    if(wrongContent.some(x => x)){
+      return { error: `Content is not correct for strict check` }
+    }
+
     const {scripts, niketaScripts, devDependencies} = await readJson(`${directoryPath}/package.json`)
     return checkPackageJson({scripts, niketaScripts, devDependencies})
   }catch(err){
