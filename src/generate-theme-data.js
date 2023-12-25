@@ -1,5 +1,5 @@
-const { map } = require('rambdax');
-const {PUNCTUATION_COLOR, SUBTLE_COLOR} = require('./assets/back-color');
+const { map } = require('rambdax')
+const { PUNCTUATION_COLOR, SUBTLE_COLOR } = require('./assets/back-color')
 
 const PUNCTUATIONS = [
   'meta.group.braces.round.function.arguments',
@@ -18,43 +18,43 @@ const SUBTLE_LIST = [
   'punctuation.definition.comment',
 ]
 
-function isPunctuation(tokenColorName){
+function isPunctuation(tokenColorName) {
   if (tokenColorName.startsWith('punctuation.')) return true
-  const found = PUNCTUATIONS.find(x => tokenColorName.startsWith(x))
+  const found = PUNCTUATIONS.find((x) => tokenColorName.startsWith(x))
 
   return Boolean(found)
 }
 
-function isSubtle(tokenColorName){
-  const found = SUBTLE_LIST.find(x => tokenColorName.startsWith(x))
+function isSubtle(tokenColorName) {
+  const found = SUBTLE_LIST.find((x) => tokenColorName.startsWith(x))
 
   return Boolean(found)
 }
 
-function getForeground(tokenColor, colors){
+function getForeground(tokenColor, colors) {
   if (isSubtle(tokenColor.name)) return SUBTLE_COLOR
   if (isPunctuation(tokenColor.name)) return PUNCTUATION_COLOR
 
-  return colors[ tokenColor.settings.foreground ]
+  return colors[tokenColor.settings.foreground]
 }
 
-function generateThemeData({ palette, chromeColors, themeColors }){
-  const tokenColors = map(tokenColor => ({
-    ...tokenColor,
-    settings : {
-      ...tokenColor.settings,
-      foreground : getForeground(tokenColor, themeColors),
-    },
-  }),
-  palette.tokenColors)
-  const newTheme = {
+function generateThemeData({ chromeColors, palette, themeColors }) {
+  const tokenColors = map(
+    (tokenColor) => ({
+      ...tokenColor,
+      settings: {
+        ...tokenColor.settings,
+        foreground: getForeground(tokenColor, themeColors),
+      },
+    }),
+    palette.tokenColors,
+  )
+  return {
     ...palette,
-    type   : 'dark',
-    colors : chromeColors,
+    colors: chromeColors,
     tokenColors,
+    type: 'dark',
   }
-
-  return newTheme
 }
 
 exports.generateThemeData = generateThemeData

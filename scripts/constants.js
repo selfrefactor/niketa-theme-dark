@@ -52,3 +52,4 @@ exports.check = check
 exports.cwd = cwd
 exports.eslintConfig = eslintConfig
 exports.exec = exec
+exports.OUTPUT_LINT_ALL_FILE = `${__dirname}/outputs/eslint-all-output-file.txt`;

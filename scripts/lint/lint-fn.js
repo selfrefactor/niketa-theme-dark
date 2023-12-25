@@ -12,7 +12,6 @@ async function lintFileWithPrettier(filePath) {
   const command = `${PRETTIER} --write ${filePath} --print-width=80 --semi=false --jsx-single-quote ${
     filePath.endsWith('.scss') ? '' : '--single-quote'
   }`
-  // console.log(command)
   await exec(command)
 }
 
@@ -22,7 +21,6 @@ async function lintFileWithEslint(filePath) {
   await exec(command)
   console.time(label)
   let output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
-  // console.log(command)
   console.timeEnd(label)
   if(output === ''){
     console.log('ESLINT: OK')

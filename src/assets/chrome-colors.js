@@ -1,8 +1,8 @@
-const { BACK_COLOR } = require('./back-color.js');
-const { CHROME_COLOR } = require('./common.js');
-const { listColors } = require('./list-colors.js');
-const { otherColors } = require('./other-colors.js');
-const { sidebarColors } = require('./sidebar-colors.js');
+const { BACK_COLOR } = require('./back-color.js')
+const { CHROME_COLOR } = require('./common.js')
+const { listColors } = require('./list-colors.js')
+const { otherColors } = require('./other-colors.js')
+const { sidebarColors } = require('./sidebar-colors.js')
 
 const scrollbarColors = {
   'editorOverviewRuler.addedForeground': '#47ffa0',
@@ -35,7 +35,7 @@ const selectionColors = {
   'editor.selectionHighlightBackground': `#ccd${MATCH_OPACITY}`,
   'editor.wordHighlightBackground': `#add${MATCH_OPACITY}`,
   'editor.wordHighlightStrongBackground': `#aee${MATCH_OPACITY}`,
-  'peekViewEditor.matchHighlightBackground':  `#888${MATCH_OPACITY}`,
+  'peekViewEditor.matchHighlightBackground': `#888${MATCH_OPACITY}`,
   'terminal.selectionBackground': '#ffffff',
 }
 

@@ -4,11 +4,14 @@
     "lint:all": "node scripts/lint/lint-all.js",
     "lint:file": "node scripts/lint/lint.js",
     "jest:file": "node scripts/run/jest.js",
-    "dev": "yarn test:lint src/evaluate-contast.spec.js",
     "test": "node src/combinatorics-contast.js",
     "out": "jest src/create-multiple-theme.spec.js",
-    "x": "yarn jest:file"
+    "x": "yarn lint:all"
   },
+  "lintAllFolders": [
+    "src",
+    "scripts"
+  ],
   "niketaScripts": [
     {
       "**/*.js": "yarn lint:file"
