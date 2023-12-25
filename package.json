@@ -2,10 +2,14 @@
 	"name": "niketa-dark-theme",
 	"scripts": {
 		"test:lint": "node scripts/lint/lint.js",
-		"x": "yarn test:lint",
+		"lint:file": "yarn test:lint",
+		"dev": "yarn test:lint src/evaluate-contast.spec.js",
 		"test": "node lambdas/combinatorics-contast.js",
 		"out": "jest src/create-multiple-theme.spec.js"
 	},
+	"niketa": {
+    "**/*.js": "yarn lint:file"
+  },
 	"version": "3.53.0",
 	"devDependencies": {
 		"@biomejs/biome": "1.4.1",
