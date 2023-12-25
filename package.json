@@ -43,9 +43,9 @@
 		"Themes"
 	],
 	"bugs": {
-		"url": "https://github.com/selfrefactor/niketa-themes/issues"
+		"url": "https://github.com/selfrefactor/niketa-theme-dark/issues"
 	},
-	"icon": "logo.png",
+	"icon": "files/logo.png",
 	"contributes": {
 		"themes": [
 			{
