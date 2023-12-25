@@ -1,4 +1,5 @@
 const { existsSync } = require('fs')
+const { readFile } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 // check gitignore
@@ -14,12 +15,19 @@ const EXPECTED_FILES = [
   'run/jest.js',
 ]
 
+const EXPECTED_GIT_IGNORE = [
+  'scripts/outputs/eslint-output-file.txt',
+  'scripts/outputs/jest-output-file.txt',
+  'scripts/outputs/eslint-all-output-file.txt'
+]
+
 const DEPENDANT_REPOS = ['../../niketa-theme']
 
 async function checkDependantRepo(relativePath) {
   try {
     const directoryPath = resolve(__dirname, relativePath)
-    console.log(directoryPath)
+    const gitIgnoreContent = await readFile(`${directoryPath}/.gitignore`)
+    console.log(gitIgnoreContent)
     if (!existsSync(directoryPath)) {
       return { error: `Directory ${directoryPath} does not exist` }
     }
