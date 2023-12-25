@@ -3,7 +3,7 @@ const { resolve: resolveMethod } = require('path')
 
 const BASE = resolveMethod(__dirname, '../../')
 
-const resolve = (filePath) => resolveMethod(BASE, filePath)
+const resolve = filePath => resolveMethod(BASE, filePath)
 
 function readJson(filePath) {
   const resolvedPath = resolve(filePath)

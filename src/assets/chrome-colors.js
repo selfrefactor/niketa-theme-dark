@@ -24,7 +24,7 @@ const scrollbarColors = {
   'editorOverviewRuler.wordHighlightStrongForeground': '#bb9af766',
 }
 const TRANSPARENCY = '22'
-let MATCH_OPACITY = '2'
+const MATCH_OPACITY = '2'
 
 const selectionColors = {
   'editor.findMatchBackground': `#ccc${MATCH_OPACITY}`,

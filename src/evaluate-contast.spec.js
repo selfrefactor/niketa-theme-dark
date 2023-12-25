@@ -38,9 +38,9 @@ async function evaluateContrast(
   console.log({ maxInfo, minInfo })
 
   await writeJson(
-    `${__dirname}/outputs/contrast-to-background-${label}.json`,
-    { allContrasts: sorted, maxInfo, minInfo },
-    { spaces: 2 },
+		`${__dirname}/outputs/contrast-to-background-${label}.json`,
+		{ allContrasts: sorted, maxInfo, minInfo },
+		{ spaces: 2 },
   )
 }
 

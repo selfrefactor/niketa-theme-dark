@@ -17,9 +17,7 @@ test('happy', () => {
 
   map((val) => {
     const { _, name, ...colors } = val
-    if (!colors.COLOR_4) {
-      throw new Error('All themes require 5 colors')
-    }
+    if (!colors.COLOR_4) throw new Error('All themes require 5 colors')
     const palette = readJson('src/palette.json')
     const themeData = generateThemeData({
       chromeColors: getChromeColors(),

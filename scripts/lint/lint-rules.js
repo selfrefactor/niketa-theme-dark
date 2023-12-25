@@ -1,12 +1,10 @@
 const { filter } = require('rambdax')
 const {
-  configs: {
-    'recommended-alphabetical': { rules: perfectionistRulesImport },
-  },
+  configs: { 'recommended-alphabetical': { rules: perfectionistRulesImport } },
 } = require('eslint-plugin-perfectionist')
 
 function getPerfectionistRules() {
-  let rules = {}
+  const rules = {}
   Object.keys(perfectionistRulesImport).forEach((key) => {
     rules[key] = [1, ...perfectionistRulesImport[key].slice(1)]
   })
@@ -15,9 +13,9 @@ function getPerfectionistRules() {
 
 const perfectionistRules = getPerfectionistRules()
 
-//https://eslint.style/rules/js
+// https://eslint.style/rules/js
 const stylisticRules = {
-  '@stylistic/arrow-spacing': [1, { "before": false, "after": true } ],
+  '@stylistic/arrow-spacing': [1, { after: true, before: false }],
 }
 
 const rules = {
@@ -133,10 +131,10 @@ const deprecatedRules = [
 ]
 
 function getRules() {
-  let rulesToSkip = []
+  const rulesToSkip = []
 
-  let result = filter((_, property) => {
-    let found = deprecatedRules.find((x) => property === x) !== undefined
+  const result = filter((_, property) => {
+    const found = deprecatedRules.find(x => property === x) !== undefined
     if (found) rulesToSkip.push(property)
     return !found
   }, rules)
