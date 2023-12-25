@@ -185,8 +185,7 @@ function getRules (){
     },
     rules
   )
-  console.log({rulesToSkip})
-  console.log({result})  
+  // console.log({rulesToSkip})
   return result
 }
 

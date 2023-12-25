@@ -3,3 +3,4 @@ coverage
 *.vsix
 .cache
 *_COLORS.json
+scripts/outputs/eslint-output-file.txt
