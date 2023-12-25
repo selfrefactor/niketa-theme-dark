@@ -1,3 +1,4 @@
+const { existsSync } = require('fs')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 // check gitignore
@@ -16,16 +17,21 @@ const EXPECTED_FILES = [
 const DEPENDANT_REPOS = ['../../niketa-theme']
 
 async function checkDependantRepo(relativePath) {
-  const directoryPath = resolve(__dirname, relativePath)
-  console.log(directoryPath)
-  if (!existsSync(directoryPath)) {
-    return { error: `Directory ${directoryPath} does not exist` }
+  try {
+    const directoryPath = resolve(__dirname, relativePath)
+    console.log(directoryPath)
+    if (!existsSync(directoryPath)) {
+      return { error: `Directory ${directoryPath} does not exist` }
+    }
+    const files = await scanFolder({
+      filterFn: (x) => x.endsWith('.js'),
+      folder: `${directoryPath}/scripts`,
+    })
+    console.log(files)
+  }catch(err){
+    console.log(err)
+    return { error: err.message }
   }
-  const files = await scanFolder({
-    filterFn: (x) => x.endsWith('.js'),
-    folder: `${directoryPath}/scripts`,
-  })
-  console.log(files)
 }
 
 void (async function checkDependantRepos() {
