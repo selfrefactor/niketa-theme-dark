@@ -1,4 +1,4 @@
-const DEPENDANT_REPOS = ['../../niketa-theme']
+const DEPENDANT_REPOS = ['../niketa-theme']
 
 const { existsSync } = require('fs')
 const { readFile, readJson } = require('fs-extra')
@@ -50,7 +50,7 @@ let EXPECTED_DEV_DEPENDENCIES = [
   "rambdax"
 ]
 
-const BASE = resolve(__dirname, '../../')
+const BASE = resolve(__dirname, '../../../')
 
 function checkPackageJson({scripts, niketaScripts, devDependencies}) {
   const correctScripts = filter(
@@ -83,7 +83,7 @@ function checkPackageJson({scripts, niketaScripts, devDependencies}) {
 
 async function checkDependantRepo(relativePath) {
   try {
-    const directoryPath = resolve(__dirname, relativePath)
+    const directoryPath = resolve(BASE, relativePath)
     const gitIgnoreContent = (await readFile(`${directoryPath}/.gitignore`)).toString()
     if(
       !EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))
