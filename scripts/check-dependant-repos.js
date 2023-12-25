@@ -2,7 +2,7 @@ const { existsSync } = require('fs')
 const { readFile } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
-// check gitignore
+const { endsWith } = require('rambdax')
 // check package.json
 const EXPECTED_FILES = [
   'constants.js',
@@ -26,8 +26,12 @@ const DEPENDANT_REPOS = ['../../niketa-theme']
 async function checkDependantRepo(relativePath) {
   try {
     const directoryPath = resolve(__dirname, relativePath)
-    const gitIgnoreContent = await readFile(`${directoryPath}/.gitignore`)
-    console.log(gitIgnoreContent)
+    const gitIgnoreContent = (await readFile(`${directoryPath}/.gitignore`)).toString()
+    if(
+      !EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))
+    ){
+      return { error: `gitignore is not correct` }
+    }
     if (!existsSync(directoryPath)) {
       return { error: `Directory ${directoryPath} does not exist` }
     }
@@ -35,7 +39,12 @@ async function checkDependantRepo(relativePath) {
       filterFn: (x) => x.endsWith('.js'),
       folder: `${directoryPath}/scripts`,
     })
-    console.log(files)
+    const wrongFiles = EXPECTED_FILES.filter((filePath) => files.find(endsWith(filePath)) === undefined)
+    
+    if (wrongFiles.length > 0) {
+      return { error: `Files are not correct`, errorData:wrongFiles }
+    }
+    return { ok: true }
   }catch(err){
     console.log(err)
     return { error: err.message }
