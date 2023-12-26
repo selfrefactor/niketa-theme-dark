@@ -43,7 +43,7 @@ const EXPECTED_DEV_DEPENDENCIES = [
   'rambdax',
 ]
 
-const BASE = resolve(__dirname, '../../')
+const BASE = resolve(__dirname, '../../../')
 
 function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
   const correctScripts = filter((_, prop) => EXPECTED_SCRIPTS.includes(prop))(

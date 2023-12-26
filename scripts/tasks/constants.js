@@ -2,7 +2,7 @@ const { existsSync } = require('fs')
 const { execSafe } = require('helpers-fn')
 const { resolve } = require('path')
 
-const cwd = resolve(__dirname, '../')
+const cwd = resolve(__dirname, '../../')
 const PRETTIER = 'node_modules/prettier/bin/prettier.cjs'
 const ESLINT = 'node_modules/eslint/bin/eslint.js'
 const JEST = 'node_modules/jest/bin/jest.js'
@@ -39,18 +39,14 @@ async function check() {
   return true
 }
 
-const OUTPUT_LINT_FILE_NAME = `eslint-output-file.txt`
-const OUTPUT_LINT_FILE = `${__dirname}/outputs/${OUTPUT_LINT_FILE_NAME}`
-const OUTPUT_JEST_FILE_NAME = `jest-output-file.txt`
-const OUTPUT_JEST_FILE = `${__dirname}/outputs/${OUTPUT_JEST_FILE_NAME}`
 
 exports.ESLINT = ESLINT
 exports.JEST = JEST
-exports.OUTPUT_JEST_FILE = OUTPUT_JEST_FILE
-exports.OUTPUT_LINT_FILE = OUTPUT_LINT_FILE
 exports.PRETTIER = PRETTIER
 exports.check = check
 exports.cwd = cwd
 exports.eslintConfig = eslintConfig
 exports.exec = exec
+exports.OUTPUT_LINT_FILE = `${__dirname}/outputs/eslint-output-file.txt`
+exports.OUTPUT_JEST_FILE = `${__dirname}/outputs/jest-output-file.txt`
 exports.OUTPUT_LINT_ALL_FILE = `${__dirname}/outputs/eslint-all-output-file.txt`

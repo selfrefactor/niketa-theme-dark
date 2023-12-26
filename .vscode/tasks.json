@@ -9,6 +9,15 @@
         "kind": "none",
         "isDefault": false
       }
+    },
+    {
+      "type": "shell",
+      "label": "check all",
+      "command": "yarn check:all",
+      "group": {
+        "kind": "none",
+        "isDefault": false
+      }
     }
   ]
 }

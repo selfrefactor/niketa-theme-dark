@@ -1,13 +1,13 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
-    "lint:all": "node scripts/lint/lint-all.js",
-    "lint:file": "node scripts/lint/lint.js",
-    "jest:file": "node scripts/run/jest.js",
+    "lint:all": "node scripts/tasks/lint/lint-all.js",
+    "lint:file": "node scripts/tasks/lint/lint.js",
+    "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
+    "check:all": "node scripts/tasks/__checks/check-dependant-repos.js",
+    "lint:check": "node scripts/tasks/__checks/lint.js",
     "out": "jest src/create-multiple-theme.spec.js",
-    "check:all": "node scripts/__checks/check-dependant-repos.js",
-    "lint:check": "node scripts/__checks/lint.js",
     "dev": "yarn check:all",
     "x": "yarn lint:file src/combinatorics-contast.js"
   },
