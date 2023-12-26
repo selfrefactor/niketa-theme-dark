@@ -51,17 +51,17 @@ function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
   )
   if (Object.keys(correctScripts).length !== EXPECTED_SCRIPTS.length) {
     return {
-      error: `Scripts are not correct`,
+      error: 'Scripts are not correct',
       errorData: { correctScripts, scripts },
     }
   }
   if (niketaScripts === undefined) {
-    return { error: `niketaScripts is empty` }
+    return { error: 'niketaScripts is empty' }
   }
   // Keep it simple
   // if there is case, where more is used, then read and evaluate
   if (niketaScripts.length !== 2) {
-    return { error: `niketaScripts are not correct`, errorData: niketaScripts }
+    return { error: 'niketaScripts are not correct', errorData: niketaScripts }
   }
   const devDependenciesKeys = Object.keys(devDependencies)
   const wrongDevDependencies = filter(
@@ -70,7 +70,7 @@ function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
 
   if (wrongDevDependencies.length > 0) {
     return {
-      error: `devDependencies are not correct`,
+      error: 'devDependencies are not correct',
       errorData: `Run: yarn add -D ${wrongDevDependencies.join(' ')}`,
     }
   }
@@ -85,7 +85,7 @@ async function checkDependantRepo(relativePath) {
       await readFile(`${directoryPath}/.gitignore`)
     ).toString()
     if (!EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))) {
-      return { error: `gitignore is not correct` }
+      return { error: 'gitignore is not correct' }
     }
     if (!existsSync(directoryPath)) {
       return { error: `Directory ${directoryPath} does not exist` }
@@ -99,7 +99,7 @@ async function checkDependantRepo(relativePath) {
     )
 
     if (wrongFiles.length > 0) {
-      return { error: `Files are not correct`, errorData: wrongFiles }
+      return { error: 'Files are not correct', errorData: wrongFiles }
     }
     const wrongContent = await Promise.all(
       CHECK_CONTENT.map(async (filePath) => {
@@ -116,7 +116,7 @@ async function checkDependantRepo(relativePath) {
       }),
     )
     if (wrongContent.some(x => x)) {
-      return { error: `Content is not correct for strict check` }
+      return { error: 'Content is not correct for strict check' }
     }
 
     const { devDependencies, niketaScripts, scripts } = await readJson(

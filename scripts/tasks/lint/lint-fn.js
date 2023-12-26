@@ -23,14 +23,16 @@ async function lintFileWithEslint(filePath) {
   console.time(label)
   const output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
   console.timeEnd(label)
-  console.log(`\nLint command:  ${ baseCommand }\n`)
+  console.log(`\nLint command:  ${baseCommand}\n`)
   return output ?? false
 }
 
 async function biome(filePath) {
-  const command = `node_modules/@biomejs/biome/bin/biome check --apply ${filePath}`
-  const {success, errorMessage} = await exec(command)
-
+  const label = `${filePath} - biome`
+  console.time(label)
+  const command = `node_modules/@biomejs/biome/bin/biome check --apply-unsafe ${filePath}`
+  const { errorMessage, success } = await exec(command)
+  console.timeEnd(label)
   return errorMessage ?? false
 }
 

@@ -36,13 +36,6 @@ const rules = {
   'no-unsafe-call': 0,
   'no-unsafe-member-access': 0,
   'no-unsafe-return': 0,
-  'no-unused-vars': [
-    0,
-    {
-      argsIgnorePattern: '^_$',
-      varsIgnorePattern: '^_$',
-    },
-  ],
   'no-unused-vars': 0,
   'no-use-before-define': 2,
   'prefer-nullish-coalescing': [

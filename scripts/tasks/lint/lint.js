@@ -4,7 +4,7 @@ const { lintFn } = require('./lint-fn.js')
 
 void (async function lint() {
   const lintOutputs = await lintFn(filePath)
-  let filtered =  lintOutputs.filter(Boolean)
+  const filtered = lintOutputs.filter(Boolean)
   if (filtered.length === 0) {
     console.log('OK')
     return

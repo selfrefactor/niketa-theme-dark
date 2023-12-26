@@ -12,10 +12,13 @@ const eslintConfig = `${cwd}/.eslintrc.js`
 async function exec(command) {
   try {
     await execSafe({ command, cwd })
-    return {success: true}
+    return { success: true }
   }
   catch (error) {
-    return {success: false, errorMessage: error?.message ?? 'No error message'}
+    return {
+      errorMessage: error?.message ?? 'No error message',
+      success: false,
+    }
   }
 }
 
@@ -39,7 +42,6 @@ async function check() {
   }
   return true
 }
-
 
 exports.ESLINT = ESLINT
 exports.JEST = JEST
