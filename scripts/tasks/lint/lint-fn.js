@@ -17,33 +17,31 @@ async function lintFileWithPrettier(filePath) {
 
 async function lintFileWithEslint(filePath) {
   const label = `${filePath} - eslint`
-  // need to run with execa to test error output
   const baseCommand = `${ESLINT} --fix ${filePath} --config ${eslintConfig}`
   const command = `${baseCommand} > ${OUTPUT_LINT_FILE}`
   await exec(command)
   console.time(label)
-  console.log(baseCommand)
   const output = readFileSync(OUTPUT_LINT_FILE, 'utf8')
   console.timeEnd(label)
-  if (!output) {
-    console.log('ESLINT: OK')
-    return 'OK'
-  }
-  console.log(output)
-  return output
+  console.log(`\nLint command:  ${ baseCommand }\n`)
+  return output ?? false
 }
 
 async function biome(filePath) {
   const command = `node_modules/@biomejs/biome/bin/biome check --apply ${filePath}`
-  await exec(command)
+  const {success, errorMessage} = await exec(command)
+
+  return errorMessage ?? false
 }
 
 async function lintFn(filePath) {
   if (!(await check())) process.exit(1)
 
   await lintFileWithPrettier(filePath)
-  await biome(filePath)
-  return lintFileWithEslint(filePath)
+  const biomeOutput = await biome(filePath)
+  const lintOutput = await lintFileWithEslint(filePath)
+
+  return [biomeOutput, lintOutput]
 }
 
 exports.lintFn = lintFn

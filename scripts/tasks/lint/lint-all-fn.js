@@ -13,15 +13,16 @@ async function lintFolder(folder) {
     folder,
   })
   const result = await mapAsync(async (filePath) => {
-    const lintResult = await lintFn(filePath)
-    if (lintResult === 'OK') return ''
+    const lintResults = await lintFn(filePath)
+    let filtered = lintResults.filter(Boolean)
+    if (filtered.length === 0) return ''
 
     return `
 File: ${filePath}
 
 Lint result: 
 
-${lintResult}
+${lintResults.join('\n')}
 ------------------------
     `.trim()
   }, files)
@@ -30,7 +31,7 @@ ${lintResult}
 }
 
 async function lintAllFn() {
-  const { lintAllFolders: lintAllFoldersInit } = require('../../package.json')
+  const { lintAllFolders: lintAllFoldersInit } = require('../../../package.json')
   const lintAllFolders = lintAllFoldersInit || ['src']
 
   const result = await mapAsync(lintFolder, lintAllFolders)

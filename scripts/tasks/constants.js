@@ -12,9 +12,10 @@ const eslintConfig = `${cwd}/.eslintrc.js`
 async function exec(command) {
   try {
     await execSafe({ command, cwd })
+    return {success: true}
   }
   catch (error) {
-    console.log(error, 'in execSafe')
+    return {success: false, errorMessage: error?.message ?? 'No error message'}
   }
 }
 
