@@ -1,5 +1,4 @@
 const { map } = require('rambdax')
-const { PUNCTUATION_COLOR, SUBTLE_COLOR } = require('./assets/back-color')
 
 const PUNCTUATIONS = [
   'meta.group.braces.round.function.arguments',
@@ -31,20 +30,20 @@ function isSubtle(tokenColorName) {
   return Boolean(found)
 }
 
-function getForeground(tokenColor, colors) {
-  if (isSubtle(tokenColor.name)) return SUBTLE_COLOR
-  if (isPunctuation(tokenColor.name)) return PUNCTUATION_COLOR
+function getForeground(tokenColor, colors, punctuationColor, subtleColor) {
+  if (isSubtle(tokenColor.name)) return subtleColor
+  if (isPunctuation(tokenColor.name)) return punctuationColor
 
   return colors[tokenColor.settings.foreground]
 }
 
-function generateThemeData({ chromeColors, palette, themeColors }) {
+function generateThemeData({ chromeColors, palette, themeColors, type, punctuationColor, subtleColor }) {
   const tokenColors = map(
     tokenColor => ({
       ...tokenColor,
       settings: {
         ...tokenColor.settings,
-        foreground: getForeground(tokenColor, themeColors),
+        foreground: getForeground(tokenColor, themeColors, punctuationColor, subtleColor),
       },
     }),
     palette.tokenColors,
@@ -53,7 +52,7 @@ function generateThemeData({ chromeColors, palette, themeColors }) {
     ...palette,
     colors: chromeColors,
     tokenColors,
-    type: 'dark',
+    type,
   }
 }
 

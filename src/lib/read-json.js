@@ -1,16 +1,11 @@
-const { readFileSync } = require('fs')
-const { resolve: resolveMethod } = require('path')
+const { readJsonSync } = require('fs-extra')
+const { resolve } = require('path')
 
-const BASE = resolveMethod(__dirname, '../../')
+const BASE = resolve(__dirname, '../../')
 
-const resolve = filePath => resolveMethod(BASE, filePath)
-
-function readJson(filePath) {
-  const resolvedPath = resolve(filePath)
-  const content = readFileSync(resolvedPath).toString()
-
-  return JSON.parse(content)
+function readJson(filePath, base = BASE) {
+  const resolvedPath = `${ base }/${ filePath }`
+  return readJsonSync(resolvedPath)
 }
 
 exports.readJson = readJson
-exports.resolve = resolve
