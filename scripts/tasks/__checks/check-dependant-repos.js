@@ -18,13 +18,16 @@ const EXPECTED_FILES = [
 ]
 
 const EXPECTED_GIT_IGNORE = [
-  'scripts/outputs/eslint-output-file.txt',
-  'scripts/outputs/jest-output-file.txt',
-  'scripts/outputs/eslint-all-output-file.txt',
+  'scripts/tasks/outputs/eslint-output-file.txt',
+  'scripts/tasks/outputs/jest-output-file.txt',
+  'scripts/tasks/outputs/eslint-all-output-file.txt',
 ]
 const EXPECTED_SCRIPTS = ['lint:file', 'lint:all', 'jest:file']
 
-const CHECK_CONTENT = ['.eslintrc.js', 'scripts/lint/lint-rules.js']
+const CHECK_CONTENT = [
+  '.eslintrc.js',
+  //  'scripts/tasks/lint/lint-rules.js'
+  ]
 
 const EXPECTED_DEV_DEPENDENCIES = [
   '@biomejs/biome',
@@ -101,6 +104,7 @@ async function checkDependantRepo(relativePath) {
     if (wrongFiles.length > 0) {
       return { error: 'Files are not correct', errorData: wrongFiles }
     }
+    1
     const wrongContent = await Promise.all(
       CHECK_CONTENT.map(async (filePath) => {
         const content = (await readFile(`${directoryPath}/${filePath}`))

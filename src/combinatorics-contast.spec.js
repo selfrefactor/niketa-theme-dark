@@ -3,7 +3,7 @@ const {
   allThemes: allThemesLight,
 } = require('../../niketa-theme/src/assets/themes-colors.js')
 
-test.skip('dark', async () => {
+test('dark', async () => {
   await combinatoricsContast()
 })
 
