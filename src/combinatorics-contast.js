@@ -73,7 +73,7 @@ async function combinatoricsContast(allThemes = darkThemes, label = 'dark') {
   ]
   console.log(report)
   await writeJson(
-    `outputs/contrast-report-${ label }.json`,
+    `${__dirname}/outputs/contrast-report-${ label }.json`,
     { maxContrast, minContrast, report },
     { spaces: 2 },
   )
