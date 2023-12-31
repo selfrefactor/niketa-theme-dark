@@ -1,4 +1,4 @@
-const { allThemes } = require('./themes-colors.js')
+const { allThemes: darkThemes } = require('./themes-colors.js')
 const $C = require('js-combinatorics')
 const {
   colorContrastRatioCalculator,
@@ -50,7 +50,7 @@ function getReport(theme) {
   }
 }
 
-async function combinatoricsContast() {
+async function combinatoricsContast(allThemes = darkThemes, label = 'dark') {
   const report = {}
   Object.keys(allThemes).forEach((themeName) => {
     const theme = allThemes[themeName]
@@ -73,7 +73,7 @@ async function combinatoricsContast() {
   ]
   console.log(report)
   await writeJson(
-    'outputs/contrast-report.json',
+    `outputs/contrast-report-${ label }.json`,
     { maxContrast, minContrast, report },
     { spaces: 2 },
   )
