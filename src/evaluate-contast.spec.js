@@ -6,7 +6,7 @@ const { BACK_COLOR } = require('./assets/back-color')
 const { allThemes: allThemesInput } = require('./themes-colors')
 const {
   allThemes: allThemesLight,
-} = require('/home/sr/repos/niketa-theme/src/assets/themes-colors.js')
+} = require('../../niketa-theme/src/assets/themes-colors.js')
 const { writeJson } = require('fs-extra')
 
 async function evaluateContrast(
@@ -44,7 +44,7 @@ async function evaluateContrast(
   )
 }
 
-test.only('dark', async () => {
+test.skip('dark', async () => {
   try {
     await evaluateContrast()
   } catch (err) {

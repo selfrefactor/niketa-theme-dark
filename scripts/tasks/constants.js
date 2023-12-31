@@ -16,7 +16,7 @@ async function exec(command) {
   }
   catch (error) {
     return {
-      errorMessage: error?.message ?? 'No error message',
+      errorMessage: error?.message ?? JSON.stringify(error, null, 2),
       success: false,
     }
   }
