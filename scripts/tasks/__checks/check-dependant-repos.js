@@ -1,7 +1,7 @@
 const DEPENDANT_REPOS = ['../niketa-theme-light']
 
 const { existsSync } = require('fs')
-const { readJson, emptyDir, copy } = require('fs-extra')
+const { readJson, readFile,emptyDir, copy, remove } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, filter } = require('rambdax')
@@ -48,17 +48,18 @@ const EXPECTED_DEV_DEPENDENCIES = [
 const BASE = resolve(__dirname, '../../../')
 
 async function syncFiles(directoryPath) {
-  let source = resolve('../', __dirname)
+  let source = resolve( __dirname, '../',)
   let destination = `${directoryPath}/scripts/tasks`
+  await emptyDir(destination)
   await copy(
     source,
     destination,
     { overwrite: true }
   )
 
-  const directoryToDelete = `${directoryPath}/scripts/tasks/__checks`
+  const directoryToDelete = `${directoryPath}/scripts/tasks/__checks` 
 
-  await emptyDir(directoryToDelete)
+  await remove(directoryToDelete)
 }
 
 function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
@@ -122,7 +123,6 @@ async function checkDependantRepo(relativePath) {
     if (wrongFiles.length > 0) {
       return { error: 'Files are not correct', errorData: wrongFiles }
     }
-    1
     const wrongContent = await Promise.all(
       CHECK_CONTENT.map(async (filePath) => {
         const content = (await readFile(`${directoryPath}/${filePath}`))
