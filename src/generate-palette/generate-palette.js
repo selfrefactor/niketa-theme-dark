@@ -1,8 +1,9 @@
-import { outputJson } from 'fs-extra'
-import { resolve } from 'path'
-import { maybe, remove, replace } from 'rambdax'
+import { baseData } from './base-palette'
 
-import * as basePalette from '../../palettes/base'
+const { outputJson } = require('fs-extra')
+const { resolve } = require('path')
+const { maybe, remove, replace } = require('rambdax')
+
 
 const UNDERLINE = '.UNDERLINE'
 const ITALIC = '.ITALIC'
@@ -62,9 +63,13 @@ function pushToTokenColors({ syntaxInstance, fontStyle, tokenColors, color }){
     })
   }
 }
+const baseBase = {
+  // name   : '_Palette',
+  // type   : 'light',
+  colors : {},
+}
 
 export function generatePalette(label){
-  const { baseBase, baseData } = basePalette
   const tokenColors = []
 
   Object.entries(baseData).forEach(([ color, syntaxInstances ]) => {
@@ -91,7 +96,7 @@ export function generatePalette(label){
   })
 
   const themeBase = {
-    ...baseBase,
+    // ...baseBase,
     tokenColors,
   }
 

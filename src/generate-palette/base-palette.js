@@ -1,14 +1,4 @@
-import { defaultTo, splitEvery } from 'rambdax'
-
-import { missingScopes } from '../lambdas/find_missing_rules/missingScopes'
-
-const [
-  ADDITIONAL_0,
-  ADDITIONAL_1,
-  ADDITIONAL_2,
-  ADDITIONAL_3,
-  ADDITIONAL_4,
-] = splitEvery(Math.ceil(missingScopes.length / 5), missingScopes)
+let { defaultTo }  = require('rambdax')
 
 /**
  * `.UNDERLINE` is supported  but not used
@@ -282,7 +272,6 @@ function buildColors(modeInput){
 }
 
 const COLOR_0 = [
-  ...ADDITIONAL_0,
   ...buildColors(0),
   'markup',
   'source.go',
@@ -291,21 +280,18 @@ const COLOR_0 = [
 ]
 
 const COLOR_1 = [
-  ...ADDITIONAL_1,
   ...buildColors(1),
   'expression.ng.ITALIC',
   'markup.heading.markdown',
 ]
 
 const COLOR_2 = [
-  ...ADDITIONAL_2,
   ...buildColors(2),
   'source.css',
   'source.json',
 ]
 
 const COLOR_3 = [
-  ...ADDITIONAL_3,
   ...buildColors(3),
   'emphasis.ITALIC',
   'markup.italic.ITALIC',
@@ -314,7 +300,6 @@ const COLOR_3 = [
 ]
 
 const COLOR_4 = [
-  ...ADDITIONAL_4,
   ...buildColors(4),
   'comment.ITALIC',
   'comment.block',
@@ -324,24 +309,10 @@ const COLOR_4 = [
   'tag.decorator.js',
 ]
 
-export const baseBase = {
-  name   : '_Palette',
-  type   : 'light',
-  colors : {},
-}
-
-export const baseData = {
+exports.baseData = {
   COLOR_0,
   COLOR_1,
   COLOR_2,
   COLOR_3,
   COLOR_4,
 }
-
-export const all = [
-  ...COLOR_0,
-  ...COLOR_1,
-  ...COLOR_2,
-  ...COLOR_3,
-  ...COLOR_4,
-]
