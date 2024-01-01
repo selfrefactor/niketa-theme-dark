@@ -1,7 +1,7 @@
-const DEPENDANT_REPOS = ['../niketa-theme']
+const DEPENDANT_REPOS = ['../niketa-theme-light']
 
 const { existsSync } = require('fs')
-const { readFile, readJson } = require('fs-extra')
+const { readJson, emptyDir, copy } = require('fs-extra')
 const { scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, filter } = require('rambdax')
@@ -26,8 +26,7 @@ const EXPECTED_SCRIPTS = ['lint:file', 'lint:all', 'jest:file']
 
 const CHECK_CONTENT = [
   '.eslintrc.js',
-  //  'scripts/tasks/lint/lint-rules.js'
-  ]
+]
 
 const EXPECTED_DEV_DEPENDENCIES = [
   '@biomejs/biome',
@@ -47,6 +46,20 @@ const EXPECTED_DEV_DEPENDENCIES = [
 ]
 
 const BASE = resolve(__dirname, '../../../')
+
+async function syncFiles(directoryPath) {
+  let source = resolve('../', __dirname)
+  let destination = `${directoryPath}/scripts/tasks`
+  await copy(
+    source,
+    destination,
+    { overwrite: true }
+  )
+
+  const directoryToDelete = `${directoryPath}/scripts/tasks/__checks`
+
+  await emptyDir(directoryToDelete)
+}
 
 function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
   const correctScripts = filter((_, prop) => EXPECTED_SCRIPTS.includes(prop))(
@@ -87,9 +100,14 @@ async function checkDependantRepo(relativePath) {
     const gitIgnoreContent = (
       await readFile(`${directoryPath}/.gitignore`)
     ).toString()
+
     if (!EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))) {
       return { error: 'gitignore is not correct' }
     }
+    await syncFiles(
+      directoryPath
+    )
+
     if (!existsSync(directoryPath)) {
       return { error: `Directory ${directoryPath} does not exist` }
     }
