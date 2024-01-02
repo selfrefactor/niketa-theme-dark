@@ -1,7 +1,6 @@
-import { baseData } from './base-palette'
+let { baseData }= require('./base-palette.js')
 
 const { outputJson } = require('fs-extra')
-const { resolve } = require('path')
 const { maybe, remove, replace } = require('rambdax')
 
 
@@ -10,17 +9,11 @@ const ITALIC = '.ITALIC'
 const BOLD = '.BOLD'
 const extensions = [ '.jsx', '.ts', '.tsx' ]
 
-async function save({ label, data }){
-  const output = resolve(__dirname, `../../palettes/${ label }.json`)
+async function save(data){
 
   await outputJson(
-    output, data, { spaces : 2 }
-  )
-
-  const darkThemePaletteLocation = resolve(__dirname,
-    '../../../niketa-themes/packages/niketa_dark/src/palette.json')
-  await outputJson(
-    darkThemePaletteLocation, data, { spaces : 2 }
+    `${ __dirname }/palette.json`
+    , data, { spaces : 2 }
   )
 }
 
@@ -69,7 +62,7 @@ const baseBase = {
   colors : {},
 }
 
-export function generatePalette(label){
+function generatePalette(label){
   const tokenColors = []
 
   Object.entries(baseData).forEach(([ color, syntaxInstances ]) => {
@@ -105,3 +98,5 @@ export function generatePalette(label){
     data : themeBase,
   })
 }
+
+exports.generatePalette = generatePalette
