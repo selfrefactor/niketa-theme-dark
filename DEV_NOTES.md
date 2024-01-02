@@ -3,6 +3,7 @@ This README is source of truth for all other repos.
 ## ESLint default rules
 
 eslint/packages/eslint-config-eslint/eslintrc.js
+https://raw.githubusercontent.com/eslint/eslint/main/packages/eslint-config-eslint/eslintrc.js
 
 ## Sources of truth
 
