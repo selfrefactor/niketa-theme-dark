@@ -1,6 +1,6 @@
 const DEPENDANT_REPOS = [
   '../niketa-theme-light', 
-  '../jazz-database'
+  '../movie-database'
 ]
 
 const { existsSync } = require('fs')
