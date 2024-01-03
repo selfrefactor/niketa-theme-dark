@@ -1,5 +1,5 @@
 const DEPENDANT_REPOS = [
-  // '../niketa-theme-light', 
+  '../niketa-theme-light', 
   '../jazz-database'
 ]
 
