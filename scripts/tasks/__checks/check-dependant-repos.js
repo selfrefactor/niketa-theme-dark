@@ -1,4 +1,7 @@
-const DEPENDANT_REPOS = ['../niketa-theme-light']
+const DEPENDANT_REPOS = [
+  // '../niketa-theme-light', 
+  '../jazz-database'
+]
 
 const { existsSync } = require('fs')
 const { readJson, readFile,emptyDir, copy, remove } = require('fs-extra')
@@ -62,9 +65,9 @@ async function syncFiles(directoryPath) {
   await remove(directoryToDelete)
 }
 
-function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
+function checkPackageJson({ devDependencies, scripts }) {
   const correctScripts = filter((_, prop) => EXPECTED_SCRIPTS.includes(prop))(
-    scripts,
+    scripts ?? {},
   )
   if (Object.keys(correctScripts).length !== EXPECTED_SCRIPTS.length) {
     return {
@@ -72,15 +75,7 @@ function checkPackageJson({ devDependencies, niketaScripts, scripts }) {
       errorData: { correctScripts, scripts },
     }
   }
-  if (niketaScripts === undefined) {
-    return { error: 'niketaScripts is empty' }
-  }
-  // Keep it simple
-  // if there is case, where more is used, then read and evaluate
-  if (niketaScripts.length !== 2) {
-    return { error: 'niketaScripts are not correct', errorData: niketaScripts }
-  }
-  const devDependenciesKeys = Object.keys(devDependencies)
+  const devDependenciesKeys = Object.keys(devDependencies ?? {})
   const wrongDevDependencies = filter(
     prop => !devDependenciesKeys.includes(prop),
   )(EXPECTED_DEV_DEPENDENCIES)
@@ -137,14 +132,14 @@ async function checkDependantRepo(relativePath) {
         return content !== expectedContent
       }),
     )
-    if (wrongContent.some(x => x)) {
+    if (wrongContent.includes(true)) {
       return { error: 'Content is not correct for strict check' }
     }
 
-    const { devDependencies, niketaScripts, scripts } = await readJson(
+    const { devDependencies, scripts } = await readJson(
 			`${directoryPath}/package.json`,
     )
-    return checkPackageJson({ devDependencies, niketaScripts, scripts })
+    return checkPackageJson({ devDependencies, scripts })
   }
   catch (err) {
     return { data: 'in try/catch', error: err.message }

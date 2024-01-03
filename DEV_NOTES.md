@@ -17,7 +17,8 @@ combinatorics-contast.js holds example lint errors
 ===
 TODO:
 
+optionals:
+
 on more complex project, lint all initially can show if prettier is needed at all
 
-optional
 task.json - simply overwrite and merge as it gives good option for testing initially

@@ -2,8 +2,8 @@ node_modules
 coverage
 *.vsix
 .cache
-*_COLORS.json
+_COLORS.json
+src/outputs/*.json
 scripts/tasks/outputs/eslint-output-file.txt
 scripts/tasks/outputs/jest-output-file.txt
 scripts/tasks/outputs/eslint-all-output-file.txt
-src/outputs/*.json
