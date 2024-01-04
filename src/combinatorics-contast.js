@@ -6,7 +6,7 @@ const {
 const { range, uniq } = require('rambdax')
 const { writeJson } = require('fs-extra')
 
-function getReport(theme) {
+function getContrastReport(theme) {
   // to test sonarjs
   // if (theme != undefined) {
   //   if (theme === '2') {
@@ -20,41 +20,41 @@ function getReport(theme) {
   // var b = [1]
   // var c = [1, 2]
   // var d = [1, 2]
-  const colors = uniq(theme)
-  const themeIndexes = range(0, colors.length).join('')
-  const it = new $C.Combination(themeIndexes, 2)
+  const uniqueColors = uniq(theme)
+  const themeIndexes = range(0, uniqueColors.length).join('')
+  const combinations = new $C.Combination(themeIndexes, 2)
   let minContrast = Infinity
-  let minContastColor = ''
+  let minContrastColors = ''
   let maxContrast = -Infinity
-  let maxContastColor = ''
+  let maxContrastColors = ''
 
-  for (const elem of it) {
-    const color1 = colors[Number(elem[0])]
-    const color2 = colors[Number(elem[1])]
+  for (const combination of combinations) {
+    const color1 = uniqueColors[Number(combination[0])]
+    const color2 = uniqueColors[Number(combination[1])]
     const score = colorContrastRatioCalculator(color1, color2)
     if (score < minContrast) {
       minContrast = score
-      minContastColor = `${color1} - ${color2} - ${score}`
+      minContrastColors = `${color1} - ${color2} - ${score}`
     }
     else if (score > maxContrast) {
       maxContrast = score
-      maxContastColor = `${color1} - ${color2} - ${score}`
+      maxContrastColors = `${color1} - ${color2} - ${score}`
     }
   }
 
   return {
-    maxContastColor,
     maxContrast,
-    minContastColor,
+    maxContrastColors,
     minContrast,
+    minContrastColors,
   }
 }
 
-async function combinatoricsContast(allThemes = darkThemes, label = 'dark') {
+async function generateContrastReport(allThemes = darkThemes, label = 'dark') {
   const report = {}
   Object.keys(allThemes).forEach((themeName) => {
     const theme = allThemes[themeName]
-    const themeReport = getReport(theme)
+    const themeReport = getContrastReport(theme)
     report[themeName] = themeReport
   })
   const maxContrastList = Object.values(report)
@@ -73,10 +73,10 @@ async function combinatoricsContast(allThemes = darkThemes, label = 'dark') {
   ]
   console.log(report)
   await writeJson(
-    `${__dirname}/outputs/contrast-report-${ label }.json`,
-    { maxContrast, minContrast, report },
-    { spaces: 2 },
+		`${__dirname}/outputs/contrast-report-${label}.json`,
+		{ maxContrast, minContrast, report },
+		{ spaces: 2 },
   )
 }
 
-exports.combinatoricsContast = combinatoricsContast
+exports.generateContrastReport = generateContrastReport

@@ -1,11 +1,8 @@
-const DEPENDANT_REPOS = [
-  '../niketa-theme-light', 
-  '../movie-database'
-]
+const DEPENDANT_REPOS = ['../niketa-theme-light', '../movie-database']
 
 const { existsSync } = require('fs')
-const { readJson, readFile,emptyDir, copy, remove } = require('fs-extra')
-const { scanFolder, log } = require('helpers-fn')
+const { copy, emptyDir, readFile, readJson, remove } = require('fs-extra')
+const { log, scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, pick } = require('rambdax')
 
@@ -27,9 +24,7 @@ const EXPECTED_GIT_IGNORE = [
 ]
 const EXPECTED_SCRIPTS = ['lint:file', 'lint:all', 'jest:file']
 
-const CHECK_CONTENT = [
-  '.eslintrc.js',
-]
+const CHECK_CONTENT = ['.eslintrc.js']
 
 const EXPECTED_DEV_DEPENDENCIES = [
   '@biomejs/biome',
@@ -51,25 +46,55 @@ const EXPECTED_DEV_DEPENDENCIES = [
 const BASE = resolve(__dirname, '../../../')
 
 async function syncFiles(directoryPath) {
-  let source = resolve( __dirname, '../',)
-  let destination = `${directoryPath}/scripts/tasks`
+  const source = resolve(__dirname, '../')
+  const destination = `${directoryPath}/scripts/tasks`
   await emptyDir(destination)
-  await copy(
-    source,
-    destination,
-    { overwrite: true }
-  )
+  await copy(source, destination, { overwrite: true })
 
-  const directoryToDelete = `${directoryPath}/scripts/tasks/__checks` 
+  const directoryToDelete = `${directoryPath}/scripts/tasks/__checks`
 
   await remove(directoryToDelete)
 }
 
-async function syncPackageJson(directoryPath) {
-  const { devDependencies, scripts, niketaScripts } = await readJson(
-    `${BASE}/package.json`,
+async function syncLaunchJson(directoryPath) {
+  const namesToPick = ['Test File', 'Nodejs File']
+  const source = resolve(__dirname, '../launch.json')
+  const destination = `${directoryPath}/.vscode/launch.json`
+  const { configurations } = await readJson(source)
+  const filteredSource = configurations.filter(x =>
+    namesToPick.includes(x.name),
   )
-  const requiredDevDependencies = pick(EXPECTED_DEV_DEPENDENCIES, devDependencies)
+  if (existsSync(destination)) {
+    const { configurations: configurationsInDestination }
+			= await readJson(destination)
+    const filteredDestination = configurationsInDestination.filter(
+      x => !namesToPick.includes(x.name),
+    )
+
+    const final = {
+      ...destinationJson,
+      configurations: [...filteredSource, ...filteredDestination],
+    }
+    return writeJson(destination, final, { spaces: 2 })
+  }
+  await writeJson(
+    destination,
+    {
+      configurations: filteredSource,
+      version: '0.2.0',
+    },
+    { spaces: 2 },
+  )
+}
+
+async function syncPackageJson(directoryPath) {
+  const { devDependencies, niketaScripts, scripts } = await readJson(
+		`${BASE}/package.json`,
+  )
+  const requiredDevDependencies = pick(
+    EXPECTED_DEV_DEPENDENCIES,
+    devDependencies,
+  )
   const requiredScripts = pick(EXPECTED_SCRIPTS, scripts)
   const projectPackageJson = await readJson(`${directoryPath}/package.json`)
   const projectRequiredDevDependencies = pick(
@@ -79,17 +104,20 @@ async function syncPackageJson(directoryPath) {
   const finalPackageJson = {
     ...projectPackageJson,
     devDependencies: {
-      ...projectPackageJson.devDependencies ?? {},
+      ...(projectPackageJson.devDependencies ?? {}),
       ...requiredDevDependencies,
     },
+    niketaScripts: projectPackageJson.niketaScripts ?? niketaScripts,
     scripts: {
-      ...projectPackageJson.scripts ?? {},
+      ...(projectPackageJson.scripts ?? {}),
       ...requiredScripts,
     },
-    niketaScripts: projectPackageJson.niketaScripts ?? niketaScripts,
   }
 
-  if (Object.keys(projectRequiredDevDependencies).length !== EXPECTED_DEV_DEPENDENCIES.length) {
+  if (
+    Object.keys(projectRequiredDevDependencies).length
+    !== EXPECTED_DEV_DEPENDENCIES.length
+  ) {
     log('Please run `yarn install`', 'warn')
   }
 
@@ -108,9 +136,7 @@ async function checkDependantRepo(relativePath) {
     if (!EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))) {
       return { error: 'gitignore is not correct' }
     }
-    await syncFiles(
-      directoryPath
-    )
+    await syncFiles(directoryPath)
 
     if (!existsSync(directoryPath)) {
       return { error: `Directory ${directoryPath} does not exist` }
@@ -145,8 +171,9 @@ async function checkDependantRepo(relativePath) {
     }
 
     await syncPackageJson(directoryPath)
+    await syncLaunchJson(directoryPath)
 
-    return {success: true, data: directoryPath}
+    return { data: directoryPath, success: true }
   }
   catch (err) {
     return { data: 'in try/catch', error: err.message }
