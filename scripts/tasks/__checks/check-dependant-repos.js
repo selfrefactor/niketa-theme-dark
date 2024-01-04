@@ -5,9 +5,9 @@ const DEPENDANT_REPOS = [
 
 const { existsSync } = require('fs')
 const { readJson, readFile,emptyDir, copy, remove } = require('fs-extra')
-const { scanFolder } = require('helpers-fn')
+const { scanFolder, log } = require('helpers-fn')
 const { resolve } = require('path')
-const { endsWith, filter } = require('rambdax')
+const { endsWith, pick } = require('rambdax')
 
 const EXPECTED_FILES = [
   'constants.js',
@@ -65,29 +65,37 @@ async function syncFiles(directoryPath) {
   await remove(directoryToDelete)
 }
 
-function checkPackageJson({ devDependencies, scripts }) {
-  const correctScripts = filter((_, prop) => EXPECTED_SCRIPTS.includes(prop))(
-    scripts ?? {},
+async function syncPackageJson(directoryPath) {
+  const { devDependencies, scripts, niketaScripts } = await readJson(
+    `${BASE}/package.json`,
   )
-  if (Object.keys(correctScripts).length !== EXPECTED_SCRIPTS.length) {
-    return {
-      error: 'Scripts are not correct',
-      errorData: { correctScripts, scripts },
-    }
+  const requiredDevDependencies = pick(EXPECTED_DEV_DEPENDENCIES, devDependencies)
+  const requiredScripts = pick(EXPECTED_SCRIPTS, scripts)
+  const projectPackageJson = await readJson(`${directoryPath}/package.json`)
+  const projectRequiredDevDependencies = pick(
+    EXPECTED_DEV_DEPENDENCIES,
+    projectPackageJson.devDependencies,
+  )
+  const finalPackageJson = {
+    ...projectPackageJson,
+    devDependencies: {
+      ...projectPackageJson.devDependencies ?? {},
+      ...requiredDevDependencies,
+    },
+    scripts: {
+      ...projectPackageJson.scripts ?? {},
+      ...requiredScripts,
+    },
+    niketaScripts: projectPackageJson.niketaScripts ?? niketaScripts,
   }
-  const devDependenciesKeys = Object.keys(devDependencies ?? {})
-  const wrongDevDependencies = filter(
-    prop => !devDependenciesKeys.includes(prop),
-  )(EXPECTED_DEV_DEPENDENCIES)
 
-  if (wrongDevDependencies.length > 0) {
-    return {
-      error: 'devDependencies are not correct',
-      errorData: `Run: yarn add -D ${wrongDevDependencies.join(' ')}`,
-    }
+  if (Object.keys(projectRequiredDevDependencies).length !== EXPECTED_DEV_DEPENDENCIES.length) {
+    log('Please run `yarn install`', 'warn')
   }
 
-  return { success: true }
+  await writeJson(`${directoryPath}/package.json`, finalPackageJson, {
+    spaces: 2,
+  })
 }
 
 async function checkDependantRepo(relativePath) {
@@ -136,18 +144,16 @@ async function checkDependantRepo(relativePath) {
       return { error: 'Content is not correct for strict check' }
     }
 
-    const { devDependencies, scripts } = await readJson(
-			`${directoryPath}/package.json`,
-    )
-    return checkPackageJson({ devDependencies, scripts })
+    await syncPackageJson(directoryPath)
+
+    return {success: true, data: directoryPath}
   }
   catch (err) {
     return { data: 'in try/catch', error: err.message }
   }
 }
-// Start simple
-// on too many changes, then introduce script that syncs
+
 void (async function checkDependantRepos() {
-  const errors = await Promise.all(DEPENDANT_REPOS.map(checkDependantRepo))
-  console.log(errors, 'final')
+  const result = await Promise.all(DEPENDANT_REPOS.map(checkDependantRepo))
+  console.log(result, 'final')
 })()
