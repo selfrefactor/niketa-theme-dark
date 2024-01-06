@@ -1,6 +1,7 @@
 let { baseData }= require('./base-palette.js')
 
 const { outputJson } = require('fs-extra')
+const { resolve } = require('path')
 const { maybe, remove, replace } = require('rambdax')
 
 
@@ -10,9 +11,9 @@ const BOLD = '.BOLD'
 const extensions = [ '.jsx', '.ts', '.tsx' ]
 
 async function save(data){
-
+  let output = resolve(__dirname, '../palette.json')
   await outputJson(
-    `${ __dirname }/palette.json`
+    output
     , data, { spaces : 2 }
   )
 }
@@ -56,13 +57,13 @@ function pushToTokenColors({ syntaxInstance, fontStyle, tokenColors, color }){
     })
   }
 }
-const baseBase = {
-  // name   : '_Palette',
-  // type   : 'light',
-  colors : {},
-}
 
-function generatePalette(label){
+function generatePalette(type){
+  const baseBase = {
+    name   : '_Palette',
+    type   : type,
+    colors : {},
+  }
   const tokenColors = []
 
   Object.entries(baseData).forEach(([ color, syntaxInstances ]) => {
@@ -89,14 +90,11 @@ function generatePalette(label){
   })
 
   const themeBase = {
-    // ...baseBase,
+    ...baseBase,
     tokenColors,
   }
 
-  save({
-    label,
-    data : themeBase,
-  })
+  save(themeBase)
 }
 
 exports.generatePalette = generatePalette

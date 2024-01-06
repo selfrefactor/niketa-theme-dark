@@ -4,7 +4,7 @@ let {
 
 test('happy', () => {
   generateColors({
-    input  : [ '#2d3e4c', '#000' ],
-    levels : 40,
+    input  : [ '#62b97c', '#F7ECB3' ],
+    levels : 10,
   })
 })

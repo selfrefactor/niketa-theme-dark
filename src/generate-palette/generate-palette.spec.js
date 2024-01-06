@@ -1,5 +1,5 @@
-import {generatePalette} from './generate-palette'
+let {generatePalette} = require('./generate-palette')
 
 test('happy', () => {
-  generatePalette('palette')
+  generatePalette('dark')
 })

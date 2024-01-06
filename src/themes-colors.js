@@ -16,7 +16,7 @@ const PINK_RED = '#e34ba9'
 const PURPLE = '#bf7af0'
 const TEAL = '#279CB2'
 const WHITE = '#fdfdfd'
-const YELLOW = '#F7ECB3'
+const YELLOW = '#F7ECB1'
 
 const allThemes = {
   AmericanDad: [GREEN_DARK, PINK_RED, BROWN, BLUE_SKY, WHITE],
