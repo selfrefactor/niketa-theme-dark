@@ -15,14 +15,14 @@
     "src",
     "scripts"
   ],
-  "niketaScripts": [
-    {
+  "niketaScripts": {
+    "fileCommands": {
       "**/*.js": "yarn lint:file"
     },
-    {
+    "testCommands": {
       "**/*.js": "yarn jest:file"
     }
-  ],
+  },
   "depFn": [
     "execa"
   ],

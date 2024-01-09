@@ -1,4 +1,8 @@
-const DEPENDANT_REPOS = ['../niketa-theme-light', '../movie-database']
+const DEPENDANT_REPOS = [
+  'niketa-theme-light',
+  // 'movie-database',
+  // 'services/packages/magic-beans',
+].map(x => `../${x}`)
 
 const { existsSync } = require('fs')
 const { copy, emptyDir, readFile, readJson, remove } = require('fs-extra')
@@ -170,8 +174,9 @@ async function checkDependantRepo(relativePath) {
       return { error: 'Content is not correct for strict check' }
     }
 
-    await syncPackageJson(directoryPath)
+    await syncPackageJson(directoryPath, forceUpdate)
     await syncLaunchJson(directoryPath)
+    // await syncTasks(directoryPath)
 
     return { data: directoryPath, success: true }
   }
@@ -180,7 +185,5 @@ async function checkDependantRepo(relativePath) {
   }
 }
 
-void (async function checkDependantRepos() {
-  const result = await Promise.all(DEPENDANT_REPOS.map(checkDependantRepo))
-  console.log(result, 'final')
-})()
+exports.DEPENDANT_REPOS = DEPENDANT_REPOS
+exports.checkDependantRepo = checkDependantRepo
