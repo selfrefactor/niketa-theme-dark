@@ -1,11 +1,11 @@
 const DEPENDANT_REPOS = [
-  'niketa-theme-light',
-  // 'movie-database',
-  // 'services/packages/magic-beans',
+  // 'niketa-theme-light',
+  // 'movies-database',
+  'services/packages/magic-beans',
 ].map(x => `../${x}`)
 
 const { existsSync } = require('fs')
-const { copy, emptyDir, readFile, readJson, remove } = require('fs-extra')
+const { copy, emptyDir, readFile, readJson, remove, writeJson } = require('fs-extra')
 const { log, scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, pick } = require('rambdax')
@@ -21,6 +21,12 @@ const EXPECTED_FILES = [
   'run/jest.js',
 ]
 
+
+/**
+scripts/tasks/outputs/eslint-output-file.txt
+scripts/tasks/outputs/jest-output-file.txt
+scripts/tasks/outputs/eslint-all-output-file.txt
+ */
 const EXPECTED_GIT_IGNORE = [
   'scripts/tasks/outputs/eslint-output-file.txt',
   'scripts/tasks/outputs/jest-output-file.txt',
@@ -122,7 +128,7 @@ async function syncPackageJson(directoryPath) {
     Object.keys(projectRequiredDevDependencies).length
     !== EXPECTED_DEV_DEPENDENCIES.length
   ) {
-    log('Please run `yarn install`', 'warn')
+    log('Please run `yarn install`', 'warning')
   }
 
   await writeJson(`${directoryPath}/package.json`, finalPackageJson, {
@@ -137,7 +143,11 @@ async function checkDependantRepo(relativePath) {
       await readFile(`${directoryPath}/.gitignore`)
     ).toString()
 
-    if (!EXPECTED_GIT_IGNORE.every(x => gitIgnoreContent.includes(x))) {
+    if (!EXPECTED_GIT_IGNORE.every(x => {
+      let result = gitIgnoreContent.includes(x)
+
+      return result
+    })) {
       return { error: 'gitignore is not correct' }
     }
     await syncFiles(directoryPath)
@@ -174,8 +184,8 @@ async function checkDependantRepo(relativePath) {
       return { error: 'Content is not correct for strict check' }
     }
 
-    await syncPackageJson(directoryPath, forceUpdate)
-    await syncLaunchJson(directoryPath)
+    await syncPackageJson(directoryPath)
+    // await syncLaunchJson(directoryPath) // TODO
     // await syncTasks(directoryPath)
 
     return { data: directoryPath, success: true }
