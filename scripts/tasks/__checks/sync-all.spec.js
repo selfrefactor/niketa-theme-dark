@@ -1,4 +1,7 @@
-let {checkDependantRepo, DEPENDANT_REPOS} = require('./check-dependant-repos')
+const {
+  checkDependantRepo,
+  DEPENDANT_REPOS,
+} = require('./check-dependant-repos')
 
 jest.setTimeout(60 * 1000)
 test('sync-all', async () => {

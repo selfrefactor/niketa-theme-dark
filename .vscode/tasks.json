@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "shell",
-      "label": "lint all",
+      "label": "Lint all",
       "command": "yarn lint:all",
       "group": {
         "kind": "none",

@@ -1,12 +1,20 @@
 const DEPENDANT_REPOS = [
-  'codesignals-tasks',
+  'codesignal-tasks',
   'niketa-theme-light',
   'movies-database',
   'services/packages/magic-beans',
 ].map(x => `../${x}`)
 
 const { existsSync } = require('fs')
-const { copy, emptyDir, readFile, readJson, remove, writeJson } = require('fs-extra')
+const {
+  copy,
+  emptyDir,
+  readFile,
+  readJson,
+  remove,
+  writeFile,
+  writeJson,
+} = require('fs-extra')
 const { log, scanFolder } = require('helpers-fn')
 const { resolve } = require('path')
 const { endsWith, pick } = require('rambdax')
@@ -22,17 +30,12 @@ const EXPECTED_FILES = [
   'run/jest.js',
 ]
 
-
-/**
+const EXPECTED_GIT_IGNORE = `
 scripts/tasks/outputs/eslint-output-file.txt
 scripts/tasks/outputs/jest-output-file.txt
 scripts/tasks/outputs/eslint-all-output-file.txt
- */
-const EXPECTED_GIT_IGNORE = [
-  'scripts/tasks/outputs/eslint-output-file.txt',
-  'scripts/tasks/outputs/jest-output-file.txt',
-  'scripts/tasks/outputs/eslint-all-output-file.txt',
-]
+`.trim()
+
 const EXPECTED_SCRIPTS = ['lint:file', 'lint:all', 'jest:file']
 
 const CHECK_CONTENT = ['.eslintrc.js']
@@ -83,8 +86,8 @@ async function syncLaunchJson(directoryPath) {
     )
 
     const final = {
-      "version": "0.2.0",
       configurations: [...filteredSource, ...filteredDestination],
+      version: '0.2.0',
     }
     return writeJson(destination, final, { spaces: 2 })
   }
@@ -96,6 +99,17 @@ async function syncLaunchJson(directoryPath) {
     },
     { spaces: 2 },
   )
+}
+
+async function syncGitIgnore(directoryPath) {
+  const destination = `${directoryPath}/.gitignore`
+  if (!existsSync(destination)) {
+    throw new Error(`File ${destination} does not exist`)
+  }
+  const content = (await readFile(destination)).toString()
+  if (content.includes(EXPECTED_GIT_IGNORE)) return
+
+  await writeFile(destination, `${EXPECTED_GIT_IGNORE}\n${content}`)
 }
 
 async function syncPackageJson(directoryPath) {
@@ -140,17 +154,7 @@ async function syncPackageJson(directoryPath) {
 async function checkDependantRepo(relativePath) {
   try {
     const directoryPath = resolve(BASE, relativePath)
-    const gitIgnoreContent = (
-      await readFile(`${directoryPath}/.gitignore`)
-    ).toString()
-
-    if (!EXPECTED_GIT_IGNORE.every(x => {
-      let result = gitIgnoreContent.includes(x)
-
-      return result
-    })) {
-      return { error: 'gitignore is not correct' }
-    }
+    await syncGitIgnore(directoryPath)
     await syncFiles(directoryPath)
 
     if (!existsSync(directoryPath)) {
@@ -169,16 +173,23 @@ async function checkDependantRepo(relativePath) {
     }
     const wrongContent = await Promise.all(
       CHECK_CONTENT.map(async (filePath) => {
-        const content = (await readFile(`${directoryPath}/${filePath}`))
-          .toString()
-          .trim()
         const expectedContent = (await readFile(`${BASE}/${filePath}`))
           .toString()
           .trim()
-        if (content !== expectedContent)
-          console.log('unexpected content', filePath)
 
-        return content !== expectedContent
+        if (!existsSync(`${directoryPath}/${filePath}`)) {
+          await writeFile(`${directoryPath}/${filePath}`, expectedContent)
+          return false
+        }
+        const content = (await readFile(`${directoryPath}/${filePath}`))
+          .toString()
+          .trim()
+
+        if (content !== expectedContent) {
+          console.log('unexpected content', filePath)
+          return true
+        }
+        return false
       }),
     )
     if (wrongContent.includes(true)) {

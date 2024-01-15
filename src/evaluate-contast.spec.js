@@ -47,7 +47,8 @@ async function evaluateContrast(
 test('dark', async () => {
   try {
     await evaluateContrast()
-  } catch (err) {
+  }
+  catch (err) {
     console.log(err)
   }
 })
@@ -55,7 +56,8 @@ test('dark', async () => {
 test('light', async () => {
   try {
     await evaluateContrast(allThemesLight, 'light', '#fafafa')
-  }catch(err){
+  }
+  catch (err) {
     console.log(err)
   }
 })

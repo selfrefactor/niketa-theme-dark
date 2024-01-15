@@ -14,9 +14,9 @@ function getPerfectionistRules() {
 const perfectionistRules = getPerfectionistRules()
 
 // https://eslint.style/rules/js
-const stylisticRules = {
-  '@stylistic/arrow-spacing': [1, { after: true, before: false }],
-}
+// const stylisticRules = {
+//   '@stylistic/arrow-spacing': [1, { after: true, before: false }],
+// }
 
 const rules = {
   ...perfectionistRules,

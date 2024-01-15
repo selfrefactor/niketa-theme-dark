@@ -4,7 +4,7 @@ const { resolve } = require('path')
 const BASE = resolve(__dirname, '../../')
 
 function readJson(filePath, base = BASE) {
-  const resolvedPath = `${ base }/${ filePath }`
+  const resolvedPath = `${base}/${filePath}`
   return readJsonSync(resolvedPath)
 }
 

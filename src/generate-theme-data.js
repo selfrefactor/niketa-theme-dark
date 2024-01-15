@@ -37,13 +37,25 @@ function getForeground(tokenColor, colors, punctuationColor, subtleColor) {
   return colors[tokenColor.settings.foreground]
 }
 
-function generateThemeData({ chromeColors, palette, themeColors, type, punctuationColor, subtleColor }) {
+function generateThemeData({
+  chromeColors,
+  palette,
+  punctuationColor,
+  subtleColor,
+  themeColors,
+  type,
+}) {
   const tokenColors = map(
     tokenColor => ({
       ...tokenColor,
       settings: {
         ...tokenColor.settings,
-        foreground: getForeground(tokenColor, themeColors, punctuationColor, subtleColor),
+        foreground: getForeground(
+          tokenColor,
+          themeColors,
+          punctuationColor,
+          subtleColor,
+        ),
       },
     }),
     palette.tokenColors,
