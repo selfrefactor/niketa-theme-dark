@@ -1,4 +1,5 @@
 const DEPENDANT_REPOS = [
+  'codesignals-tasks',
   'niketa-theme-light',
   'movies-database',
   'services/packages/magic-beans',

@@ -5,7 +5,7 @@
     "lint:file": "node scripts/tasks/lint/lint.js",
     "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
-    "check:all": "node scripts/tasks/__checks/check-dependant-repos.js",
+    "sync:all": "jest /scripts/tasks/__checks/sync-all.spec.js",
     "lint:check": "node scripts/tasks/__checks/lint.js",
     "out": "jest src/create-multiple-theme.spec.js",
     "dev": "yarn check:all",

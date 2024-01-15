@@ -12,8 +12,8 @@
     },
     {
       "type": "shell",
-      "label": "Jest",
-      "command": "yarn jest:file",
+      "label": "Sync all",
+      "command": "yarn sync:all",
       "group": {
         "kind": "none",
         "isDefault": false
