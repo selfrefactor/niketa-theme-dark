@@ -1,6 +1,6 @@
 const DEPENDANT_REPOS = [
-  // 'niketa-theme-light',
-  // 'movies-database',
+  'niketa-theme-light',
+  'movies-database',
   'services/packages/magic-beans',
 ].map(x => `../${x}`)
 
@@ -68,7 +68,7 @@ async function syncFiles(directoryPath) {
 
 async function syncLaunchJson(directoryPath) {
   const namesToPick = ['Test File', 'Nodejs File']
-  const source = resolve(__dirname, '../launch.json')
+  const source = resolve(__dirname, '../../../.vscode/launch.json')
   const destination = `${directoryPath}/.vscode/launch.json`
   const { configurations } = await readJson(source)
   const filteredSource = configurations.filter(x =>
@@ -82,7 +82,7 @@ async function syncLaunchJson(directoryPath) {
     )
 
     const final = {
-      ...destinationJson,
+      "version": "0.2.0",
       configurations: [...filteredSource, ...filteredDestination],
     }
     return writeJson(destination, final, { spaces: 2 })
@@ -185,8 +185,7 @@ async function checkDependantRepo(relativePath) {
     }
 
     await syncPackageJson(directoryPath)
-    // await syncLaunchJson(directoryPath) // TODO
-    // await syncTasks(directoryPath)
+    await syncLaunchJson(directoryPath)
 
     return { data: directoryPath, success: true }
   }
