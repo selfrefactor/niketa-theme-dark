@@ -35,7 +35,8 @@ function getContrastReport(theme) {
     if (score < minContrast) {
       minContrast = score
       minContrastColors = `${color1} - ${color2} - ${score}`
-    } else if (score > maxContrast) {
+    }
+    else if (score > maxContrast) {
       maxContrast = score
       maxContrastColors = `${color1} - ${color2} - ${score}`
     }
@@ -51,20 +52,20 @@ function getContrastReport(theme) {
 
 async function generateContrastReport(allThemes = darkThemes, label = 'dark') {
   const report = {}
-  Object.keys(allThemes).forEach((themeName) => {
+  Object.keys(allThemes).forEach(themeName=> {
     const theme = allThemes[themeName]
     const themeReport = getContrastReport(theme)
     report[themeName] = themeReport
   })
   const maxContrastList = Object.values(report)
-    .map((x) => x.maxContrast)
+    .map(x=> x.maxContrast)
     .sort()
   const maxContrast = [
     maxContrastList[0],
     maxContrastList[maxContrastList.length - 1],
   ]
   const minContrastList = Object.values(report)
-    .map((x) => x.minContrast)
+    .map(x=> x.minContrast)
     .sort()
   const minContrast = [
     minContrastList[0],

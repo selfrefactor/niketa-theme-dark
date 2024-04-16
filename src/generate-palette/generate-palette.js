@@ -29,7 +29,7 @@ function pushToTokenColors({ color, fontStyle, syntaxInstance, tokenColors }) {
   if (syntaxInstance.endsWith('.js')) {
     const plainSyntaxInstance = remove('.js', syntaxInstance)
 
-    extensions.forEach((extension)=> {
+    extensions.forEach(extension=> {
       const tokenColorExtension = {
         name: `${plainSyntaxInstance}${extension}`,
         scope: `${plainSyntaxInstance}${extension}`,
@@ -61,7 +61,7 @@ function generatePalette(type) {
   const tokenColors = []
 
   Object.entries(baseData).forEach(([color, syntaxInstances])=> {
-    syntaxInstances.forEach((syntaxInstanceRaw)=> {
+    syntaxInstances.forEach(syntaxInstanceRaw=> {
       const syntaxInstance = remove(
         [UNDERLINE, ITALIC, BOLD],
         syntaxInstanceRaw,
@@ -72,8 +72,8 @@ function generatePalette(type) {
         syntaxInstanceRaw.endsWith(ITALIC)
           ? { fontStyle: 'italic' }
           : syntaxInstanceRaw.endsWith(BOLD)
-					  ? { fontStyle: 'bold' }
-					  : {},
+            ? { fontStyle: 'bold' }
+            : {},
       )
 
       pushToTokenColors({

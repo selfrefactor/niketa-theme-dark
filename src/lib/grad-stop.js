@@ -18,7 +18,7 @@
 
       b[g][0].call(
         k.exports,
-        (a)=> {
+        a=> {
           const c = b[g][1][a]
 
           return e(c ? c : a)
@@ -60,7 +60,7 @@
     ],
     2: [
       function (a, b, c) {
-        ((b)=> {
+        (b=> {
           function c(a) {
             return a?.__esModule ? a : { default: a }
           }
@@ -113,7 +113,7 @@
           const g = a('./defaultOptions')
           const h = c(g)
 
-          !((a)=> {
+          !(a=> {
             function b(a) {
               if (
                 ((a = (0, e.objectAssign)({}, this.options, a)),
@@ -125,9 +125,9 @@
               return this.computeStops(a)
             }
             (b.prototype.options = h.default),
-            (b.prototype.computeStops = (a)=> {
+            (b.prototype.computeStops = a=> {
               const b = []
-              const c = (a)=> {
+              const c = a=> {
                 switch (a.inputFormat) {
                   case 'hex':
                     return (0, f.extractHEX)(a.colorArray)
@@ -137,16 +137,14 @@
                     return (0, f.extractHSL)(a.colorArray)
                 }
               }
-              const e = (a)=> {
+              const e = a=> {
                 for (
                   let c = a.colorArray, e = 1 / (a.stops - 1), g = 0, h = 0;
                   h < a.stops;
                   h++
                 ) {
                   if (a.inputFormat === 'hex' || a.inputFormat === 'rgb') {
-                    const i = (0, f.propBezInterpolate)(['r', 'g', 'b'])(c)(
-                      g,
-                    )
+                    const i = (0, f.propBezInterpolate)(['r', 'g', 'b'])(c)(g)
                     const j = d(i, 3)
                     const k = j[0]
                     const l = j[1]
@@ -155,9 +153,7 @@
                     b.push((0, f.returnRGBStr)([k, l, m]))
                   }
                   else if (a.inputFormat === 'hsl') {
-                    const n = (0, f.propBezInterpolate)(['h', 's', 'l'])(c)(
-                      g,
-                    )
+                    const n = (0, f.propBezInterpolate)(['h', 's', 'l'])(c)(g)
                     const o = d(n, 3)
                     const p = o[0]
                     const q = o[1]
@@ -178,10 +174,10 @@
           typeof global !== 'undefined'
             ? global
             : typeof self !== 'undefined'
-						  ? self
-						  : typeof window !== 'undefined'
-							  ? window
-							  : {},
+              ? self
+              : typeof window !== 'undefined'
+                ? window
+                : {},
         )
       },
       {
@@ -192,32 +188,32 @@
     ],
     3: [
       (a, b, c)=> {
-        Object.defineProperty(c, '__esModule', { value: !0 });
-        (c.mathTrunc = (()=>
+        Object.defineProperty(c, '__esModule', { value: !0 })
+        ;(c.mathTrunc = (()=>
           Math.trunc
             ? Math.trunc
             : a=> (a === 0 ? a : a < 0 ? Math.ceil(a) : Math.floor(a)))()),
         (c.objectAssign = (()=>
           Object.assign
             ? Object.assign
-            : (a)=> {
-                if (void 0 === a || a === null) {
-                  throw new TypeError(
-                    'Cannot convert undefined or null to object',
-                  )
-                }
-                for (let b = Object(a), c = 1; c < arguments.length; c++) {
-                  const d = arguments[c]
+            : a=> {
+              if (void 0 === a || a === null) {
+                throw new TypeError(
+                  'Cannot convert undefined or null to object',
+                )
+              }
+              for (let b = Object(a), c = 1; c < arguments.length; c++) {
+                const d = arguments[c]
 
-                  if (void 0 !== d && d !== null) {
-                    for (const e in d) {
-                      d.hasOwnProperty(e) && (b[e] = d[e])
-                    }
+                if (void 0 !== d && d !== null) {
+                  for (const e in d) {
+                    d.hasOwnProperty(e) && (b[e] = d[e])
                   }
                 }
+              }
 
-                return b
-							  })())
+              return b
+            })())
       },
       {},
     ],
@@ -225,12 +221,12 @@
       (a, b, c)=> {
         Object.defineProperty(c, '__esModule', { value: !0 }),
         (c.returnHSLStr
-						= c.returnRGBStr
-						= c.extractHSL
-						= c.extractRGB
-						= c.extractHEX
-						= c.propBezInterpolate
-							= void 0)
+            = c.returnRGBStr
+            = c.extractHSL
+            = c.extractRGB
+            = c.extractHEX
+            = c.propBezInterpolate
+              = void 0)
         const d = (()=> {
           function a(a, b) {
             const c = []
@@ -276,7 +272,7 @@
           }
         })()
         const e = a('./polyfill')
-        const f = (a)=> {
+        const f = a=> {
           const b = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(a)
           const c = b.map(a=> Number.parseInt(a, 16))
           const e = d(c, 4)
@@ -296,10 +292,10 @@
             a.length === 4
               ? `#${a[1]}${a[1]}${a[2]}${a[2]}${a[3]}${a[3]}`
               : a.length === 7
-							  ? a
-							  : void 0,
-          );
-        (c.propBezInterpolate = a=> b=> (c)=> {
+                ? a
+                : void 0,
+          )
+        ;(c.propBezInterpolate = a=> b=> c=> {
           const d = 1 - c
           let f = void 0
 
@@ -308,20 +304,20 @@
               b.length === 2
                 ? (f = d * b[0][a] + c * b[1][a])
                 : b.length === 3
-								  ? (f
-											= d ** 2 * b[0][a] + 2 * d * c * b[1][a] + c ** 2 * b[2][a])
-								  : b.length === 4
-								  && (f
-											= d ** 3 * b[0][a]
-											+ 3 * d ** 2 * c * b[1][a]
-											+ 3 * d * c ** 2 * b[2][a]
-											+ c ** 3 * b[3][a]),
+                  ? (f
+                      = d ** 2 * b[0][a] + 2 * d * c * b[1][a] + c ** 2 * b[2][a])
+                  : b.length === 4
+                  && (f
+                      = d ** 3 * b[0][a]
+                      + 3 * d ** 2 * c * b[1][a]
+                      + 3 * d * c ** 2 * b[2][a]
+                      + c ** 3 * b[3][a]),
             (0, e.mathTrunc)(f),
           )
         }),
         (c.extractHEX = a=> h(a).map(a=> f(a))),
         (c.extractRGB = a=>
-          a.map((a)=> {
+          a.map(a=> {
             const b = g(a, 4, -1).split(',')
             const c = d(b, 3)
             const e = c[0]
@@ -335,7 +331,7 @@
             }
           })),
         (c.extractHSL = a=>
-          a.map((a)=> {
+          a.map(a=> {
             a = g(a, 4, -1).split(',')
             const b = a[0]
             const c = g(a[1], 0, -1)

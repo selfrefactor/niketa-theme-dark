@@ -20,7 +20,7 @@ async function evaluateContrast(
   let min = 0
   const allContrasts = {}
   map((currentTheme, name)=> {
-    return map((color)=> {
+    return map(color=> {
       const score = colorContrastRatioCalculator(color, bgColor)
       allContrasts[color] = score
       if (score > min) {
@@ -38,9 +38,9 @@ async function evaluateContrast(
   console.log({ maxInfo, minInfo })
 
   await writeJson(
-		`${__dirname}/outputs/contrast-to-background-${label}.json`,
-		{ allContrasts: sorted, maxInfo, minInfo },
-		{ spaces: 2 },
+    `${__dirname}/outputs/contrast-to-background-${label}.json`,
+    { allContrasts: sorted, maxInfo, minInfo },
+    { spaces: 2 },
   )
 }
 

@@ -11,8 +11,8 @@ function rgbHex(red, green, blue, alpha) {
       throw new TypeError('Invalid or unsupported color format.')
     }
 
-    isPercent = false;
-    [red, green, blue, alpha] = parsed
+    isPercent = false
+    ;[red, green, blue, alpha] = parsed
   }
   else if (alpha !== undefined) {
     alpha = Number.parseFloat(alpha)
@@ -38,7 +38,7 @@ function rgbHex(red, green, blue, alpha) {
     }
     else {
       throw new TypeError(
-				`Expected alpha value (${alpha}) as a fraction or percentage`,
+        `Expected alpha value (${alpha}) as a fraction or percentage`,
       )
     }
 
@@ -51,7 +51,7 @@ function rgbHex(red, green, blue, alpha) {
   return toHex(red, green, blue, alpha)
 }
 
-const parseCssRgbString = (input)=> {
+const parseCssRgbString = input=> {
   const parts = input
     .replace(/rgba?\(([^)]+)\)/, '$1')
     .split(/[,\s/]+/)

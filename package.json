@@ -32,7 +32,7 @@
 		"@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
 		"@stylistic/eslint-plugin": "1.7.2",
 		"colord": "2.9.3",
-		"eslint": "9.0.0",
+		"eslint": "8.57.0",
 		"eslint-plugin-jest": "28.2.0",
 		"eslint-plugin-node": "11.1.0",
 		"eslint-plugin-perfectionist": "2.9.0",

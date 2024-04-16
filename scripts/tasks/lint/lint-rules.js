@@ -7,7 +7,7 @@ const {
 
 function getPerfectionistRules() {
   const rules = {}
-  Object.keys(perfectionistRulesImport).forEach((key)=> {
+  Object.keys(perfectionistRulesImport).forEach(key=> {
     rules[key] = [1, ...perfectionistRulesImport[key].slice(1)]
   })
   return rules
@@ -16,6 +16,7 @@ function getPerfectionistRules() {
 const perfectionistRules = getPerfectionistRules()
 
 const stylisticRules = {
+  '@stylistic/arrow-parens': [1, 'as-needed'],
   '@stylistic/arrow-spacing': [1, { after: true, before: false }],
   // '@stylistic/no-tabs': 0,
 }

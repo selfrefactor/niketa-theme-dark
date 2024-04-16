@@ -18,6 +18,7 @@ const {
 const { log, scanFolder } = require('helpers-fn')
 const { resolve } = require('node:path')
 const { endsWith, pick } = require('rambdax')
+const { ALLOWED } = require('../lint/lint-fn')
 
 const EXPECTED_FILES = [
   'constants.js',
@@ -80,7 +81,7 @@ async function syncLaunchJson(directoryPath) {
   )
   if (existsSync(destination)) {
     const { configurations: configurationsInDestination }
-			= await readJson(destination)
+      = await readJson(destination)
     const filteredDestination = configurationsInDestination.filter(
       x=> !namesToPick.includes(x.name),
     )
@@ -114,7 +115,7 @@ async function syncGitIgnore(directoryPath) {
 
 async function syncPackageJson(directoryPath) {
   const { devDependencies, niketaScripts, scripts } = await readJson(
-		`${BASE}/package.json`,
+    `${BASE}/package.json`,
   )
   const requiredDevDependencies = pick(
     EXPECTED_DEV_DEPENDENCIES,
@@ -151,8 +152,15 @@ async function syncPackageJson(directoryPath) {
   })
 }
 
+function checkAllowed() {
+  if (Object.values(ALLOWED).filter(x=> !x).length > 0) {
+    throw new Error('Please enable all checks')
+  }
+}
+
 async function checkDependantRepo(relativePath) {
   try {
+    checkAllowed()
     const directoryPath = resolve(BASE, relativePath)
     await syncGitIgnore(directoryPath)
     await syncFiles(directoryPath)
@@ -172,7 +180,7 @@ async function checkDependantRepo(relativePath) {
       return { error: 'Files are not correct', errorData: wrongFiles }
     }
     const wrongContent = await Promise.all(
-      CHECK_CONTENT.map(async (filePath)=> {
+      CHECK_CONTENT.map(async filePath=> {
         const expectedContent = (await readFile(`${BASE}/${filePath}`))
           .toString()
           .trim()

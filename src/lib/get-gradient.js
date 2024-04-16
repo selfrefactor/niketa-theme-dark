@@ -2,7 +2,7 @@ require('./grad-stop.js')
 const { map, replace, split } = require('rambdax')
 const { rgbHex } = require('./rgb-hex')
 
-const parseGradient = (input)=> {
+const parseGradient = input=> {
   const str = replace(/rgb\(|\)/g, '', input)
 
   return map(val=> Number(val.trim()), split(',', str))

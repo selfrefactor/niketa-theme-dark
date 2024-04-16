@@ -19,7 +19,7 @@ const allColorMethods = [
 test('happy', async ()=> {
   const report = {}
   const color = colord(inputColor)
-  allColorMethods.forEach((method)=> {
+  allColorMethods.forEach(method=> {
     report[method] = color.harmonies(method).map(c=> c.toHex())
   })
 

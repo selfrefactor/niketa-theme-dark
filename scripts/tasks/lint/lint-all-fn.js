@@ -12,7 +12,7 @@ async function lintFolder(folder) {
     filterFn,
     folder,
   })
-  const result = await mapAsync(async (filePath)=> {
+  const result = await mapAsync(async filePath=> {
     const lintResults = await lintFn(filePath)
     const filtered = lintResults.filter(Boolean)
     if (filtered.length === 0) return ''

@@ -19,7 +19,7 @@ function createMultipleTheme(input) {
   }, input.getSettings())
   const allThemes = []
 
-  map((val)=> {
+  map(val=> {
     const { _, name, ...colors } = val
     if (!colors.COLOR_4) throw new Error('All themes require 5 colors')
     const palette = readJson('src/palette.json', input.base)
