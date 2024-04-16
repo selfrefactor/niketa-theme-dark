@@ -54,7 +54,13 @@ const rules = {
   'require-await': 2,
   'restrict-template-expressions': 0,
   'unused-imports/no-unused-imports': 1,
-  'unused-imports/no-unused-vars': 1,
+  'unused-imports/no-unused-vars': [
+    1,
+    {
+      argsIgnorePattern: '_',
+      varsIgnorePattern: '_',
+    },
+  ],
 }
 
 const deprecatedRules = [
