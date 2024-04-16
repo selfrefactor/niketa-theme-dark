@@ -8,7 +8,8 @@
       "group": {
         "kind": "none",
         "isDefault": false
-      }
+      },
+      "problemMatcher": []
     },
     {
       "type": "shell",

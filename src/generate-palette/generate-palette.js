@@ -1,7 +1,7 @@
 const { baseData } = require('./base-palette.js')
 
 const { outputJson } = require('fs-extra')
-const { resolve } = require('path')
+const { resolve } = require('node:path')
 const { maybe, remove, replace } = require('rambdax')
 
 const UNDERLINE = '.UNDERLINE'
@@ -29,7 +29,7 @@ function pushToTokenColors({ color, fontStyle, syntaxInstance, tokenColors }) {
   if (syntaxInstance.endsWith('.js')) {
     const plainSyntaxInstance = remove('.js', syntaxInstance)
 
-    extensions.forEach((extension) => {
+    extensions.forEach((extension)=> {
       const tokenColorExtension = {
         name: `${plainSyntaxInstance}${extension}`,
         scope: `${plainSyntaxInstance}${extension}`,
@@ -60,8 +60,8 @@ function generatePalette(type) {
   }
   const tokenColors = []
 
-  Object.entries(baseData).forEach(([color, syntaxInstances]) => {
-    syntaxInstances.forEach((syntaxInstanceRaw) => {
+  Object.entries(baseData).forEach(([color, syntaxInstances])=> {
+    syntaxInstances.forEach((syntaxInstanceRaw)=> {
       const syntaxInstance = remove(
         [UNDERLINE, ITALIC, BOLD],
         syntaxInstanceRaw,

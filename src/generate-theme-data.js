@@ -19,13 +19,13 @@ const SUBTLE_LIST = [
 
 function isPunctuation(tokenColorName) {
   if (tokenColorName.startsWith('punctuation.')) return true
-  const found = PUNCTUATIONS.find(x => tokenColorName.startsWith(x))
+  const found = PUNCTUATIONS.find(x=> tokenColorName.startsWith(x))
 
   return Boolean(found)
 }
 
 function isSubtle(tokenColorName) {
-  const found = SUBTLE_LIST.find(x => tokenColorName.startsWith(x))
+  const found = SUBTLE_LIST.find(x=> tokenColorName.startsWith(x))
 
   return Boolean(found)
 }
@@ -46,7 +46,7 @@ function generateThemeData({
   type,
 }) {
   const tokenColors = map(
-    tokenColor => ({
+    tokenColor=> ({
       ...tokenColor,
       settings: {
         ...tokenColor.settings,

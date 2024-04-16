@@ -1,5 +1,5 @@
 const { check, exec, JEST, OUTPUT_JEST_FILE } = require('../constants')
-const { readFileSync } = require('fs')
+const { readFileSync } = require('node:fs')
 
 async function runJestWithFile(filePath) {
   const label = `${filePath} - jest`

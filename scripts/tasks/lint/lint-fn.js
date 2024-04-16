@@ -6,7 +6,7 @@ const {
   OUTPUT_LINT_FILE,
   PRETTIER,
 } = require('../constants')
-const { readFileSync } = require('fs')
+const { readFileSync } = require('node:fs')
 
 async function lintFileWithPrettier(filePath) {
   const command = `${PRETTIER} --write ${filePath} --print-width=80 --semi=false --jsx-single-quote ${
@@ -31,7 +31,10 @@ async function biome(filePath) {
   const label = `${filePath} - biome`
   console.time(label)
   const command = `node_modules/@biomejs/biome/bin/biome check --apply-unsafe ${filePath}`
-  const { errorMessage, success } = await exec(command)
+  const formatCommand = `node_modules/@biomejs/biome/bin/biome format --write --indent-style=space --indent-width=2 ${filePath}`
+  await exec(formatCommand)
+
+  const { errorMessage } = await exec(command)
   console.timeEnd(label)
   return errorMessage ?? false
 }
@@ -39,8 +42,8 @@ async function biome(filePath) {
 async function lintFn(filePath) {
   if (!(await check())) process.exit(1)
 
-  await lintFileWithPrettier(filePath)
   const biomeOutput = await biome(filePath)
+  await lintFileWithPrettier(filePath)
   const lintOutput = await lintFileWithEslint(filePath)
 
   return [biomeOutput, lintOutput]

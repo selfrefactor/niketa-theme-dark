@@ -1,5 +1,5 @@
 const { readJsonSync } = require('fs-extra')
-const { resolve } = require('path')
+const { resolve } = require('node:path')
 
 const BASE = resolve(__dirname, '../../')
 

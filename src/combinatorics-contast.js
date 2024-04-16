@@ -23,9 +23,9 @@ function getContrastReport(theme) {
   const uniqueColors = uniq(theme)
   const themeIndexes = range(0, uniqueColors.length).join('')
   const combinations = new $C.Combination(themeIndexes, 2)
-  let minContrast = Infinity
+  let minContrast = Number.POSITIVE_INFINITY
   let minContrastColors = ''
-  let maxContrast = -Infinity
+  let maxContrast = Number.NEGATIVE_INFINITY
   let maxContrastColors = ''
 
   for (const combination of combinations) {
@@ -35,8 +35,7 @@ function getContrastReport(theme) {
     if (score < minContrast) {
       minContrast = score
       minContrastColors = `${color1} - ${color2} - ${score}`
-    }
-    else if (score > maxContrast) {
+    } else if (score > maxContrast) {
       maxContrast = score
       maxContrastColors = `${color1} - ${color2} - ${score}`
     }
@@ -58,14 +57,14 @@ async function generateContrastReport(allThemes = darkThemes, label = 'dark') {
     report[themeName] = themeReport
   })
   const maxContrastList = Object.values(report)
-    .map(x => x.maxContrast)
+    .map((x) => x.maxContrast)
     .sort()
   const maxContrast = [
     maxContrastList[0],
     maxContrastList[maxContrastList.length - 1],
   ]
   const minContrastList = Object.values(report)
-    .map(x => x.minContrast)
+    .map((x) => x.minContrast)
     .sort()
   const minContrast = [
     minContrastList[0],
@@ -73,9 +72,9 @@ async function generateContrastReport(allThemes = darkThemes, label = 'dark') {
   ]
   console.log(report)
   await writeJson(
-		`${__dirname}/outputs/contrast-report-${label}.json`,
-		{ maxContrast, minContrast, report },
-		{ spaces: 2 },
+    `${__dirname}/outputs/contrast-report-${label}.json`,
+    { maxContrast, minContrast, report },
+    { spaces: 2 },
   )
 }
 

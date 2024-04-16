@@ -16,11 +16,11 @@ const allColorMethods = [
   'triadic',
 ]
 
-test('happy', async () => {
+test('happy', async ()=> {
   const report = {}
   const color = colord(inputColor)
-  allColorMethods.forEach((method) => {
-    report[method] = color.harmonies(method).map(c => c.toHex())
+  allColorMethods.forEach((method)=> {
+    report[method] = color.harmonies(method).map(c=> c.toHex())
   })
 
   await writeJsonAnt('harmony-colors.json', report)

@@ -1,4 +1,4 @@
-const toHex = (red, green, blue, alpha) =>
+const toHex = (red, green, blue, alpha)=>
   (blue | (green << 8) | (red << 16) | (1 << 24)).toString(16).slice(1) + alpha
 
 function rgbHex(red, green, blue, alpha) {
@@ -20,11 +20,11 @@ function rgbHex(red, green, blue, alpha) {
 
   if (
     typeof red !== 'number'
-      || typeof green !== 'number'
-      || typeof blue !== 'number'
-      || red > 255
-      || green > 255
-      || blue > 255
+    || typeof green !== 'number'
+    || typeof blue !== 'number'
+    || red > 255
+    || green > 255
+    || blue > 255
   ) {
     throw new TypeError('Expected three numbers below 256')
   }
@@ -51,7 +51,7 @@ function rgbHex(red, green, blue, alpha) {
   return toHex(red, green, blue, alpha)
 }
 
-const parseCssRgbString = (input) => {
+const parseCssRgbString = (input)=> {
   const parts = input
     .replace(/rgba?\(([^)]+)\)/, '$1')
     .split(/[,\s/]+/)
@@ -60,7 +60,7 @@ const parseCssRgbString = (input) => {
     return
   }
 
-  const parseValue = (value, max) => {
+  const parseValue = (value, max)=> {
     value = value.trim()
 
     if (value.endsWith('%')) {

@@ -1,11 +1,13 @@
 const { filter } = require('rambdax')
 const {
-  configs: { 'recommended-alphabetical': { rules: perfectionistRulesImport } },
+  configs: {
+    'recommended-alphabetical': { rules: perfectionistRulesImport },
+  },
 } = require('eslint-plugin-perfectionist')
 
 function getPerfectionistRules() {
   const rules = {}
-  Object.keys(perfectionistRulesImport).forEach((key) => {
+  Object.keys(perfectionistRulesImport).forEach((key)=> {
     rules[key] = [1, ...perfectionistRulesImport[key].slice(1)]
   })
   return rules
@@ -13,16 +15,17 @@ function getPerfectionistRules() {
 
 const perfectionistRules = getPerfectionistRules()
 
-// https://eslint.style/rules/js
-// const stylisticRules = {
-//   '@stylistic/arrow-spacing': [1, { after: true, before: false }],
-// }
+const stylisticRules = {
+  '@stylistic/arrow-spacing': [1, { after: true, before: false }],
+  // '@stylistic/no-tabs': 0,
+}
 
 const rules = {
   ...perfectionistRules,
-  // ...stylisticRules,
+  ...stylisticRules,
   'consistent-type-assertions': 0,
   'explicit-module-boundary-types': 0,
+  'max-params': [1, 2],
   'no-array-constructor': 1,
   'no-confusing-void-expression': 0,
   'no-empty-function': 0,
@@ -126,8 +129,8 @@ const deprecatedRules = [
 function getRules() {
   const rulesToSkip = []
 
-  const result = filter((_, property) => {
-    const found = deprecatedRules.find(x => property === x) !== undefined
+  const result = filter((_, property)=> {
+    const found = deprecatedRules.find(x=> property === x) !== undefined
     if (found) rulesToSkip.push(property)
     return !found
   }, rules)

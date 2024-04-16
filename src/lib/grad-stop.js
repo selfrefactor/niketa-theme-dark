@@ -18,7 +18,7 @@
 
       b[g][0].call(
         k.exports,
-        (a) => {
+        (a)=> {
           const c = b[g][1][a]
 
           return e(c ? c : a)
@@ -46,7 +46,7 @@
 })(
   {
     1: [
-      (a, b, c) => {
+      (a, b, c)=> {
         Object.defineProperty(c, '__esModule', { value: !0 })
         const d = {
           colorArray: ['#fff', '#000'],
@@ -60,11 +60,11 @@
     ],
     2: [
       function (a, b, c) {
-        ((b) => {
+        ((b)=> {
           function c(a) {
             return a?.__esModule ? a : { default: a }
           }
-          const d = (() => {
+          const d = (()=> {
             function a(a, b) {
               const c = []
               let d = !0
@@ -96,7 +96,7 @@
               return c
             }
 
-            return (b, c) => {
+            return (b, c)=> {
               if (Array.isArray(b)) {
                 return b
               }
@@ -113,7 +113,7 @@
           const g = a('./defaultOptions')
           const h = c(g)
 
-          !((a) => {
+          !((a)=> {
             function b(a) {
               if (
                 ((a = (0, e.objectAssign)({}, this.options, a)),
@@ -125,9 +125,9 @@
               return this.computeStops(a)
             }
             (b.prototype.options = h.default),
-            (b.prototype.computeStops = (a) => {
+            (b.prototype.computeStops = (a)=> {
               const b = []
-              const c = (a) => {
+              const c = (a)=> {
                 switch (a.inputFormat) {
                   case 'hex':
                     return (0, f.extractHEX)(a.colorArray)
@@ -137,7 +137,7 @@
                     return (0, f.extractHSL)(a.colorArray)
                 }
               }
-              const e = (a) => {
+              const e = (a)=> {
                 for (
                   let c = a.colorArray, e = 1 / (a.stops - 1), g = 0, h = 0;
                   h < a.stops;
@@ -171,7 +171,7 @@
 
               return (a.colorArray = c(a)), e(a), b
             }),
-            (a.gradStop = a => new b(a))
+            (a.gradStop = a=> new b(a))
           })(typeof window !== 'undefined' ? window : b)
         }).call(
           this,
@@ -191,16 +191,16 @@
       },
     ],
     3: [
-      (a, b, c) => {
+      (a, b, c)=> {
         Object.defineProperty(c, '__esModule', { value: !0 });
-        (c.mathTrunc = (() =>
+        (c.mathTrunc = (()=>
           Math.trunc
             ? Math.trunc
-            : a => (a === 0 ? a : a < 0 ? Math.ceil(a) : Math.floor(a)))()),
-        (c.objectAssign = (() =>
+            : a=> (a === 0 ? a : a < 0 ? Math.ceil(a) : Math.floor(a)))()),
+        (c.objectAssign = (()=>
           Object.assign
             ? Object.assign
-            : (a) => {
+            : (a)=> {
                 if (void 0 === a || a === null) {
                   throw new TypeError(
                     'Cannot convert undefined or null to object',
@@ -222,7 +222,7 @@
       {},
     ],
     4: [
-      (a, b, c) => {
+      (a, b, c)=> {
         Object.defineProperty(c, '__esModule', { value: !0 }),
         (c.returnHSLStr
 						= c.returnRGBStr
@@ -231,7 +231,7 @@
 						= c.extractHEX
 						= c.propBezInterpolate
 							= void 0)
-        const d = (() => {
+        const d = (()=> {
           function a(a, b) {
             const c = []
             let d = !0
@@ -263,7 +263,7 @@
             return c
           }
 
-          return (b, c) => {
+          return (b, c)=> {
             if (Array.isArray(b)) {
               return b
             }
@@ -276,9 +276,9 @@
           }
         })()
         const e = a('./polyfill')
-        const f = (a) => {
+        const f = (a)=> {
           const b = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(a)
-          const c = b.map(a => parseInt(a, 16))
+          const c = b.map(a=> Number.parseInt(a, 16))
           const e = d(c, 4)
           const f = e[1]
           const g = e[2]
@@ -290,21 +290,21 @@
             r: f,
           }
         }
-        const g = (a, b, c) => a.split('').slice(b, c).join('')
-        const h = a =>
-          a.map(a =>
+        const g = (a, b, c)=> a.split('').slice(b, c).join('')
+        const h = a=>
+          a.map(a=>
             a.length === 4
               ? `#${a[1]}${a[1]}${a[2]}${a[2]}${a[3]}${a[3]}`
               : a.length === 7
 							  ? a
 							  : void 0,
           );
-        (c.propBezInterpolate = a => b => (c) => {
+        (c.propBezInterpolate = a=> b=> (c)=> {
           const d = 1 - c
           let f = void 0
 
           return a.map(
-            a =>
+            a=>
               b.length === 2
                 ? (f = d * b[0][a] + c * b[1][a])
                 : b.length === 3
@@ -319,9 +319,9 @@
             (0, e.mathTrunc)(f),
           )
         }),
-        (c.extractHEX = a => h(a).map(a => f(a))),
-        (c.extractRGB = a =>
-          a.map((a) => {
+        (c.extractHEX = a=> h(a).map(a=> f(a))),
+        (c.extractRGB = a=>
+          a.map((a)=> {
             const b = g(a, 4, -1).split(',')
             const c = d(b, 3)
             const e = c[0]
@@ -334,8 +334,8 @@
               r: e,
             }
           })),
-        (c.extractHSL = a =>
-          a.map((a) => {
+        (c.extractHSL = a=>
+          a.map((a)=> {
             a = g(a, 4, -1).split(',')
             const b = a[0]
             const c = g(a[1], 0, -1)
@@ -347,8 +347,8 @@
               s: c,
             }
           })),
-        (c.returnRGBStr = a => `rgb(${a[0]}, ${a[1]}, ${a[2]})`),
-        (c.returnHSLStr = a => `hsl(${a[0]}, ${a[1]}%, ${a[2]}%)`)
+        (c.returnRGBStr = a=> `rgb(${a[0]}, ${a[1]}, ${a[2]})`),
+        (c.returnHSLStr = a=> `hsl(${a[0]}, ${a[1]}%, ${a[2]}%)`)
       },
       { './polyfill': 3 },
     ],

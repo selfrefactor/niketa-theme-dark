@@ -1,6 +1,6 @@
-const { existsSync } = require('fs')
+const { existsSync } = require('node:fs')
 const { execSafe } = require('helpers-fn')
-const { resolve } = require('path')
+const { resolve } = require('node:path')
 
 const cwd = resolve(__dirname, '../../')
 const PRETTIER = 'node_modules/prettier/bin/prettier.cjs'

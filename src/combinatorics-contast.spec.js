@@ -3,10 +3,10 @@ const {
   allThemes: allThemesLight,
 } = require('../../niketa-theme/src/assets/themes-colors.js')
 
-test('dark', async () => {
+test('dark', async ()=> {
   await combinatoricsContast()
 })
 
-test('light', async () => {
+test('light', async ()=> {
   await combinatoricsContast(allThemesLight, 'light')
 })

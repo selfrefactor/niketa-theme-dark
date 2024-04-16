@@ -14,13 +14,13 @@ async function evaluateContrast(
   label = 'dark',
   bgColor = BACK_COLOR,
 ) {
-  let max = Infinity
+  let max = Number.POSITIVE_INFINITY
   let maxInfo
   let minInfo
   let min = 0
   const allContrasts = {}
-  map((currentTheme, name) => {
-    return map((color) => {
+  map((currentTheme, name)=> {
+    return map((color)=> {
       const score = colorContrastRatioCalculator(color, bgColor)
       allContrasts[color] = score
       if (score > min) {
@@ -34,7 +34,7 @@ async function evaluateContrast(
       return `${color} - ${score}`
     }, currentTheme)
   }, allThemes)
-  const sorted = sortObject((_, __, a, b) => (a < b ? -1 : 1), allContrasts)
+  const sorted = sortObject((_, __, a, b)=> (a < b ? -1 : 1), allContrasts)
   console.log({ maxInfo, minInfo })
 
   await writeJson(
@@ -44,7 +44,7 @@ async function evaluateContrast(
   )
 }
 
-test('dark', async () => {
+test('dark', async ()=> {
   try {
     await evaluateContrast()
   }
@@ -53,7 +53,7 @@ test('dark', async () => {
   }
 })
 
-test('light', async () => {
+test('light', async ()=> {
   try {
     await evaluateContrast(allThemesLight, 'light', '#fafafa')
   }

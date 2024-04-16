@@ -3,9 +3,9 @@ const DEPENDANT_REPOS = [
   'niketa-theme-light',
   'movies-database',
   'services/packages/magic-beans',
-].map(x => `../${x}`)
+].map(x=> `../${x}`)
 
-const { existsSync } = require('fs')
+const { existsSync } = require('node:fs')
 const {
   copy,
   emptyDir,
@@ -16,7 +16,7 @@ const {
   writeJson,
 } = require('fs-extra')
 const { log, scanFolder } = require('helpers-fn')
-const { resolve } = require('path')
+const { resolve } = require('node:path')
 const { endsWith, pick } = require('rambdax')
 
 const EXPECTED_FILES = [
@@ -75,14 +75,14 @@ async function syncLaunchJson(directoryPath) {
   const source = resolve(__dirname, '../../../.vscode/launch.json')
   const destination = `${directoryPath}/.vscode/launch.json`
   const { configurations } = await readJson(source)
-  const filteredSource = configurations.filter(x =>
+  const filteredSource = configurations.filter(x=>
     namesToPick.includes(x.name),
   )
   if (existsSync(destination)) {
     const { configurations: configurationsInDestination }
 			= await readJson(destination)
     const filteredDestination = configurationsInDestination.filter(
-      x => !namesToPick.includes(x.name),
+      x=> !namesToPick.includes(x.name),
     )
 
     const final = {
@@ -161,18 +161,18 @@ async function checkDependantRepo(relativePath) {
       return { error: `Directory ${directoryPath} does not exist` }
     }
     const files = await scanFolder({
-      filterFn: x => x.endsWith('.js'),
+      filterFn: x=> x.endsWith('.js'),
       folder: `${directoryPath}/scripts`,
     })
     const wrongFiles = EXPECTED_FILES.filter(
-      filePath => files.find(endsWith(filePath)) === undefined,
+      filePath=> files.find(endsWith(filePath)) === undefined,
     )
 
     if (wrongFiles.length > 0) {
       return { error: 'Files are not correct', errorData: wrongFiles }
     }
     const wrongContent = await Promise.all(
-      CHECK_CONTENT.map(async (filePath) => {
+      CHECK_CONTENT.map(async (filePath)=> {
         const expectedContent = (await readFile(`${BASE}/${filePath}`))
           .toString()
           .trim()
