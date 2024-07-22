@@ -42,12 +42,12 @@ function getContrastReport(theme) {
     }
   }
 
-        return {
-        maxContrast,
+  return {
+    maxContrast,
     maxContrastColors,
     minContrast,
     minContrastColors,
-  };
+  }
 }
 
 async function generateContrastReport(allThemes = darkThemes, label = 'dark') {
