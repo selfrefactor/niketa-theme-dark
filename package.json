@@ -9,8 +9,9 @@
     "lint:check": "node scripts/tasks/__checks/lint.js",
     "out": "jest src/create-multiple-theme.spec.js",
     "dev": "yarn check:all",
-    "foo": "echo -e \"\n===\n\" >> foo",
-    "x": "yarn lint:file src/combinatorics-contast.js"
+    "foo": "echo \"\n===\n\" >> foo",
+    "x": "yarn lint:file src/combinatorics-contast.js",
+    "prepare": "husky"
   },
   "lintAllFolders": [
     "src",
@@ -49,6 +50,7 @@
     "get-contrast-ratio": "0.2.1",
     "helpers-fn": "1.8.1",
     "hexsorter": "1.5.0",
+    "husky": "^9.1.1",
     "jest": "29.7.0",
     "js-combinatorics": "2.1.2",
     "lint-staged": "^15.2.7",

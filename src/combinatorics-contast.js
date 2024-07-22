@@ -43,7 +43,7 @@ function getContrastReport(theme) {
   }
 
         return {
-    maxContrast,
+        maxContrast,
     maxContrastColors,
     minContrast,
     minContrastColors,
