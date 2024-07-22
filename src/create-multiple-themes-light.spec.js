@@ -1,6 +1,6 @@
-const { createMultipleTheme } = require('./create-multiple-theme')
-const { getSettings } = require('./themes-colors')
-const { allLightThemes } = require('./themes-colors-light')
+const { createMultipleThemes } = require('./create-multiple-themes.js')
+const { getSettings } = require('./themes-colors.js')
+const { allLightThemes } = require('./themes-colors-light.js')
 const path = require('node:path')
 
 const { getChromeColors } = require('../../niketa-theme-light/src/assets/chrome-colors.js')
@@ -18,5 +18,5 @@ const lightThemeInput = {
 }
 
 test('create dark theme', ()=> {
-  createMultipleTheme(lightThemeInput)
+  createMultipleThemes(lightThemeInput)
 })

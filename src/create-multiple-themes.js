@@ -10,13 +10,13 @@ function sortObjectPredicate(aProp, bProp) {
   return aProp > bProp ? 1 : -1
 }
 
-function createMultipleTheme(input) {
+function createMultipleThemes(input) {
   const settings = {}
   const uiTheme = input.type === 'dark' ? 'vs-dark' : 'vs'
 
   map((x, i)=> {
     settings[i] = x
-  }, input.getSettings())
+  }, input.settings)
   const allThemes = []
 
   map(val=> {
@@ -43,9 +43,9 @@ function createMultipleTheme(input) {
       path: `./themes/${themeData.name}.json`,
       uiTheme,
     })
-  })(settings)
+  })(input.settings)
 
   saveToPackageJson(allThemes)
 }
 
-exports.createMultipleTheme = createMultipleTheme
+exports.createMultipleThemes = createMultipleThemes
