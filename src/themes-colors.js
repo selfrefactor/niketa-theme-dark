@@ -18,7 +18,7 @@ const TEAL = '#279CB2'
 const WHITE = '#fdfdfd'
 const YELLOW = '#F7ECB1'
 
-const allThemes = {
+const allDarkThemes = {
   AmericanDad: [GREEN_DARK, PINK_RED, BROWN, BLUE_SKY, WHITE],
   // harmony
   AquaTeenHungerForce: ['#eeb5ff', '#fe5dce', TEAL, '#5dfe8d', '#5d7dfe'],
@@ -31,7 +31,7 @@ const allThemes = {
   UglyAmericans: [PINK_RED, GREY, GREEN_LIGHT, PURPLE, GREEN_LIGHT],
 }
 
-const getSettings = ()=> {
+const getSettings = (input)=> {
   const settings = {}
   let i = 0
   forEach((currentTheme, name)=> {
@@ -43,10 +43,10 @@ const getSettings = ()=> {
       COLOR_4: currentTheme[4],
       name,
     }
-  }, allThemes)
+  }, input)
 
   return settings
 }
 
-exports.allThemes = allThemes
+exports.allDarkThemes = allDarkThemes
 exports.getSettings = getSettings
