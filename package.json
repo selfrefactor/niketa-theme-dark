@@ -18,12 +18,7 @@
     "scripts"
   ],
   "niketaScripts": {
-    "fileCommands": {
-      "**/*.js": "yarn lint:file"
-    },
-    "testCommands": {
-      "**/*.js": "yarn jest:file"
-    }
+    "**/*.js": "yarn jest:file"
   },
   "depFn": [
     "execa"

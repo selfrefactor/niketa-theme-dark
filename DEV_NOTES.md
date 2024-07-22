@@ -13,6 +13,10 @@ https://raw.githubusercontent.com/eslint/eslint/main/packages/eslint-config-esli
 
 Each of the repos has list of repos that depend on it and through scripts, dependencies, configs and scripts are updated.
 ===
+npx husky init
+
+.husky/pre-commit
+===
 combinatorics-contast.js holds example lint errors
 ===
 TODO:
