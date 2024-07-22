@@ -30,7 +30,7 @@
   ],
   "lint-staged": {
     "*.js": [
-      "npm run foo"
+      "npm run lint:file"
     ]
   },
   "version": "3.55.0",
