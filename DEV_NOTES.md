@@ -16,6 +16,7 @@ Each of the repos has list of repos that depend on it and through scripts, depen
 npx husky init
 
 .husky/pre-commit
+npx lint-staged
 ===
 combinatorics-contast.js holds example lint errors
 ===
