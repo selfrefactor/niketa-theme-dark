@@ -25,7 +25,7 @@
   ],
 	"husky": {
     "hooks": {
-      "post-commit": "echo 'Post-commit hook triggered!'"
+      "post-commit": "npm run lint:file post-script"
     }
   },
   "lint-staged": {
