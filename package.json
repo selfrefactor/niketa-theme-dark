@@ -23,6 +23,11 @@
   "depFn": [
     "execa"
   ],
+	"husky": {
+    "hooks": {
+      "post-commit": "echo 'Post-commit hook triggered!'"
+    }
+  },
   "lint-staged": {
     "*.js": [
       "npm run lint:file"
