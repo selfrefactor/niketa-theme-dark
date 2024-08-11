@@ -11,7 +11,7 @@
 
 ![VSCode theme screen](/screens/american.dad.png)
 
-### Aqua Teen Hunger Force 1
+### Aqua Teen Hunger Force
 
 ![VSCode theme screen](screens/aqua.teen.hunger.force.png)
 
