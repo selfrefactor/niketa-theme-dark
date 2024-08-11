@@ -9,7 +9,7 @@
 
 ### American Dad
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.dad.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/american.dad.png)
 
 ### Aqua Teen Hunger Force
 
