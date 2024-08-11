@@ -13,35 +13,35 @@
 
 ### Aqua Teen Hunger Force
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/aqua.teen.hunger.force.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/aqua.teen.hunger.force.png)
 
 ### Archer
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/archer.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/archer.png)
 
 ### Cleveland Show
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/cleveland.show.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/cleveland.show.png)
 
 ### Curb Your Enthusiasm
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/curb.your.enthusiasm.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/curb.your.enthusiasm.png)
 
 ### Dilbert
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/dilbert.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/dilbert.png)
 
 ### South Park
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/south.park.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/south.park.png)
 
 ### Trip Tank
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/trip.tank.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/trip.tank.png)
 
 ### Ugly Americans
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/ugly.americans.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/ugly.americans.png)
 
 ## Naming
 
