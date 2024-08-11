@@ -23,7 +23,7 @@
   "depFn": [
     "execa"
   ],
-	"husky": {
+  "husky": {
     "hooks": {
       "post-commit": "npm run lint:file post-script"
     }
@@ -33,7 +33,7 @@
       "npm run lint:file"
     ]
   },
-  "version": "3.55.0",
+  "version": "3.56.0",
   "devDependencies": {
     "@biomejs/biome": "1.7.0",
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
