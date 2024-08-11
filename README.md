@@ -9,11 +9,11 @@
 
 ### American Dad
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/american.dad.png)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/19aa90af54007131b052bdf837c4dcb513929838/screens/american.dad.png)
 
-### Aqua Teen Hunger Force
+### Aqua Teen Hunger Force 1
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/aqua.teen.hunger.force.png)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/19aa90af54007131b052bdf837c4dcb513929838/screens/aqua.teen.hunger.force.png)
 
 ### Archer
 
