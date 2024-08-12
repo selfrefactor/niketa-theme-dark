@@ -33,7 +33,7 @@
       "npm run lint:file"
     ]
   },
-  "version": "3.58.0",
+  "version": "3.59.0",
   "devDependencies": {
     "@biomejs/biome": "1.7.0",
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
