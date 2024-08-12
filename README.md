@@ -9,7 +9,7 @@
 
 ### American Dad
 
-![VSCode theme screen](/screens/american.dad.png)
+![VSCode theme screen](screens/american.dad.png)
 
 ### Aqua Teen Hunger Force
 
@@ -17,31 +17,31 @@
 
 ### Archer
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/archer.png)
+![VSCode theme screen](screens/archer.png)
 
 ### Cleveland Show
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/cleveland.show.png)
+![VSCode theme screen](screens/cleveland.show.png)
 
 ### Curb Your Enthusiasm
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/curb.your.enthusiasm.png)
+![VSCode theme screen](screens/curb.your.enthusiasm.png)
 
 ### Dilbert
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/dilbert.png)
+![VSCode theme screen](screens/dilbert.png)
 
 ### South Park
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/south.park.png)
+![VSCode theme screen](screens/south.park.png)
 
 ### Trip Tank
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/trip.tank.png)
+![VSCode theme screen](screens/trip.tank.png)
 
 ### Ugly Americans
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-theme-dark/blob/master/screens/ugly.americans.png)
+![VSCode theme screen](screens/ugly.americans.png)
 
 ## Naming
 
