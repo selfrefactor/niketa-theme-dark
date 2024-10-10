@@ -5,3 +5,4 @@ coverage
 _COLORS.json
 src/outputs/*.json
 scripts/tasks/outputs/*.txt
+jest-output-file.txt
