@@ -1,5 +1,23 @@
-const { check, exec, JEST, OUTPUT_JEST_FILE } = require('../constants')
-const { readFileSync } = require('node:fs')
+const { execSafe } = require('helpers-fn')
+const { resolve } = require('node:path')
+
+const cwd = resolve(__dirname, '../../')
+const JEST = 'node_modules/jest/bin/jest.js'
+
+async function exec(command) {
+  try {
+    await execSafe({ command, cwd })
+    return { success: true }
+  }
+  catch (error) {
+    return {
+      errorMessage: error?.message ?? JSON.stringify(error, null, 2),
+      success: false,
+    }
+  }
+}
+
+let OUTPUT_JEST_FILE = `${__dirname}/outputs/jest-output-file.txt`
 
 async function runJestWithFile(filePath) {
   const label = `${filePath} - jest`
@@ -23,7 +41,6 @@ async function runJestWithFile(filePath) {
 }
 
 async function runJestFn(filePath) {
-  if (!(await check())) process.exit(1)
   await runJestWithFile(filePath)
 }
 
