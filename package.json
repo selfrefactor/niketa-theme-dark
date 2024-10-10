@@ -14,7 +14,7 @@
   },
   "depFn": [
     "execa",
-		"chai"
+    "chai"
   ],
   "lint-staged": {
     "*.js": [
@@ -24,6 +24,7 @@
   "version": "3.59.0",
   "devDependencies": {
     "@biomejs/biome": "1.7.0",
+    "@codewars/test-compat": "^1.1.0",
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "@stylistic/eslint-plugin": "1.7.2",
     "chai": "4.5.0",

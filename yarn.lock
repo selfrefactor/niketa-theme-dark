@@ -386,6 +386,11 @@
   resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-x64/-/cli-win32-x64-1.7.0.tgz#cc95cde067bd692339e6b7b92d049c25c023c2b4"
   integrity sha512-Pylm00BAAuLVb40IH9PC17432BTsY8K4pSUvhvgR1eaalnMaD6ug9SYJTTzKDbT6r24MPAGCTiSZERyhGkGzFQ==
 
+"@codewars/test-compat@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@codewars/test-compat/-/test-compat-1.1.0.tgz#cc56190fdbad0f7657c4deb032188677948665dd"
+  integrity sha512-eIhL7ofag8hZciBx2zdvU+QXR5auSatH/2uWrr7ulKbm10jWguBiuzZUDiSfDRxxxZIr67f/BEJT6K0kql9lOw==
+
 "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz"
