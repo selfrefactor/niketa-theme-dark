@@ -1,33 +1,20 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
-    "lint:all": "node scripts/tasks/lint/lint-all.js",
-    "lint:file": "node scripts/tasks/lint/lint.js",
     "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
     "sync:all": "jest /scripts/tasks/__checks/sync-all.spec.js",
     "lint:check": "node scripts/tasks/__checks/lint.js",
     "out": "jest src/create-multiple-theme.spec.js",
     "dev": "yarn check:all",
-    "foo": "echo \"\n===\n\" >> foo",
-    "x": "yarn lint:file src/combinatorics-contast.js",
-    "prepare": "husky"
+    "x": "yarn lint:file src/combinatorics-contast.js"
   },
-  "lintAllFolders": [
-    "src",
-    "scripts"
-  ],
   "niketaScripts": {
     "**/*.js": "yarn jest:file"
   },
   "depFn": [
     "execa"
   ],
-  "husky": {
-    "hooks": {
-      "post-commit": "npm run lint:file post-script"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "npm run lint:file"
@@ -39,22 +26,13 @@
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "@stylistic/eslint-plugin": "1.7.2",
     "colord": "2.9.3",
-    "eslint": "8.57.0",
-    "eslint-plugin-jest": "28.2.0",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-perfectionist": "2.9.0",
-    "eslint-plugin-sonarjs": "0.25.1",
-    "eslint-plugin-unused-imports": "3.1.0",
     "execa": "5.0.1",
     "fs-extra": "11.2.0",
     "get-contrast-ratio": "0.2.1",
     "helpers-fn": "1.8.1",
     "hexsorter": "1.5.0",
-    "husky": "^9.1.1",
     "jest": "29.7.0",
     "js-combinatorics": "2.1.2",
-    "lint-staged": "^15.2.7",
-    "prettier": "3.2.5",
     "rambdax": "11.1.0",
     "string-fn": "3.3.2"
   },
