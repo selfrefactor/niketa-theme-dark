@@ -1,118 +1,115 @@
 {
-  "name": "niketa-dark-theme",
-  "scripts": {
-    "jest:file": "node scripts/tasks/run/jest.js",
-    "test": "node src/combinatorics-contast.js",
-    "sync:all": "jest /scripts/tasks/__checks/sync-all.spec.js",
-    "lint:check": "node scripts/tasks/__checks/lint.js",
-    "out": "jest src/create-multiple-theme.spec.js",
-    "dev": "yarn check:all",
-    "x": "yarn lint:file src/combinatorics-contast.js"
-  },
-  "niketaScripts": {
-    "**/*.js": "yarn jest:file"
-  },
-  "depFn": [
-    "execa",
-    "chai"
-  ],
-  "lint-staged": {
-    "*.js": [
-      "npm run lint:file"
-    ]
-  },
-  "version": "3.59.0",
-  "devDependencies": {
-    "@biomejs/biome": "1.7.0",
-    "@codewars/test-compat": "^1.1.0",
-    "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
-    "@stylistic/eslint-plugin": "1.7.2",
-    "chai": "4.5.0",
-    "colord": "2.9.3",
-    "execa": "5.0.1",
-    "fs-extra": "11.2.0",
-    "get-contrast-ratio": "0.2.1",
-    "helpers-fn": "1.8.1",
-    "hexsorter": "1.5.0",
-    "jest": "29.7.0",
-    "js-combinatorics": "2.1.2",
-    "rambdax": "11.1.0",
-    "string-fn": "3.3.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/selfrefactor/niketa-theme-dark.git"
-  },
-  "license": "MIT",
-  "displayName": "Niketa Theme Dark",
-  "description": "Large collection of handmade dark themes",
-  "publisher": "selfrefactor",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "bugs": {
-    "url": "https://github.com/selfrefactor/niketa-theme-dark/issues"
-  },
-  "icon": "logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "AmericanDad",
-        "path": "./themes/AmericanDad.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "AquaTeenHungerForce",
-        "path": "./themes/AquaTeenHungerForce.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Archer",
-        "path": "./themes/Archer.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "ClevelandShow",
-        "path": "./themes/ClevelandShow.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "Dilbert",
-        "path": "./themes/Dilbert.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "HomeMovies",
-        "path": "./themes/HomeMovies.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "SouthPark",
-        "path": "./themes/SouthPark.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "TripTank",
-        "path": "./themes/TripTank.json",
-        "uiTheme": "vs-dark"
-      },
-      {
-        "label": "UglyAmericans",
-        "path": "./themes/UglyAmericans.json",
-        "uiTheme": "vs-dark"
-      }
-    ]
-  },
-  "keywords": [
-    "theme",
-    "color-theme",
-    "light",
-    "collection",
-    "themes",
-    "bundle"
-  ],
-  "dependencies": {}
+	"name": "niketa-dark-theme",
+	"scripts": {
+		"jest:file": "node scripts/tasks/run/jest.js",
+		"test": "node src/combinatorics-contast.js",
+		"sync:all": "jest /scripts/tasks/__checks/sync-all.spec.js",
+		"lint:check": "node scripts/tasks/__checks/lint.js",
+		"out": "jest src/create-multiple-theme.spec.js",
+		"dev": "yarn check:all",
+		"x": "yarn lint:file src/combinatorics-contast.js"
+	},
+	"niketaScripts": {
+		"**/*.js": "yarn jest:file"
+	},
+	"depFn": [
+		"execa",
+		"chai"
+	],
+	"lint-staged": {
+		"*.js": [
+			"npm run lint:file"
+		]
+	},
+	"version": "3.59.0",
+	"devDependencies": {
+		"@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
+		"colord": "2.9.3",
+		"fs-extra": "11.2.0",
+		"get-contrast-ratio": "0.2.1",
+		"helpers-fn": "2.0.0",
+		"hexsorter": "1.5.0",
+		"jest": "29.7.0",
+		"js-combinatorics": "2.1.2",
+		"rambdax": "11.2.0",
+		"string-fn": "3.6.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/selfrefactor/niketa-theme-dark.git"
+	},
+	"license": "MIT",
+	"displayName": "Niketa Theme Dark",
+	"description": "Large collection of handmade dark themes",
+	"publisher": "selfrefactor",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"bugs": {
+		"url": "https://github.com/selfrefactor/niketa-theme-dark/issues"
+	},
+	"icon": "logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "AmericanDad",
+				"path": "./themes/AmericanDad.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "AquaTeenHungerForce",
+				"path": "./themes/AquaTeenHungerForce.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "Archer",
+				"path": "./themes/Archer.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "ClevelandShow",
+				"path": "./themes/ClevelandShow.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "Dilbert",
+				"path": "./themes/Dilbert.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "HomeMovies",
+				"path": "./themes/HomeMovies.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "SouthPark",
+				"path": "./themes/SouthPark.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "TripTank",
+				"path": "./themes/TripTank.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "UglyAmericans",
+				"path": "./themes/UglyAmericans.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	},
+	"keywords": [
+		"theme",
+		"color-theme",
+		"light",
+		"collection",
+		"themes",
+		"bundle"
+	],
+	"dependencies": {
+		
+	}
 }
