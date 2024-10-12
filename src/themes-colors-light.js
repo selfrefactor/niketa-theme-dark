@@ -1,5 +1,3 @@
-const { forEach } = require('rambdax')
-
 const BLUE = '#0081f1'
 const BLUE_ALT = '#0F54D6'
 const DARK_BLUE = '#3a0086'

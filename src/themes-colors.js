@@ -32,6 +32,7 @@ const allDarkThemes = {
 }
 
 const getSettings = (input)=> {
+	console.log(	input)
   const settings = {}
   let i = 0
   forEach((currentTheme, name)=> {
