@@ -3,7 +3,6 @@ const { pascalCase } = require('string-fn')
 
 const { readJson } = require('./lib/read-json')
 const { generateThemeData } = require('./generate-theme-data')
-const { saveToPackageJson } = require('./lib/save-to-package-json')
 const { writeJson } = require('./lib/write-json')
 
 function sortObjectPredicate(aProp, bProp) {
@@ -44,8 +43,6 @@ function createMultipleThemes(input) {
       uiTheme,
     })
   })(input.settings)
-
-  saveToPackageJson(allThemes)
 }
 
 exports.createMultipleThemes = createMultipleThemes
