@@ -41,6 +41,7 @@ const selectionColors = {
 
 function newColors() {
   return {
+		"notebook.outputContainerBackgroundColor": "#433",
     'peekViewEditor.matchHighlightBackground': `#aaab9c${TRANSPARENCY}`,
   }
 }

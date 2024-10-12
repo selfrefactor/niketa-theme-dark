@@ -86,6 +86,7 @@
     "minimap.findMatchHighlight": "#12a8c2",
     "minimap.selectionHighlight": "#12a8c2",
     "minimap.warningHighlight": "#efb22d",
+    "notebook.outputContainerBackgroundColor": "#433",
     "notificationCenter.border": "#c4cadc",
     "notificationCenterHeader.foreground": "#0f141c",
     "notificationToast.border": "#c4cadc",
