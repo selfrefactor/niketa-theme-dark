@@ -1,3 +1,7 @@
+## 3.60.0
+
+- add outputContainerBackgroundColor
+
 ## 2.93.0
 
 Import chrome colors from Nu Disco theme     
