@@ -55,49 +55,49 @@
   "contributes": {
     "themes": [
       {
-        "label": "CommunicationBreakdown",
-        "path": "./themes/CommunicationBreakdown.json",
-        "uiTheme": "vs"
+        "label": "AmericanDad",
+        "path": "./themes/AmericanDad.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "DancingDays",
-        "path": "./themes/DancingDays.json",
-        "uiTheme": "vs"
+        "label": "AquaTeenHungerForce",
+        "path": "./themes/AquaTeenHungerForce.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "FunkyDrummer",
-        "path": "./themes/FunkyDrummer.json",
-        "uiTheme": "vs"
+        "label": "Archer",
+        "path": "./themes/Archer.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "GlassOnion",
-        "path": "./themes/GlassOnion.json",
-        "uiTheme": "vs"
+        "label": "ClevelandShow",
+        "path": "./themes/ClevelandShow.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "HelloSpaceboy",
-        "path": "./themes/HelloSpaceboy.json",
-        "uiTheme": "vs"
+        "label": "Dilbert",
+        "path": "./themes/Dilbert.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "KozmicBlues",
-        "path": "./themes/KozmicBlues.json",
-        "uiTheme": "vs"
+        "label": "HomeMovies",
+        "path": "./themes/HomeMovies.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "LedZeppelin",
-        "path": "./themes/LedZeppelin.json",
-        "uiTheme": "vs"
+        "label": "SouthPark",
+        "path": "./themes/SouthPark.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "StrangeBrew",
-        "path": "./themes/StrangeBrew.json",
-        "uiTheme": "vs"
+        "label": "TripTank",
+        "path": "./themes/TripTank.json",
+        "uiTheme": "vs-dark"
       },
       {
-        "label": "SweatLeaf",
-        "path": "./themes/SweatLeaf.json",
-        "uiTheme": "vs"
+        "label": "UglyAmericans",
+        "path": "./themes/UglyAmericans.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },
