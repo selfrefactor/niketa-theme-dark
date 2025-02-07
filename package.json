@@ -21,7 +21,7 @@
       "npm run lint:file"
     ]
   },
-  "version": "3.61.0",
+  "version": "3.62.0",
   "devDependencies": {
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "colord": "2.9.3",
