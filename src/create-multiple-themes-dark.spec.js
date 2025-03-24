@@ -11,6 +11,6 @@ const darkThemeInput = {
   type: 'dark',
 }
 
-test('create dark theme', ()=> {
+test('create dark theme', () => {
   createMultipleThemes(darkThemeInput)
 })

@@ -1,5 +1,5 @@
 const { generatePalette } = require('./generate-palette')
 
-test('happy', ()=> {
+test('happy', () => {
   generatePalette('dark')
 })

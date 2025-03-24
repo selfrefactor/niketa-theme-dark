@@ -1,4 +1,4 @@
-const toHex = (red, green, blue, alpha)=>
+const toHex = (red, green, blue, alpha) =>
   (blue | (green << 8) | (red << 16) | (1 << 24)).toString(16).slice(1) + alpha
 
 function rgbHex(red, green, blue, alpha) {
@@ -13,18 +13,17 @@ function rgbHex(red, green, blue, alpha) {
 
     isPercent = false
     ;[red, green, blue, alpha] = parsed
-  }
-  else if (alpha !== undefined) {
+  } else if (alpha !== undefined) {
     alpha = Number.parseFloat(alpha)
   }
 
   if (
-    typeof red !== 'number'
-    || typeof green !== 'number'
-    || typeof blue !== 'number'
-    || red > 255
-    || green > 255
-    || blue > 255
+    typeof red !== 'number' ||
+    typeof green !== 'number' ||
+    typeof blue !== 'number' ||
+    red > 255 ||
+    green > 255 ||
+    blue > 255
   ) {
     throw new TypeError('Expected three numbers below 256')
   }
@@ -32,26 +31,23 @@ function rgbHex(red, green, blue, alpha) {
   if (typeof alpha === 'number') {
     if (!isPercent && alpha >= 0 && alpha <= 1) {
       alpha = Math.round(255 * alpha)
-    }
-    else if (isPercent && alpha >= 0 && alpha <= 100) {
+    } else if (isPercent && alpha >= 0 && alpha <= 100) {
       alpha = Math.round((255 * alpha) / 100)
-    }
-    else {
+    } else {
       throw new TypeError(
         `Expected alpha value (${alpha}) as a fraction or percentage`,
       )
     }
 
     alpha = (alpha | (1 << 8)).toString(16).slice(1) // eslint-disable-line no-mixed-operators
-  }
-  else {
+  } else {
     alpha = ''
   }
 
   return toHex(red, green, blue, alpha)
 }
 
-const parseCssRgbString = input=> {
+const parseCssRgbString = input => {
   const parts = input
     .replace(/rgba?\(([^)]+)\)/, '$1')
     .split(/[,\s/]+/)
@@ -60,7 +56,7 @@ const parseCssRgbString = input=> {
     return
   }
 
-  const parseValue = (value, max)=> {
+  const parseValue = (value, max) => {
     value = value.trim()
 
     if (value.endsWith('%')) {

@@ -19,8 +19,8 @@ async function evaluateContrast(
   let minInfo
   let min = 0
   const allContrasts = {}
-  map((currentTheme, name)=> {
-    return map(color=> {
+  map((currentTheme, name) => {
+    return map(color => {
       const score = colorContrastRatioCalculator(color, bgColor)
       allContrasts[color] = score
       if (score > min) {
@@ -34,7 +34,7 @@ async function evaluateContrast(
       return `${color} - ${score}`
     }, currentTheme)
   }, allThemes)
-  const sorted = sortObject((_, __, a, b)=> (a < b ? -1 : 1), allContrasts)
+  const sorted = sortObject((_, __, a, b) => (a < b ? -1 : 1), allContrasts)
   console.log({ maxInfo, minInfo })
 
   await writeJson(
@@ -44,20 +44,18 @@ async function evaluateContrast(
   )
 }
 
-test('dark', async ()=> {
+test('dark', async () => {
   try {
     await evaluateContrast()
-  }
-  catch (err) {
+  } catch (err) {
     console.log(err)
   }
 })
 
-test('light', async ()=> {
+test('light', async () => {
   try {
     await evaluateContrast(allThemesLight, 'light', '#fafafa')
-  }
-  catch (err) {
+  } catch (err) {
     console.log(err)
   }
 })

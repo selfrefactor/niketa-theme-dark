@@ -1,13 +1,11 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
+		"lint": "cd src && run lint:folder",
     "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
-    "sync:all": "jest /scripts/tasks/__checks/sync-all.spec.js",
-    "lint:check": "node scripts/tasks/__checks/lint.js",
     "out": "jest src/create-multiple-theme.spec.js",
-    "dev": "yarn check:all",
-    "x": "yarn lint:file src/combinatorics-contast.js"
+    "dev": "yarn check:all"
   },
   "niketaScripts": {
     "**/*.js": "yarn jest:file"
@@ -25,14 +23,15 @@
   "devDependencies": {
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "colord": "2.9.3",
-    "fs-extra": "11.2.0",
-    "get-contrast-ratio": "0.2.1",
+    "fs-extra": "11.3.0",
+    "get-contrast-ratio": "1.0.0-0",
     "helpers-fn": "2.0.0",
     "hexsorter": "1.5.0",
-    "jest": "29.7.0",
+    "jest": "30.0.0-alpha.7",
     "js-combinatorics": "2.1.2",
-    "rambdax": "11.2.0",
-    "string-fn": "3.6.2"
+    "rambda": "10.0.0-beta.1",
+    "rambdax": "11.3.1",
+    "string-fn": "3.6.3"
   },
   "repository": {
     "type": "git",

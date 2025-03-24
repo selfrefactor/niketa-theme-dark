@@ -31,10 +31,10 @@ const allDarkThemes = {
   UglyAmericans: [PINK_RED, GREY, GREEN_LIGHT, PURPLE, GREEN_LIGHT],
 }
 
-const getSettings = (input)=> {
+const getSettings = input => {
   const settings = {}
   let i = 0
-  forEach((currentTheme, name)=> {
+  forEach((currentTheme, name) => {
     settings[i++] = {
       COLOR_0: currentTheme[0],
       COLOR_1: currentTheme[1],

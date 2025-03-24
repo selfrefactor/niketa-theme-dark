@@ -29,7 +29,7 @@ function pushToTokenColors({ color, fontStyle, syntaxInstance, tokenColors }) {
   if (syntaxInstance.endsWith('.js')) {
     const plainSyntaxInstance = remove('.js', syntaxInstance)
 
-    extensions.forEach(extension=> {
+    extensions.forEach(extension => {
       const tokenColorExtension = {
         name: `${plainSyntaxInstance}${extension}`,
         scope: `${plainSyntaxInstance}${extension}`,
@@ -60,12 +60,9 @@ function generatePalette(type) {
   }
   const tokenColors = []
 
-  Object.entries(baseData).forEach(([color, syntaxInstances])=> {
-    syntaxInstances.forEach(syntaxInstanceRaw=> {
-      const syntaxInstance = remove(
-        [UNDERLINE, ITALIC, BOLD],
-        syntaxInstanceRaw,
-      )
+  Object.entries(baseData).forEach(([color, syntaxInstances]) => {
+    syntaxInstances.forEach(syntaxInstanceRaw => {
+      const syntaxInstance = remove([UNDERLINE, ITALIC, BOLD], syntaxInstanceRaw)
       const fontStyle = maybe(
         syntaxInstanceRaw.endsWith(UNDERLINE),
         { fontStyle: 'underline' },

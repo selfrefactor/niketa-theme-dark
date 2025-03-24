@@ -1,6 +1,6 @@
 exports.listColors = {
   // in extensions preview
-  'foreground': '#e7e7e7',
+  foreground: '#e7e7e7',
   // in change of themes
   // in the circle of unsaved changes
   // also when selecting multiple files for delete or move

@@ -13,14 +13,16 @@ function createMultipleThemes(input) {
   const settings = {}
   const uiTheme = input.type === 'dark' ? 'vs-dark' : 'vs'
 
-  map((x, i)=> {
+  map((x, i) => {
     settings[i] = x
   }, input.settings)
   const allThemes = []
 
-  map(val=> {
+  map(val => {
     const { _, name, ...colors } = val
-    if (!colors.COLOR_4) throw new Error('All themes require 5 colors')
+    if (!colors.COLOR_4) {
+      throw new Error('All themes require 5 colors')
+    }
     const palette = readJson('src/palette.json', input.base)
     const chromeColors = input.getChromeColors()
     const sortedChromeColors = sortObject(sortObjectPredicate, chromeColors)
