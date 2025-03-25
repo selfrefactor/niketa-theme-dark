@@ -4,15 +4,15 @@
 		"lint": "cd src && run lint:folder",
     "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
-    "out": "jest src/create-multiple-theme.spec.js",
-    "dev": "yarn check:all"
+    "out:dark": "jest src/create-multiple-themes-dark.spec.js",
+    "out:light": "jest src/create-multiple-themes-light.spec.js",
+		"out": "yarn out:dark && yarn out:light"
   },
   "niketaScripts": {
     "**/*.js": "yarn jest:file"
   },
   "depFn": [
-    "execa",
-    "chai"
+    "execa"
   ],
   "lint-staged": {
     "*.js": [
