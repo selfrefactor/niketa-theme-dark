@@ -2,11 +2,29 @@ const $C = require('js-combinatorics')
 const {
   colorContrastRatioCalculator,
 } = require('@mdhnpm/color-contrast-ratio-calculator')
-const { range, uniq } = require('rambdax')
+const { range, uniq, pipe } = require('rambda')
 const { writeJson } = require('fs-extra')
 
-function combinatoricsTheme (){
-	
+function toArray (combinations){
+	let result = []
+	for (const combination of combinations) {
+		result.push(combination)
+	}
+	return result
+}
+
+function combinatoricsTheme ({
+		colors,
+		colorsCandidates
+}){
+	const result = pipe(
+		colors,
+		colorsCandidate =>  ({
+			colorsCandidate,
+			colors: toArray(new $C.Combination([colorsCandidate, ...colors], 2))
+		})
+	)
+	1
 }
 
 exports.combinatoricsTheme = combinatoricsTheme
