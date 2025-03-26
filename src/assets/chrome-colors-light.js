@@ -1,19 +1,14 @@
-// const { missingColors } = require('../../lambdas/find_missing_rules/missingColors.json')
-// const {
-//   colors: importedChromeColors,
-// } = require('../assets/chrome-themes/theme.json')
-
-const BACK_COLOR = '#fafafa'
+const BACK_COLOR = '#fbfbfb'
 const INPUT_BACK = '#fff'
-const CHROME_BRIGHTER = '#eeeeee'
-const CHROME_COLOR = '#e1e1e1'
+const CHROME_BRIGHTER = '#e7e7e7'
+const CHROME_COLOR = '#d7d7d7'
 const CHROME_COLOR_ACCENT = '#d1d1d1'
 const DARK = '#000'
-const BORDER = '#333'
-const WARNING = '#d13438'
-const SOFT_WARNING = '#744da9'
-const ACCENT_BACKGROUND = '#ea5c0055'
-const SOFTER_ACCENT = '#834962'
+const BORDER = '#222'
+const WARNING = '#f13438'
+const SOFT_WARNING = '#644da9'
+const ACCENT_BACKGROUND = '#ea5c00aa'
+const SOFTER_ACCENT = '#634912'
 
 const TRANSPARENCY = '44'
 const STRONG_TRANSPARENCY = '55'
@@ -21,19 +16,20 @@ const STRONGEST_TRANSPARENCY = '66'
 
 const listColors = {
   foreground: DARK,
-  'list.activeSelectionBackground': '#aaac',
-  'list.activeSelectionForeground': '#4e4e4e',
+	// next 2 cause issue when used with `alt+f` ref search
+  'list.filterMatchBackground': '#7773',
+  'list.filterMatchBorder': '#555',
+  'list.activeSelectionBackground': '#811',
+  'list.activeSelectionForeground': '#fff',
   'list.dropBackground': '#b1b1b1dd',
   'list.errorForeground': '#bb1000',
-  'list.filterMatchBackground': '#fff',
-  'list.filterMatchBorder': '#fff',
   'list.focusBackground': '#0065FF33',
   'list.focusForeground': '#4e4e4e',
   'list.highlightForeground': '#00f',
   'list.hoverBackground': `${CHROME_COLOR}aa`,
   'list.hoverForeground': DARK,
   'list.inactiveFocusBackground': `#11b1b1`,
-  'list.inactiveSelectionBackground': `#b1b111${TRANSPARENCY}`,
+  'list.inactiveSelectionBackground': `#b1b111`,
   'list.inactiveSelectionForeground': `#333`,
   'list.invalidItemForeground': `#a9696A`,
   'list.warningForeground': `#ff854c`,
@@ -82,15 +78,18 @@ const suggestionsColors = {
   'editorWidget.border': '#d78d9f',
 }
 const selectionColors = {
-  'editor.selectionBackground': `${CHROME_COLOR}${STRONG_TRANSPARENCY}`,
-  'editor.selectionHighlightBackground': `${CHROME_COLOR}${STRONGEST_TRANSPARENCY}`,
-  'editor.inactiveSelectionBackground': `#cccccc${STRONG_TRANSPARENCY}`,
-  'terminal.selectionBackground': `#cccccc${STRONG_TRANSPARENCY}`,
+	'editor.findMatchBackground': '#cbc7',
+  'editor.findMatchHighlightBackground': '#9998',
+  'editor.findRangeHighlightBackground': '#9a99',
+  'editor.selectionBackground': `#a3894277`,
+  'editor.selectionHighlightBackground': `#a38942aa`,
+  'editor.inactiveSelectionBackground': `#d1d1d1${STRONG_TRANSPARENCY}`,
+  'terminal.selectionBackground': `#dddddd${STRONG_TRANSPARENCY}`,
   // next two
   // When search by word is active or when double click on a word
   'editor.wordHighlightBackground': `#aaffff${STRONG_TRANSPARENCY}`,
   'editor.wordHighlightStrongBackground': `#aaffff${STRONGEST_TRANSPARENCY}`,
-  'peekViewEditor.matchHighlightBackground': `#aaab9c${TRANSPARENCY}`,
+  'peekViewEditor.matchHighlightBackground': `#bbbbbb${TRANSPARENCY}`,
 }
 
 const peekView = {
@@ -101,7 +100,7 @@ const peekView = {
   'peekViewResult.fileForeground': DARK,
   'peekViewResult.lineForeground': '#333',
   'peekViewResult.matchHighlightBackground': `${WARNING}22`,
-  'peekViewResult.selectionBackground': '#3da9a122',
+  'peekViewResult.selectionBackground': '#3da9a199',
   'peekViewResult.selectionForeground': DARK,
   'peekViewTitle.background': BACK_COLOR,
   'peekViewTitleDescription.foreground': '#787c99',
@@ -178,6 +177,7 @@ const possibleErrors = {
 }
 
 const newColors = {
+	"notebook.outputContainerBackgroundColor": "#fff",
   'sash.hoverBorder': '#387b54',
   'editorUnnecessaryCode.border': SOFT_WARNING,
 }
@@ -249,9 +249,6 @@ let colors = {
   'diffEditor.insertedTextBackground': '#9c824a55',
   'diffEditor.removedTextBackground': '#64B5F655',
   'editor.background': BACK_COLOR,
-  'editor.findMatchBackground': '#ffd',
-  'editor.findMatchHighlightBackground': '#fdf',
-  'editor.findRangeHighlightBackground': '#dff',
   'editor.foldBackground': '#fafafa',
   'editor.foreground': DARK,
   'editor.lineHighlightBackground': '#e1e1e1',
@@ -283,6 +280,9 @@ let colors = {
 }
 
 const niketaChromeColors = {
+	...selectionColors,
+	...suggestionsColors,
+	...listColors,
   ...newColors,
   ...tabColors,
   ...bracketColors,
@@ -294,19 +294,15 @@ const niketaChromeColors = {
   ...breadcrumbs,
   ...peekView,
   ...menuColors,
-  ...selectionColors,
   ...sidebarColors,
-  ...suggestionsColors,
-  ...listColors,
   ...notifications,
   ...colors,
 }
 
-let mixedChromeColors = {
-  // ...importedChromeColors,
-  ...niketaChromeColors,
+exports.BACK_COLOR = BACK_COLOR
+
+function getChromeColors() {
+  return niketaChromeColors
 }
 
-exports.chromeColors = mixedChromeColors
-
-exports.BACK_COLOR = BACK_COLOR
+exports.getChromeColors = getChromeColors

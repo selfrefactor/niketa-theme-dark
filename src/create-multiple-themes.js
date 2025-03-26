@@ -1,9 +1,9 @@
 const { map, sortObject } = require('rambdax')
 const { pascalCase } = require('string-fn')
 
-const { readJson } = require('./lib/read-json')
 const { generateThemeData } = require('./generate-theme-data')
 const { writeJson } = require('./lib/write-json')
+const palette = require('./assets/palette.json')
 
 function sortObjectPredicate(aProp, bProp) {
   return aProp > bProp ? 1 : -1
@@ -23,7 +23,6 @@ function createMultipleThemes(input) {
     if (!colors.COLOR_4) {
       throw new Error('All themes require 5 colors')
     }
-    const palette = readJson('src/palette.json', input.base)
     const chromeColors = input.getChromeColors()
     const sortedChromeColors = sortObject(sortObjectPredicate, chromeColors)
 

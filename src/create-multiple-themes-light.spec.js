@@ -3,15 +3,15 @@ const { getSettings } = require('./themes-colors.js')
 const { allLightThemes } = require('./themes-colors-light.js')
 const path = require('node:path')
 
-const { getChromeColors } = require('../../niketa-theme/src/assets/chrome-colors.js')
+const { getChromeColors } = require('./assets/chrome-colors-light.js')
 const {
   PUNCTUATION_COLOR,
   SUBTLE_COLOR,
-} = require('../../niketa-theme/src/assets/themes-colors.js')
+} = require('./themes-colors-light.js')
 
 const BASE = path.resolve(__dirname, '../../niketa-theme')
 
-const darkThemeInput = {
+const lightThemeInput = {
   getChromeColors,
   punctuationColor: PUNCTUATION_COLOR,
   settings: getSettings(allLightThemes),
@@ -21,5 +21,5 @@ const darkThemeInput = {
 }
 
 test('create light theme', () => {
-  createMultipleThemes(darkThemeInput)
+  createMultipleThemes(lightThemeInput)
 })
