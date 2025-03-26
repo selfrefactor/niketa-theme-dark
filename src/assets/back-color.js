@@ -1,3 +1,3 @@
-exports.BACK_COLOR = '#1F2023'
+exports.BACK_COLOR = '#171717'
 exports.PUNCTUATION_COLOR = '#667788EE'
 exports.SUBTLE_COLOR = '#777799EE'
