@@ -6,3 +6,5 @@ _COLORS.json
 src/outputs/*.json
 scripts/tasks/outputs/*.txt
 jest-output-file.txt
+combinatoricsTheme-report.json
+combinatoricsTheme-reportLight.json

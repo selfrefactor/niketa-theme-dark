@@ -1,24 +1,51 @@
-// const {
-//   allThemes: allThemesLight,
-// } = require('../../niketa-theme/src/assets/themes-colors.js')
-const { pipe, replaceItemAtIndex } = require('rambda')
+const {
+  allThemes: allThemesLight,
+} = require('../../niketa-theme/src/assets/themes-colors.js')
+const { pipe, replaceItemAtIndex, uniq, map, flatten, sortBy } = require('rambda')
 const { allDarkThemes } = require('./themes-colors.js')
 const { combinatoricsTheme } = require('./combinatorics-theme.js')
+const { BACK_COLOR } = require('./assets/back-color.js')
+const { writeJson } = require('fs-extra')
+
+const SECONDS = 1000;
+jest.setTimeout(70 * SECONDS)
+
+function generateResult ({index, allThemes}){
+	let allKeys = Object.keys(allThemes)
+	let currentThemeColors = uniq(allThemes[allKeys[index]])
+	let colorsCandidates = getColors()
+	return pipe(
+		currentThemeColors,
+		map((replacedColor, index) => ({
+			replacedColor,
+			colors: replaceItemAtIndex(index, () => BACK_COLOR)(currentThemeColors)
+		})),
+		map(({replacedColor, colors}) => ({
+			replacedColor,
+			result: combinatoricsTheme({
+				colors,
+				colorsCandidates,
+			})
+		})),
+		map(({replacedColor, result}) => result.map(x => ({
+			...x,
+			replacedColor
+		}))),
+		flatten,
+		sortBy(x => -x.contrastSum),
+	)
+}
 
 test('dark', async () => {
-	let background = `#1F2023`
-	let index = 0
-	let allKeys = Object.keys(allDarkThemes)
-	let currentTheme = allDarkThemes[allKeys[index]]
-	let colors = pipe(
-		currentTheme,
-		replaceItemAtIndex(index, () => background)
-	)
+	let finalResult = generateResult({index: 0, allThemes: allDarkThemes})
 
-  let result =combinatoricsTheme({
-		colors,
-		colorsCandidates: getColors().slice(0, 10),
-	})
+	await writeJson('combinatoricsTheme-report.json', finalResult, {spaces: 2})
+})
+
+test('light', async () => {
+	let finalResult = generateResult({index: 0, allThemes: allThemesLight})
+
+	await writeJson('combinatoricsTheme-reportLight.json', finalResult, {spaces: 2})
 })
 
 function getColors (){

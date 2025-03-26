@@ -1,9 +1,10 @@
 const $C = require('js-combinatorics')
 const {
-  colorContrastRatioCalculator,
+  colorContrastRatioCalculator
 } = require('@mdhnpm/color-contrast-ratio-calculator')
-const { range, uniq, pipe } = require('rambda')
+const { pipe, map, sortBy, head, tap, filter, last, take } = require('rambda')
 const { writeJson } = require('fs-extra')
+
 
 function toArray (combinations){
 	let result = []
@@ -13,80 +14,56 @@ function toArray (combinations){
 	return result
 }
 
+const getContrastReport = (combinations) => {
+	return pipe(
+		combinations,
+		map(combination => {
+			const color1 = combination[0]
+			const color2 = combination[1]
+			const score = colorContrastRatioCalculator(color1, color2)
+			return {color1, color2, score}
+		}),
+		sortBy(x => x.score),
+		x => ({
+			lowestContrast: head(x),
+			highestContrast: last(x),
+			contrastSum: Math.round(x.reduce((acc, val) => acc + val.score, 0)),
+		}),
+	)
+}
+
+function fixColor (x){
+	if (x.length === 4){
+		return `#${x[1]}${x[1]}${x[2]}${x[2]}${x[3]}${x[3]}`
+	}
+	return x
+}
+
 function combinatoricsTheme ({
 		colors,
 		colorsCandidates
 }){
 	const result = pipe(
-		colors,
-		colorsCandidate =>  ({
-			colorsCandidate,
-			colors: toArray(new $C.Combination([colorsCandidate, ...colors], 2))
-		})
+		colorsCandidates,
+		map(fixColor),
+		filter(x => x.length === 7),
+		map(colorCandidate => ({colorCandidate, combinations: toArray(new $C.Combination([...colors, colorCandidate], 2))})),
+		map(x => ({
+			colorCandidate: x.colorCandidate,
+			contrast: getContrastReport(x.combinations)
+		})),
+		filter(x => x.contrast.lowestContrast.score > 1.1),
+		sortBy(x => -x.contrast.contrastSum),
+		take(1000),
+		sortBy(x => -x.contrast.lowestContrast.score),
+		take(100),
+		map(x => ({
+			colorCandidate: x.colorCandidate,
+			contrastSum: x.contrast.contrastSum,
+			lowestContrast: x.contrast.lowestContrast.score,
+		}))
 	)
-	1
+	return result
 }
 
 exports.combinatoricsTheme = combinatoricsTheme
-
-function getContrastReport(theme) {
-  const uniqueColors = uniq(theme)
-  const themeIndexes = range(0, uniqueColors.length).join('')
-  const combinations = new $C.Combination(themeIndexes, 2)
-  let minContrast = Number.POSITIVE_INFINITY
-  let minContrastColors = ''
-  let maxContrast = Number.NEGATIVE_INFINITY
-  let maxContrastColors = ''
-
-  for (const combination of combinations) {
-    const color1 = uniqueColors[Number(combination[0])]
-    const color2 = uniqueColors[Number(combination[1])]
-    const score = colorContrastRatioCalculator(color1, color2)
-    if (score < minContrast) {
-      minContrast = score
-      minContrastColors = `${color1} - ${color2} - ${score}`
-    } else if (score > maxContrast) {
-      maxContrast = score
-      maxContrastColors = `${color1} - ${color2} - ${score}`
-    }
-  }
-
-  return {
-    maxContrast,
-    maxContrastColors,
-    minContrast,
-    minContrastColors,
-  }
-}
-
-async function generateContrastReport(allThemes, label) {
-  const report = {}
-
-  Object.keys(allThemes).forEach(themeName => {
-    const theme = allThemes[themeName]
-    const themeReport = getContrastReport(theme)
-    report[themeName] = themeReport
-  })
-  const maxContrastList = Object.values(report)
-    .map(x => x.maxContrast)
-    .sort()
-  const maxContrast = [
-    maxContrastList[0],
-    maxContrastList[maxContrastList.length - 1],
-  ]
-  const minContrastList = Object.values(report)
-    .map(x => x.minContrast)
-    .sort()
-  const minContrast = [
-    minContrastList[0],
-    minContrastList[minContrastList.length - 1],
-  ]
-  console.log(report)
-  await writeJson(
-    `${__dirname}/outputs/contrast-report-${label}.json`,
-    { maxContrast, minContrast, report },
-    { spaces: 2 },
-  )
-}
-
-exports.generateContrastReport = generateContrastReport
