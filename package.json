@@ -1,12 +1,12 @@
 {
   "name": "niketa-dark-theme",
   "scripts": {
-		"lint": "cd src && run lint:folder",
+    "lint": "cd src && run lint:folder",
     "jest:file": "node scripts/tasks/run/jest.js",
     "test": "node src/combinatorics-contast.js",
     "out:dark": "jest src/create-multiple-themes-dark.spec.js",
     "out:light": "jest src/create-multiple-themes-light.spec.js",
-		"out": "yarn out:dark && yarn out:light"
+    "out": "yarn out:dark && yarn out:light"
   },
   "niketaScripts": {
     "**/*.js": "yarn jest:file"
@@ -19,7 +19,7 @@
       "npm run lint:file"
     ]
   },
-  "version": "3.62.0",
+  "version": "3.63.0",
   "devDependencies": {
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "colord": "2.9.3",
