@@ -40,9 +40,10 @@ function generateResult({ index, allThemes, colorsCandidates }) {
 }
 
 test('dark', async () => {
+	let flag = 0
 			const colorsCandidates = getColors()
 			generatedColors
-  const finalResult = generateResult({ index: 0, allThemes: allDarkThemes, colorsCandidates })
+  const finalResult = generateResult({ index: 0, allThemes: allDarkThemes, colorsCandidates: flag ? generatedColors: colorsCandidates })
 
   await writeJson('combinatoricsTheme-report.json', finalResult, { spaces: 2 })
 })
