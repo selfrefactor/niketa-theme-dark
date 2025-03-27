@@ -1,4 +1,3 @@
-const BLUE = '#0081f1'
 const BLUE_ALT = '#0F54D6'
 const DARK_BLUE = '#3a0086'
 const BRICK = '#ae0c3e'
@@ -14,32 +13,32 @@ const PINK = '#d60257'
 const PURPLE_BLUE = '#6B2FBA'
 const RED = '#F92672'
 const TEAL = '#0093A1'
-const GREY = '#7A7A7A'
-const TEAL_ALT = '#089fbf'
+
+/**
+ * Color 2 is less obvious
+ */
 
 const allLightThemes = {
-  CommunicationBreakdown: [DARK_ALT, TEAL, PINK, BLUE_ALT, PINK],
-  DancingDays: [DARK, DARK_YELLOW_ALT, PURPLE_RED, DARK, PURPLE_RED],
-  FunkyDrummer: [BRICK_LIGHT, GREEN_ALT, DARK, DARK_YELLOW, BRICK_LIGHT],
-  GlassOnion: [BLUE, BRICK, DARK_ALT, DARK_ALT, BRICK],
-  HelloSpaceboy: [DARK, PURPLE_BLUE, GREY, GREEN, PINK],
+  CommunicationBreakdown: [DARK_ALT, `#65000b`, PINK, BLUE_ALT, PINK],
+  DancingDays: [`#123524`, DARK_YELLOW_ALT, `#6984b0`, `#123524`, PURPLE_RED],
+  FunkyDrummer: [`#800080`, GREEN_ALT, DARK, DARK_YELLOW, BRICK_LIGHT],
+  GlassOnion: [`#769caf`, BRICK, DARK_ALT, DARK_ALT, BRICK],
+  HelloSpaceboy: [`#330055`, PURPLE_BLUE, `#330055`, GREEN, PINK],
   KozmicBlues: [
-    DARK,
+    `#1c1e4d`,
     PINK,
     TEAL,
+    `#1c1e4d`,
     TEAL,
-    // '#7d144c',
-    DARK,
   ],
   LedZeppelin: [
     TEAL,
-    BRICK,
+    `#7b002c`,
     DARK_BLUE,
-    DARK_BLUE,
-    // '#bd4b00',
+    `#7b002c`,
     TEAL,
   ],
-  StrangeBrew: [DARK_ALT, GREEN, PINK, BLUE, DARK_ALT],
-  SweatLeaf: [TEAL_ALT, DARK, TEAL_ALT, RED, DARK_YELLOW],
+  StrangeBrew: [DARK_ALT,  `#009595`, DARK_ALT, PINK, DARK_ALT],
+  SweatLeaf: [DARK, `#00b9b9`, DARK_YELLOW, `#442288`, RED ],
 }
 exports.allLightThemes = allLightThemes

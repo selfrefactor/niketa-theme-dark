@@ -71,9 +71,9 @@ function combinatoricsTheme ({
 		map(x => ({
 			colorCandidate: x.colorCandidate,
 			contrastSum: x.contrast.contrastSum,
-			contrastSumOfCandidate: x.contrast.contrastSumOfCandidate,
-			contrastSumOfBackground: x.contrast.contrastSumOfBackground,
-			lowestContrast: x.contrast.lowestContrast.score,
+			// contrastSumOfCandidate: x.contrast.contrastSumOfCandidate,
+			// contrastSumOfBackground: x.contrast.contrastSumOfBackground,
+			// lowestContrast: x.contrast.lowestContrast.score,
 		})),
 		
 	)
