@@ -2,7 +2,8 @@ const $C = require('js-combinatorics')
 const {
   colorContrastRatioCalculator
 } = require('@mdhnpm/color-contrast-ratio-calculator')
-const { pipe, map, sortBy, head, filter, last, take } = require('rambda')
+const { pipe, map, sortBy, head, filter, last, take, mapObject, sortByDescending, sortByPathDescending } = require('rambda')
+const { toDecimal } = require('rambdax')
 
 
 function toArray (combinations){
@@ -31,6 +32,12 @@ const getContrastReport = ({combinations, colorCandidate, background}) => {
 			contrastSum: Math.round(x.reduce((acc, val) => acc + val.score, 0)),
 			contrastSumOfCandidate: x.filter(y => y.includesColorCandidate).reduce((acc, val) => acc + val.score, 0),
 			contrastSumOfBackground: x.filter(y => y.includesBackground).reduce((acc, val) => acc + val.score, 0),
+		}),
+		mapObject((val, prop) => {
+			if(prop.startsWith('contrastSum')){
+				return toDecimal(val, 2)
+			}
+			return val
 		}),
 	)
 }
@@ -61,19 +68,18 @@ function combinatoricsTheme ({
 			}),
 		})),
 		filter(x => x.contrast.lowestContrast.score > 1.1),
-		sortBy(x => -x.contrast.contrastSum),
+		sortByPathDescending('contrast.contrastSum'),
 		take(300),
-		sortBy(x => -x.contrast.contrastSumByCandidate),
+		sortByPathDescending('contrast.lowestContrast.score'),
 		take(200),
-		sortBy(x => -x.contrast.lowestContrast.score),
-		sortBy(x => -x.contrast.contrastSumByBackground),
+		sortByPathDescending('contrast.contrastSumOfCandidate'),
 		take(100),
 		map(x => ({
 			colorCandidate: x.colorCandidate,
 			contrastSum: x.contrast.contrastSum,
-			// contrastSumOfCandidate: x.contrast.contrastSumOfCandidate,
-			// contrastSumOfBackground: x.contrast.contrastSumOfBackground,
-			// lowestContrast: x.contrast.lowestContrast.score,
+			contrastSumOfCandidate: x.contrast.contrastSumOfCandidate,
+			contrastSumOfBackground: x.contrast.contrastSumOfBackground,
+			lowestContrast: x.contrast.lowestContrast.score,
 		})),
 		
 	)

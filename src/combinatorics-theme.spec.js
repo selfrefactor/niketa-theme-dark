@@ -5,7 +5,6 @@ const {
   uniq,
   map,
   flatten,
-  sortBy,
   uniqBy,
   groupBy,
 	mapObject,
@@ -14,7 +13,6 @@ const { allDarkThemes } = require('./themes-colors.js')
 const { combinatoricsTheme } = require('./combinatorics-theme.js')
 const { BACK_COLOR: darkBackground } = require('./assets/back-color.js')
 const { writeJson } = require('fs-extra')
-const generatedColors = require('./generate-colors/_COLORS.json')
 const { BACK_COLOR: lightBackground } = require('./assets/chrome-colors-light.js')
 const { getColors } = require('./assets/get-list-of-colors.js')
 const {
@@ -34,7 +32,7 @@ function filterCandidatesAgainstReplacedColor (
 
 function isNearColor (a, b) {
 	const score = colorContrastRatioCalculator(a, b)
-	return score < 1.07
+	return score < 1.2
 }
 
 function generateResult({ index, allThemes, colorsCandidates, background, nearColorFlag }) {
@@ -69,18 +67,15 @@ function generateResult({ index, allThemes, colorsCandidates, background, nearCo
     ),
     flatten,
     uniqBy(x => x.colorCandidate),
-    sortBy(x => -x.contrastSum),
-    sortBy(x => -x.contrastSum),
     groupBy(x => x.replacedColor),
     mapObject(x => x.map(xx => xx.colorCandidate)),
   )
 }
-const flag = 0
-const colorsCandidates = flag ? generatedColors : getColors()
+const colorsCandidates = getColors()
 
 test('dark', async () => {
   const finalResult = generateResult({
-    index: 0,
+    index: 8,
     allThemes: allDarkThemes,
     colorsCandidates,
     background: darkBackground,

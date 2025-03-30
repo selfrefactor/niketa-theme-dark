@@ -23,13 +23,11 @@ const allDarkThemes = {
 	AquaTeenHungerForce: ['#e5cc96', '#fe5dce', TEAL, '#5dfe8d', '#5d7dfe'],
   Archer: [BROWN, BLUE_LIGHT, '#E85B87', WHITE, `#ace1af`],
   ClevelandShow: [`#7fffd4`, TEAL, GREY, ORANGE, ORANGE],
-  Dilbert: [TEAL, PINK, YELLOW, YELLOW, TEAL, YELLOW],
-  HomeMovies: [GREY, PINK_RED, TEAL, PINK_RED, BROWN],
-  SouthPark: [BLUE_LIGHT, YELLOW, GREEN, BRICK_RED, GREEN],
-  TripTank: [BLUE_DARK, BRICK, BLUE_DARK, BRICK, WHITE],
-	UglyAmericans: [PINK_RED, GREY, GREEN_LIGHT, PURPLE, GREEN_LIGHT],
-	// =================
-	// Dilbert is not done
+  Dilbert: [`#ff6900`, PINK, YELLOW, YELLOW, `#29AB87`, YELLOW],
+  HomeMovies: [`#93ccea`, `#987654`, TEAL, PINK_RED, BROWN],
+  SouthPark: [`#CC99FF`, `#dfa535`, `#7fbb9e`, BRICK_RED, `#dfa535`],
+  TripTank: [`#48b5ff`, BRICK, `#9fb70a`, BRICK, WHITE],
+	UglyAmericans: [`#CD5B45`, `#CC9900`, `#cdb1ab`, PURPLE, `#40d47e`],
 }
 
 const getSettings = input => {
