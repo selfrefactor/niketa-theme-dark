@@ -2,7 +2,7 @@ const $C = require('js-combinatorics')
 const {
   colorContrastRatioCalculator
 } = require('@mdhnpm/color-contrast-ratio-calculator')
-const { pipe, map, sortBy, head, tap, filter, last, take } = require('rambda')
+const { pipe, map, sortBy, head, filter, last, take } = require('rambda')
 
 
 function toArray (combinations){

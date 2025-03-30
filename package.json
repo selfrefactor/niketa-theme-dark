@@ -23,13 +23,14 @@
   "devDependencies": {
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
     "colord": "2.9.3",
+    "color": "5.0.0",
     "fs-extra": "11.3.0",
     "get-contrast-ratio": "1.0.0-0",
     "helpers-fn": "2.0.0",
     "hexsorter": "1.5.0",
     "jest": "30.0.0-alpha.7",
     "js-combinatorics": "2.1.2",
-    "rambda": "10.0.0-beta.1",
+    "rambda": "10.0.0-beta.3",
     "rambdax": "11.3.1",
     "string-fn": "3.6.3"
   },

@@ -1,7 +1,7 @@
 const { allLightThemes } = require('./themes-colors-light.js')
 const {
   pipe,
-  replaceItemAtIndex,
+  modifyItemAtIndex,
   uniq,
   map,
   flatten,
@@ -17,27 +17,50 @@ const { writeJson } = require('fs-extra')
 const generatedColors = require('./generate-colors/_COLORS.json')
 const { BACK_COLOR: lightBackground } = require('./assets/chrome-colors-light.js')
 const { getColors } = require('./assets/get-list-of-colors.js')
+const {
+  colorContrastRatioCalculator
+} = require('@mdhnpm/color-contrast-ratio-calculator')
 
 const SECONDS = 1000
 jest.setTimeout(70 * SECONDS)
 
-function generateResult({ index, allThemes, colorsCandidates, background }) {
+function filterCandidatesAgainstReplacedColor (
+	{ replacedColor, colorsCandidates }
+) {
+	return colorsCandidates.filter(
+		x => x.length === 7
+	).filter(x => isNearColor(x, replacedColor))
+}
+
+function isNearColor (a, b) {
+	const score = colorContrastRatioCalculator(a, b)
+	return score < 1.07
+}
+
+function generateResult({ index, allThemes, colorsCandidates, background, nearColorFlag }) {
   const allKeys = Object.keys(allThemes)
   const currentThemeColors = uniq(allThemes[allKeys[index]])
   return pipe(
     currentThemeColors,
     map((replacedColor, index) => ({
       replacedColor,
-      colors: replaceItemAtIndex(index, () => background)(currentThemeColors),
+      colors: modifyItemAtIndex(index, () => background)(currentThemeColors),
     })),
-    map(({ replacedColor, colors }) => ({
-      replacedColor,
-      result: combinatoricsTheme({
-        colors,
-        colorsCandidates,
-        background,
-      }),
-    })),
+    map(({ replacedColor, colors }) => {
+			let filteredCandidates = nearColorFlag ? filterCandidatesAgainstReplacedColor({
+				replacedColor,
+				colorsCandidates,
+			}) : colorsCandidates
+			
+			return {
+				replacedColor,
+				result: combinatoricsTheme({
+					colors,
+					colorsCandidates: filteredCandidates,
+					background,
+				}),
+			}
+		}),
     map(({ replacedColor, result }) =>
       result.map(x => ({
         ...x,
@@ -54,18 +77,20 @@ function generateResult({ index, allThemes, colorsCandidates, background }) {
 }
 const flag = 0
 const colorsCandidates = flag ? generatedColors : getColors()
-test.skip('dark', async () => {
+
+test('dark', async () => {
   const finalResult = generateResult({
     index: 0,
     allThemes: allDarkThemes,
     colorsCandidates,
     background: darkBackground,
+		nearColorFlag: true,
   })
 
   await writeJson('combinatoricsTheme-report.json', finalResult, { spaces: 2 })
 })
 
-test('light', async () => {
+test.skip('light', async () => {
   const finalResult = generateResult({
     index: 8,
     allThemes: allLightThemes,
