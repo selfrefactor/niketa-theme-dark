@@ -85,12 +85,13 @@ test('dark', async () => {
   await writeJson('combinatoricsTheme-report.json', finalResult, { spaces: 2 })
 })
 
-test.skip('light', async () => {
+test.only('light', async () => {
   const finalResult = generateResult({
     index: 8,
     allThemes: allLightThemes,
     colorsCandidates,
     background: lightBackground,
+		nearColorFlag: true,
   })
 
   await writeJson('combinatoricsTheme-reportLight.json', finalResult, {
