@@ -1,12 +1,9 @@
 const { forEach } = require('rambdax')
 
-const BLUE_DARK = '#00A6FB'
 const BLUE_LIGHT = '#0fc2f9'
 const BRICK = '#DB7B75'
 const BRICK_RED = '#eb5c5f'
 const BROWN = '#DF8618'
-const GREEN = '#70D342'
-const GREEN_LIGHT = '#7FDBCA'
 const GREY = '#a9b5cf'
 const ORANGE = '#E6844F'
 const PINK = '#ff7eba'
@@ -23,7 +20,7 @@ const allDarkThemes = {
 	AquaTeenHungerForce: ['#e5cc96', '#fe5dce', TEAL, '#5dfe8d', '#5d7dfe'],
   Archer: [BROWN, BLUE_LIGHT, '#E85B87', WHITE, `#ace1af`],
   ClevelandShow: [`#7fffd4`, TEAL, GREY, ORANGE, ORANGE],
-  Dilbert: [`#ff6900`, PINK, YELLOW, YELLOW, `#29AB87`, YELLOW],
+  Dilbert: [`#ff6900`, PINK, YELLOW, `#0D98BA`, `#29AB87`, YELLOW],
   HomeMovies: [`#93ccea`, `#987654`, TEAL, PINK_RED, BROWN],
   SouthPark: [`#CC99FF`, `#dfa535`, `#7fbb9e`, BRICK_RED, `#dfa535`],
   TripTank: [`#48b5ff`, BRICK, `#9fb70a`, BRICK, WHITE],

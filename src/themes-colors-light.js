@@ -36,6 +36,6 @@ const allLightThemes = {
     `#3eb489`,
   ],
   StrangeBrew: [`#c35550`, `#009595`, `#35063e`, `#889900`, `#010B13`],
-  SweatLeaf: [DARK_YELLOW,  `#74BBFB`, `#112211`,`#442288`, RED ],
+  SweatLeaf: [`#f08497`,  `#74BBFB`, `#112211`,`#442288`, RED ],
 }
 exports.allLightThemes = allLightThemes

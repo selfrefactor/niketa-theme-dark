@@ -75,7 +75,7 @@ const colorsCandidates = getColors()
 
 test('dark', async () => {
   const finalResult = generateResult({
-    index: 8,
+    index: 4,
     allThemes: allDarkThemes,
     colorsCandidates,
     background: darkBackground,
