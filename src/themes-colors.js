@@ -22,7 +22,7 @@ const allDarkThemes = {
   ClevelandShow: [`#7fffd4`, TEAL, GREY, ORANGE, ORANGE],
   Dilbert: [`#ff6900`, PINK, YELLOW, `#0D98BA`, `#29AB87`, YELLOW],
   HomeMovies: [`#93ccea`, `#987654`, TEAL, PINK_RED, BROWN],
-  SouthPark: [`#CC99FF`, `#dfa535`, `#7fbb9e`, BRICK_RED, `#dfa535`],
+  SouthPark: [BRICK_RED,`#CC99FF`, `#dfa535`, `#7fbb9e`, `#dfa535`],
   TripTank: [`#48b5ff`, BRICK, `#9fb70a`, BRICK, WHITE],
 	UglyAmericans: [`#CD5B45`, `#CC9900`, `#cdb1ab`, PURPLE, `#40d47e`],
 }

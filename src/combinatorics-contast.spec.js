@@ -4,7 +4,7 @@ const {
 } = require('../../niketa-theme/src/assets/themes-colors.js')
 const { allDarkThemes } = require('./themes-colors.js')
 
-test('dark', async () => {
+test.only('dark', async () => {
   await generateContrastReport(allDarkThemes, 'dark')
 })
 

@@ -8,6 +8,7 @@ const {
   uniqBy,
   groupBy,
 	mapObject,
+	tap,
 } = require('rambda')
 const { allDarkThemes } = require('./themes-colors.js')
 const { combinatoricsTheme } = require('./combinatorics-theme.js')
@@ -59,6 +60,7 @@ function generateResult({ index, allThemes, colorsCandidates, background, nearCo
 				}),
 			}
 		}),
+		tap(console.log),
     map(({ replacedColor, result }) =>
       result.map(x => ({
         ...x,
@@ -85,7 +87,7 @@ test('dark', async () => {
   await writeJson('combinatoricsTheme-report.json', finalResult, { spaces: 2 })
 })
 
-test.only('light', async () => {
+test('light', async () => {
   const finalResult = generateResult({
     index: 8,
     allThemes: allLightThemes,
