@@ -81,9 +81,9 @@ const selectionColors = {
 	'editor.findMatchBackground': '#cbc7',
   'editor.findMatchHighlightBackground': '#9993',
   'editor.findRangeHighlightBackground': '#9994',
-  'editor.selectionBackground': `#939992`,
-  'editor.selectionHighlightBackground': `#737972`,
-  'editor.inactiveSelectionBackground': `#717171`,
+  'editor.selectionBackground': `#a3afa2`,
+  'editor.selectionHighlightBackground': `#939f9f`,
+  'editor.inactiveSelectionBackground': `#9f9191`,
   'terminal.selectionBackground': `#dddddd${STRONG_TRANSPARENCY}`,
   // next two
   // When search by word is active or when double click on a word
