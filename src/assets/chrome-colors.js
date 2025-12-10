@@ -24,19 +24,18 @@ const scrollbarColors = {
   'editorOverviewRuler.wordHighlightStrongForeground': '#bb9af766',
 }
 const TRANSPARENCY = '22'
-const MATCH_OPACITY = '2'
 
 const selectionColors = {
-  'editor.findMatchBackground': `#ccc${MATCH_OPACITY}`,
-  'editor.findMatchHighlightBackground': `#888${MATCH_OPACITY}`,
-  'editor.findRangeHighlightBackground': `#fff${MATCH_OPACITY}`,
-  'editor.inactiveSelectionBackground': `#aba${MATCH_OPACITY}`,
-  'editor.selectionBackground': `#555`,
-  'editor.selectionHighlightBackground': `#505`,
-  'editor.wordHighlightBackground': `#add${MATCH_OPACITY}`,
-  'editor.wordHighlightStrongBackground': `#aee${MATCH_OPACITY}`,
-  'peekViewEditor.matchHighlightBackground': `#888${MATCH_OPACITY}`,
-  'terminal.selectionBackground': '#ffffff',
+  'editor.findMatchBackground': `#555`,
+  'editor.findMatchHighlightBackground': `#556`,
+  'editor.findRangeHighlightBackground': `#565`,
+  'editor.inactiveSelectionBackground': `#455`,
+  'editor.selectionBackground': `#553`,
+  'editor.selectionHighlightBackground': `#355`,
+  'editor.wordHighlightBackground': `#555`,
+  'editor.wordHighlightStrongBackground': `#553`,
+  'peekViewEditor.matchHighlightBackground': `#545`,
+  'terminal.selectionBackground': '#555',
 }
 
 function newColors() {

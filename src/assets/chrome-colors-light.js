@@ -78,9 +78,9 @@ const suggestionsColors = {
   'editorWidget.border': '#d78d9f',
 }
 const selectionColors = {
-	'editor.findMatchBackground': '#cbc7',
-  'editor.findMatchHighlightBackground': '#9993',
-  'editor.findRangeHighlightBackground': '#9994',
+	'editor.findMatchBackground': '#cac',
+  'editor.findMatchHighlightBackground': '#ccc',
+  'editor.findRangeHighlightBackground': '#acc',
   'editor.selectionBackground': `#a3afa2`,
   'editor.selectionHighlightBackground': `#939f9f`,
   'editor.inactiveSelectionBackground': `#9f9191`,
