@@ -78,18 +78,18 @@ const suggestionsColors = {
   'editorWidget.border': '#d78d9f',
 }
 const selectionColors = {
-	'editor.findMatchBackground': '#cac',
-  'editor.findMatchHighlightBackground': '#ccc',
-  'editor.findRangeHighlightBackground': '#acc',
-  'editor.selectionBackground': `#a3afa2`,
-  'editor.selectionHighlightBackground': `#939f9f`,
-  'editor.inactiveSelectionBackground': `#9f9191`,
-  'terminal.selectionBackground': `#dddddd${STRONG_TRANSPARENCY}`,
+	'editor.findMatchBackground': '#dbd',
+  'editor.findMatchHighlightBackground': '#bdd',
+  'editor.findRangeHighlightBackground': '#ddd',
+  'editor.selectionBackground': `#ddd`,
+  'editor.selectionHighlightBackground': `#ccc`,
+  'editor.inactiveSelectionBackground': `#ddd`,
+  'terminal.selectionBackground': `#ccc`,
   // next two
   // When search by word is active or when double click on a word
-  'editor.wordHighlightBackground': `#aaffff${STRONG_TRANSPARENCY}`,
-  'editor.wordHighlightStrongBackground': `#aaffff${STRONGEST_TRANSPARENCY}`,
-  'peekViewEditor.matchHighlightBackground': `#bbbbbb${TRANSPARENCY}`,
+  'editor.wordHighlightBackground': `#aaffff`,
+  'editor.wordHighlightStrongBackground': `#aaffff`,
+  'peekViewEditor.matchHighlightBackground': `#bbbbbb`,
 }
 
 const peekView = {
