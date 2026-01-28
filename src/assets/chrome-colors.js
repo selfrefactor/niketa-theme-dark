@@ -3,6 +3,7 @@ const { CHROME_COLOR } = require('./common.js')
 const { listColors } = require('./list-colors.js')
 const { otherColors } = require('./other-colors.js')
 const { sidebarColors } = require('./sidebar-colors.js')
+const { BRICK } = require('../themes-colors.js');
 
 const scrollbarColors = {
   'editorOverviewRuler.addedForeground': '#47ffa0',
@@ -82,6 +83,7 @@ const gitColors = {
 function getChromeColors() {
   return {
     'editor.background': BACK_COLOR,
+		'editor.foreground': BRICK,
     ...newColors(),
     ...otherColors,
     ...sidebarColors,

@@ -46,3 +46,4 @@ const getSettings = input => {
 
 exports.allDarkThemes = allDarkThemes
 exports.getSettings = getSettings
+exports.BRICK = BRICK
