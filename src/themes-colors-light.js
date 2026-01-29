@@ -15,26 +15,28 @@ const TEAL = '#0093A1'
  */
 
 const allLightThemes = {
-  CommunicationBreakdown: [`#c35550`,`#3D0C02`, `#003311`, `#A2006D`, `#305679`],
+  CommunicationBreakdown: [`#c35550`,`#3D0C02`, `#003311`, `#3D0C02`, `#305679`], // `#A2006D`
   DancingDays: [DARK_YELLOW_ALT, PURPLE_RED, `#123524`, `#6984b0`, `#009f6b`],
   FunkyDrummer: [`#800080`, GREEN_ALT, DARK, DARK_YELLOW, BRICK_LIGHT],
-  GlassOnion: [`#843179`,`#b1938b`, `#41b883`, `#843179`, `#112244`],
+  GlassOnion: [`#800080`, DARK_YELLOW, BRICK_LIGHT, GREEN_ALT, DARK],
+  // GlassOnion: [`#843179`,`#b1938b`, `#41b883`, `#843179`, `#112244`],
   HelloSpaceboy: [`#a090b8`, PINK,GREEN,`#4499ff`,PURPLE_BLUE],
   KozmicBlues: [
+    `#2e1052`,
     `#a53b70`,
     `#879877`,
     TEAL,
     `#002d04`,
-    `#2e1052`,
   ],
   LedZeppelin: [
     `#7e6f9b`,
+    `#3eb489`,
     `#7b002c`,
     TEAL,
     DARK_BLUE,
-    `#3eb489`,
   ],
-  StrangeBrew: ['#800080', `#c35550`, `#009595`, `#889900`, `#010B13`], //`#35063e`
-  SweatLeaf: [`#800080`,`#f08497`,  `#74BBFB`, `#112211`,`#442288` ],
+  StrangeBrew: [`#009595`, `#889900`, '#800080', `#c35550`, , `#010B13`], //`#35063e`
+  SweatLeaf: [`#f08497`,  `#74BBFB`, `#112211`,`#442288`, `#800080` ],
 }
 exports.allLightThemes = allLightThemes
+exports.DARK = DARK
