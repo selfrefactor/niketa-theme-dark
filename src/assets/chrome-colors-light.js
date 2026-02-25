@@ -250,7 +250,7 @@ let colors = {
   'diffEditor.removedTextBackground': '#64B5F655',
   'editor.background': BACK_COLOR,
   'editor.foldBackground': '#fafafa',
-	'editor.foreground': DARK,
+	// 'editor.foreground': DARK,
   'editor.lineHighlightBackground': '#e1e1e1',
   'editor.lineHighlightBorder': '#e1e1e1',
   'editorCursor.foreground': '#800',
