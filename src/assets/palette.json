@@ -1,7 +1,7 @@
 {
+  "colors": {},
   "name": "_Palette",
   "type": "dark",
-  "colors": {},
   "tokenColors": [
     {
       "name": "*link*",

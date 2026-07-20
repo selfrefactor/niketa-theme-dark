@@ -1,0 +1,6677 @@
+{
+  "*link*": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "*uri*": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "*url*": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  ">": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "JSXNested": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "accent.xi": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "beginning.punctuation.definition.list.markdown": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 2
+    }
+  },
+  "beginning.punctuation.definition.list.markdown.xi": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 4
+    }
+  },
+  "beginning.punctuation.definition.quote.markdown.xi": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "block.scope.begin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "block.scope.end": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.angle": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.curly": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.quote": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.round": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.square": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.tag": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "brackethighlighter.unmatched": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "carriage-return": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "comment.punctuation.comma.sass": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "synthwave": 3
+    }
+  },
+  "constant.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.character.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.character.character-class.regexp.xi": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "constant.character.css.sass": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.character.entity": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "constant.character.escape": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 0,
+      "nord": 1,
+      "synthwave": 0
+    }
+  },
+  "constant.character.format.placeholder.other.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "constant.character.module.name": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.character.numeric": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "constant.character.numeric.regexp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.character.xi": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "constant.escape": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "constant.keyword.clojure": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 2
+    }
+  },
+  "constant.language.lua": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.language.symbol": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.language.symbol.double-quoted.elixir": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "constant.language.symbol.elixir": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "constant.language.symbol.ruby": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 2
+    }
+  },
+  "constant.language.unit.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.language.unit.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.numeric.math.tex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.numeric.module.dot": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.character-class.regexp": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 4,
+      "one-dark-pro": 3,
+      "tokyo-night": 1
+    }
+  },
+  "constant.other.citation.link.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.color": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 2,
+      "synthwave": 3
+    }
+  },
+  "constant.other.color.rgb-value.xi": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "constant.other.database-name.sql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.footnote.link": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.footnote.link.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.general.math.tex": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "constant.other.gleam": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.key": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "constant.other.php": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "constant.other.placeholder": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 0
+    }
+  },
+  "constant.other.placeholder.c": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "constant.other.placeholder.go": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.reference.label.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.reference.link": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.other.reference.link.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "constant.other.symbol": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "tokyo-night": 1
+    }
+  },
+  "constant.other.symbol.elixir": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 0
+    }
+  },
+  "constant.other.table-name.sql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.pathname.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "constant.regexp.xi": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "constant.type-constructor.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "control.elements": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "emphasis": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.global.clojure": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "synthwave": 0
+    }
+  },
+  "entity.name": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "tokyo-night": 0,
+      "synthwave": 4
+    }
+  },
+  "entity.name.class.identifier.namespace.type": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.class.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.class.xi": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "entity.name.constant": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.filename": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.filename.find-in-files": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "monokai": 0
+    }
+  },
+  "entity.name.function-call": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.call.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.clojure": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.ctor": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.ctor.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.dart": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.gleam": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.guard.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.lua": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.macro.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.macro.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.member.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.preprocessor.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.preprocessor.cpp": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.function.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.target.makefile": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.function.xi": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.goto-label.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.label.cs": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.lifetime.rust": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.module": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.namespace": {
+    "consensusLevel": 2,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0,
+      "tokyo-night": 2
+    }
+  },
+  "entity.name.package.go": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.package.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.record.field.accessor.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.role.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.scope-resolution": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 2
+    }
+  },
+  "entity.name.scope-resolution.function.call": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.scope-resolution.function.definition": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.section": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 3
+    }
+  },
+  "entity.name.section.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.section.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.section.markdown": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "synthwave": 3
+    }
+  },
+  "entity.name.tag.class": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.tag.css": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 1,
+      "night-owl": 3,
+      "tokyo-night": 2
+    }
+  },
+  "entity.name.tag.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.tag.id": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.tag.laravel-blade": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.tag.reference": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "entity.name.tag.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.tag.wildcard.css": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.tag.wildcard.less": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.tag.wildcard.sass": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.tag.wildcard.scss": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.tag.yaml": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "entity.name.type.class": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 2
+    }
+  },
+  "entity.name.type.class.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.class.module.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.instance": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.module": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.type.namespace": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.name.type.namespace.scope-resolution.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.type.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.variable": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 0,
+      "synthwave": 3
+    }
+  },
+  "entity.name.variable.field.cs": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "synthwave": 3
+    }
+  },
+  "entity.name.variable.local": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.name.variable.local.cs": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "synthwave": 3
+    }
+  },
+  "entity.name.variable.parameter.cs": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "entity.other.alias.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.other.attribute-name.class": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "entity.other.attribute-name.class.css": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 2
+    }
+  },
+  "entity.other.attribute-name.html": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 0
+    }
+  },
+  "entity.other.attribute-name.id": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 1,
+      "tokyo-night": 2,
+      "synthwave": 0
+    }
+  },
+  "entity.other.attribute-name.id.css": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 1
+    }
+  },
+  "entity.other.attribute-name.pseudo-class": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "tokyo-night": 1,
+      "synthwave": 4
+    }
+  },
+  "entity.other.attribute-name.pseudo-class.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.other.attribute-name.pseudo-element": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "tokyo-night": 1,
+      "synthwave": 4
+    }
+  },
+  "entity.other.attribute-name.pseudo-element.css": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 1
+    }
+  },
+  "entity.other.attribute-name.table.toml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.other.inherited-class.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.other.inherited-class.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "entity.other.inherited-class.placeholder-selector.css.sass": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "function.parameter": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "function.parameter.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "function.parameter.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "function.support.builtin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "function.support.core": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "heading.1.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "heading.2.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "heading.3.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "heading.4.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "import.storage.java": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "inline-color-decoration": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "interpolated.simple.source": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "invalid.broken": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "night-owl": 4
+    }
+  },
+  "invalid.deprecated": {
+    "consensusLevel": 0,
+    "confidence": 0.6,
+    "themeCount": 5,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "monokai": 4,
+      "night-owl": 0,
+      "tokyo-night": 1,
+      "nord": 0
+    }
+  },
+  "invalid.illegal": {
+    "consensusLevel": 0,
+    "confidence": 0.75,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "night-owl": 0,
+      "tokyo-night": 3,
+      "nord": 0
+    }
+  },
+  "invalid.illegal.bad-ampersand.html": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "invalid.illegal.non-null-typehinted.php": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "invalid.illegal.parenthesis.scheme": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "invalid.unimplemented": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "night-owl": 0
+    }
+  },
+  "invalid.xi": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.control": {
+    "consensusLevel": 3,
+    "confidence": 0.4,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "night-owl": 2,
+      "tokyo-night": 1,
+      "synthwave": 0
+    }
+  },
+  "keyword.control.anchor.regexp": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 0
+    }
+  },
+  "keyword.control.at-rule": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.class.ruby": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.control.clojure": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.def.ruby": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.control.directive.define.cpp": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "keyword.control.directive.include.cpp": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "keyword.control.flow": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.flow.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.from": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "keyword.control.if.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.import": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "keyword.control.import.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.layout.tex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.loop": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.module.ruby": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.control.newline.tex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.preamble.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.ref.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.return.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.ruby": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.control.unit.css.sass": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.control.xi": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "keyword.key.toml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 0,
+      "one-dark-pro": 1,
+      "night-owl": 2,
+      "tokyo-night": 0,
+      "nord": 2,
+      "synthwave": 0
+    }
+  },
+  "keyword.operator.address.go": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.arithmetic": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.operator.arithmetic.go": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.arithmetic.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.assignment": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "synthwave": 0
+    }
+  },
+  "keyword.operator.assignment.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.assignment.compound": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.assignment.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.assignment.go": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "keyword.operator.bitwise": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "keyword.operator.bitwise.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.bitwise.shift.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.bitwise.shift.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.channel": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "keyword.operator.comparison": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "keyword.operator.comparison.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.comparison.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.comparison.php": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "keyword.operator.constructor": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.decrement": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.decrement.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.decrement.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.delete": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.error-control.php": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.expression.delete": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.expression.import": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "keyword.operator.expression.in": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.expression.instanceof": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.expression.keyof": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.expression.of": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.expression.typeof": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.expression.void": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.heredoc.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.increment": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "keyword.operator.increment.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.increment.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.instanceof.java": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.less": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.list.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.logical": {
+    "consensusLevel": 0,
+    "confidence": 0.25,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 1,
+      "synthwave": 0
+    }
+  },
+  "keyword.operator.logical.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.logical.python": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.misc.rust": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.operator.module": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.negation.regexp": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 2
+    }
+  },
+  "keyword.operator.new": {
+    "consensusLevel": 3,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "synthwave": 0
+    }
+  },
+  "keyword.operator.nowdoc.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.optional": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.or.regexp": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 0,
+      "tokyo-night": 1
+    }
+  },
+  "keyword.operator.other.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.quantifier.regexp": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 2,
+      "tokyo-night": 0
+    }
+  },
+  "keyword.operator.regexp.php": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.relational": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "keyword.operator.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.sigil.rust": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.operator.sizeof.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.sizeof.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.operator.ternary": {
+    "consensusLevel": 3,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "keyword.operator.type.php": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "keyword.other": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "keyword.other.array.phpdoc.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.back-reference.regexp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.base": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.important": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "keyword.other.important.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.important.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.platform.os.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.preprocessor.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.other.special-method": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 2,
+      "tokyo-night": 2
+    }
+  },
+  "keyword.other.substitution": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "keyword.other.substitution.begin": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.other.substitution.end": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.other.template": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "keyword.other.template.begin": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.other.template.end": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "keyword.other.this": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "keyword.other.type.php": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "keyword.other.unit": {
+    "consensusLevel": 1,
+    "confidence": 0.4,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 3,
+      "night-owl": 0,
+      "tokyo-night": 1,
+      "synthwave": 3
+    }
+  },
+  "keyword.other.using.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.symbol": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.symbol.new": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "keyword.type.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "less": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markdown.heading": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.admonition": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.admonition.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.bold": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "night-owl": 1,
+      "tokyo-night": 0
+    }
+  },
+  "markup.bold.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.bold.markdown": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "markup.changed": {
+    "consensusLevel": 3,
+    "confidence": 0.4,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 3,
+      "monokai": 0,
+      "night-owl": 2,
+      "tokyo-night": 3,
+      "nord": 1
+    }
+  },
+  "markup.changed.diff": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "markup.changed.git_gutter": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.code": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.deleted": {
+    "consensusLevel": 4,
+    "confidence": 0.67,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 3,
+      "monokai": 4,
+      "night-owl": 4,
+      "tokyo-night": 4,
+      "nord": 4
+    }
+  },
+  "markup.deleted.diff": {
+    "consensusLevel": 3,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 4
+    }
+  },
+  "markup.deleted.git_gutter": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.fenced_code": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.fenced_code.block.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "markup.heading punctuation.definition.heading": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading": {
+    "consensusLevel": 3,
+    "confidence": 0.5,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "monokai": 1,
+      "night-owl": 2,
+      "nord": 1,
+      "synthwave": 3
+    }
+  },
+  "markup.heading.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading.block-attribute.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading.blocktitle.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading.list.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading.marker.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.heading.setext": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "monokai": 1
+    }
+  },
+  "markup.heading.setext.1.markdown": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "markup.heading.setext.2.markdown": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "markup.highlight.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.ignored": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.inline": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.inline.raw.markdown": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "markup.inline.raw.string.markdown": {
+    "consensusLevel": 1,
+    "confidence": 0.75,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "night-owl": 1,
+      "tokyo-night": 0,
+      "synthwave": 1
+    }
+  },
+  "markup.inserted": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 1,
+      "monokai": 1,
+      "night-owl": 4,
+      "tokyo-night": 3,
+      "nord": 2
+    }
+  },
+  "markup.inserted.diff": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "night-owl": 1
+    }
+  },
+  "markup.inserted.git_gutter": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.italic.markdown": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "markup.italic.quotes.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.link": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.list": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "monokai": 0
+    }
+  },
+  "markup.list.bullet.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.list.numbered": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.macro.block.general": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.macro.inline.passthrough.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.mark.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.meta.attribute-list.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.other.command.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.other.url": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.other.url.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.quote.markdown": {
+    "consensusLevel": 4,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 4,
+      "monokai": 4,
+      "synthwave": 1
+    }
+  },
+  "markup.raw": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.block": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.block.fenced.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.block.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.inline.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.inner.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.raw.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.substitution.attribute-reference.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.table": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "markup.table.cell.delimiter.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.table.delimiter.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.underline": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.underline.link.image.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.underline.link.markdown": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 1
+    }
+  },
+  "markup.underline.substitution.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "markup.untracked": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "md": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "message.error": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.arguments.coffee": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "meta.array": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "meta.assertion": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.attribute-selector.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.attribute.class.html": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 4
+    }
+  },
+  "meta.attribute.d.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.attribute.href.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.attribute.id.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.attribute.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.block": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "meta.class": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.declaration.data.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.declaration.exports.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.declaration.module": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.declaration.module.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.declaration.procedure.scheme": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.definition.class.inherited.classes.groovy": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "meta.definition.type.extension.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.definition.variable.name.groovy": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "meta.definition.variable.name.java": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "meta.delimiter": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.diff": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.diff.header": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 3
+    }
+  },
+  "meta.diff.header.from-file": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "meta.diff.header.git": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "meta.diff.header.to-file": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "meta.diff.range": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.directive.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.element.object.svg.path.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.element.structure.svg.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.embedded.assembly": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 2
+    }
+  },
+  "meta.embedded.block": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "meta.export.default": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.expression.parenthesized": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 3,
+      "tokyo-night": 2
+    }
+  },
+  "meta.function-call.arguments": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.arguments.python": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "meta.function-call.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.generic": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.generic.python": {
+    "consensusLevel": 2,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 2,
+      "synthwave": 0
+    }
+  },
+  "meta.function-call.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.object.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "meta.function-call.static.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function-call.without-arguments": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.decorator.identifier.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.decorator.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "meta.function.definition.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.definition.parameters.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.embedded.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.lua": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.method.with-arguments.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.parameters": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.parameters.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.type-declaration.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.type-declaration.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.type-record.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.type-signature": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.function.type-signature.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.generic-where-clause.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.group": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.hashtable": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.hashtable.assignment": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.import": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.import.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.instance.constructor": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.interface.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.interpolation.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.link.inline.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.link.reference.def": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.member.access.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.metadata.simple.clojure": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 4
+    }
+  },
+  "meta.method-call": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method-call.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method.body.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method.declaration": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method.groovy": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "meta.method.identifier": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method.identifier.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.method.java": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "meta.module-reference": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.module.name": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.object-literal.key": {
+    "consensusLevel": 0,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 0,
+      "tokyo-night": 0,
+      "synthwave": 3
+    }
+  },
+  "meta.object.flowtype": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.other.type.phpdoc.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.other.unknown.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.output": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.parameter": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.parameter.named.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.preprocessor.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.property-list": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "meta.property-list.css.sass.prop": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.property-list.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.property-name": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "meta.property-name.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.property-value": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.property.object": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "meta.require": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "meta.scope.prerequisites.makefile": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "meta.scriptblock": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.selector": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 3
+    }
+  },
+  "meta.separator": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 4
+    }
+  },
+  "meta.separator.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.structure.dictionary.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.structure.dictionary.value": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.structure.dictionary.value.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.structure.tuple.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.symbol.clojure": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "synthwave": 2
+    }
+  },
+  "meta.tag": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "night-owl": 2,
+      "tokyo-night": 3
+    }
+  },
+  "meta.tag.attributes": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.inline.span.start.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.metadata.meta.void.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.metadata.script.end.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.metadata.script.start.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.sgml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.body.end.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.body.start.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.head.end.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.head.start.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.html.end.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.tag.structure.html.start.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.template.expression": {
+    "consensusLevel": 0,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 0,
+      "one-dark-pro": 1,
+      "monokai": 0
+    }
+  },
+  "meta.type.interface": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.type.object.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.use.php": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "meta.var.expr": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "meta.variables.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "meta.vector.clojure": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "namespace.open.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "object": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "parameter.variable.function.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "tokyo-night": 0,
+      "nord": 0
+    }
+  },
+  "punctuation.access.module.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.accessor": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "punctuation.accessor.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.accessor.dot.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.bracket.angle.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.colon.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.ability.begin.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.ability.end.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.annotation.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.arguments": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 1
+    }
+  },
+  "punctuation.definition.arguments.begin.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.arguments.begin.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.arguments.end.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.arguments.end.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.array": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 1
+    }
+  },
+  "punctuation.definition.array.begin.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.array.end.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.asciidoc": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "punctuation.definition.begin.bracket.curly.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.begin.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.block": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "punctuation.definition.block.sequence.item.yaml": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "punctuation.definition.blockquote.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.bold": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "punctuation.definition.bold.markdown": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "punctuation.definition.changed": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.comment": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 3,
+    "themeLevels": {
+      "night-owl": 4,
+      "tokyo-night": 4,
+      "nord": 4
+    }
+  },
+  "punctuation.definition.constant": {
+    "consensusLevel": 1,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "punctuation.definition.constant.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.constant.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.delayed.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.deleted": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.end.bracket.curly.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.end.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.entity": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "punctuation.definition.entity.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.fenced.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.field": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.from-file.diff": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.group.capture.regexp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.hash.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.heading.markdown": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "punctuation.definition.inserted": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.italic": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.italic.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.keyValuePair.toml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.list": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.definition.list.begin": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.definition.list.begin.markdown": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 0,
+      "monokai": 1
+    }
+  },
+  "punctuation.definition.list.begin.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.list.begin.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.list.end": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.definition.list.end.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.list.end.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.list.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "punctuation.definition.list_item.markdown": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "punctuation.definition.metadata.markdown": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 2
+    }
+  },
+  "punctuation.definition.method-parameters.begin.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.method-parameters.end.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.normal.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.parameters": {
+    "consensusLevel": 0,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 1,
+      "nord": 0
+    }
+  },
+  "punctuation.definition.parameters.begin.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.parameters.end.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.raw.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "punctuation.definition.scope.key-value.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.section.switch-block.begin.bracket.curly.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.section.switch-block.end.bracket.curly.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.section.switch-block.start.bracket.curly.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.storage-type.begin.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.storage-type.end.bracket.round.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.string.begin.markdown": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 3
+    }
+  },
+  "punctuation.definition.string.end.markdown": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 2
+    }
+  },
+  "punctuation.definition.string.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.tag": {
+    "consensusLevel": 2,
+    "confidence": 0.4,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 4,
+      "night-owl": 2,
+      "tokyo-night": 4,
+      "nord": 2,
+      "synthwave": 0
+    }
+  },
+  "punctuation.definition.tag.begin.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.tag.end.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.tag.html": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 1
+    }
+  },
+  "punctuation.definition.tag.xi": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 4
+    }
+  },
+  "punctuation.definition.template-expression": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "monokai": 4,
+      "tokyo-night": 0
+    }
+  },
+  "punctuation.definition.template-expression.begin": {
+    "consensusLevel": 3,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "synthwave": 1
+    }
+  },
+  "punctuation.definition.template-expression.end": {
+    "consensusLevel": 3,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "synthwave": 1
+    }
+  },
+  "punctuation.definition.to-file.diff": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.variable.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.variable.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.variable.powershell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.variable.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.definition.variable.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.delimiter.property.dot.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.dot.dart": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.operator.assignment.as.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.other.period.go": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.parens.ellipses.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.parenthesis.begin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.parenthesis.begin.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.parenthesis.end": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.parenthesis.end.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.quasi.element": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "punctuation.section.array": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.section.array.begin.php": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "punctuation.section.array.end.php": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "punctuation.section.block.begin.bracket.curly.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.block.begin.bracket.curly.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.block.begin.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.block.end.bracket.curly.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.block.end.bracket.curly.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.block.end.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.class.begin.bracket.curly.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.class.begin.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.class.end": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.class.end.bracket.curly.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.class.end.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.embedded": {
+    "consensusLevel": 0,
+    "confidence": 0.33,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "monokai": 4,
+      "night-owl": 4,
+      "tokyo-night": 0,
+      "synthwave": 0
+    }
+  },
+  "punctuation.section.embedded.begin": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 2
+    }
+  },
+  "punctuation.section.embedded.begin.php": {
+    "consensusLevel": 3,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 4
+    }
+  },
+  "punctuation.section.embedded.end": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 2
+    }
+  },
+  "punctuation.section.embedded.end.php": {
+    "consensusLevel": 3,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 4
+    }
+  },
+  "punctuation.section.inner-class.begin.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.inner-class.end.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.list.begin.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.list.end.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.method.begin.bracket.curly.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.method.begin.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.method.end.bracket.curly.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.method.end.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.parameters.begin.bracket.round.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.parameters.end.bracket.round.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.parens.begin.bracket.round.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.parens.end.bracket.round.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.regexp.begin.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.regexp.end.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.scope.begin.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.section.scope.end.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.argument-label.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.arguments": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.separator.arguments.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.clause-head-body.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.colon.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.comma": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.delimiter": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "punctuation.separator.delimiter.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.delimiter.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.dictionary.key-value.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.element.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.generic-parameter-constraint.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.inheritance-clause.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.inheritance.php": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "punctuation.separator.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.key-value": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "synthwave": 2
+    }
+  },
+  "punctuation.separator.key-value.mapping.yaml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.key-value.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.list.comma.css": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "punctuation.separator.method.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.method.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.method.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.module-function.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.namespace.access.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.namespace.ruby": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 2,
+      "monokai": 1
+    }
+  },
+  "punctuation.separator.other.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.period.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.period.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.pipe.unison": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.pointer-access": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.separator.pointer-access.c": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 2
+    }
+  },
+  "punctuation.string": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.terminator.expression": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "punctuation.terminator.expression.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.terminator.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.terminator.statement": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.terminator.statement.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "punctuation.type.flowtype": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "rgb-value": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "sass.script.maps": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "selector.sass": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "source": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.css.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.dart": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 2
+    }
+  },
+  "source.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.haskell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.ini": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "source.java": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "source.json meta.structure.array.json > constant.language.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.json meta.structure.array.json > value.json > string.quoted.json > punctuation": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.json meta.structure.array.json > value.json > string.quoted.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.json meta.structure.dictionary.json > constant.language.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.json meta.structure.dictionary.json > value.json > string.quoted.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.makefile": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "source.ocaml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.php.embedded.line.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.powershell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 2
+    }
+  },
+  "source.reason": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.regexp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.ruby.embedded": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.scheme": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "source.yaml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage": {
+    "consensusLevel": 3,
+    "confidence": 0.6,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 3,
+      "one-dark-pro": 3,
+      "monokai": 4,
+      "night-owl": 3,
+      "nord": 2
+    }
+  },
+  "storage.class.std.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.control.clojure": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 0
+    }
+  },
+  "storage.identifier": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.modifier": {
+    "consensusLevel": 3,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 3,
+      "tokyo-night": 3,
+      "synthwave": 0
+    }
+  },
+  "storage.modifier.attribute.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.modifier.import": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.modifier.import.groovy": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "storage.modifier.import.java": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 0
+    }
+  },
+  "storage.modifier.lifetime.rust": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "storage.modifier.package": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.modifier.scope.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.modifier.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.type.annotation.java": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0
+    }
+  },
+  "storage.type.annotation.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.type.core.rust": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.type.cs": {
+    "consensusLevel": 2,
+    "confidence": 0.4,
+    "themeCount": 5,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0,
+      "night-owl": 1,
+      "tokyo-night": 2,
+      "synthwave": 4
+    }
+  },
+  "storage.type.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.type.format.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "storage.type.generic.java": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 2
+    }
+  },
+  "storage.type.haskell": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "storage.type.java": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "dark-plus": 2
+    }
+  },
+  "storage.type.object.array.java": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0
+    }
+  },
+  "storage.type.php": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 1
+    }
+  },
+  "storage.type.powershell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 1,
+      "monokai": 0,
+      "night-owl": 2,
+      "tokyo-night": 1,
+      "nord": 2
+    }
+  },
+  "string.comment": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.detected-link": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.embedded": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.embedded.begin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.embedded.end": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.interpolated": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.interpolated.dollar.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.interpolated.makefile": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.other.link": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "string.other.link.description.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "string.other.link.description.title.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "string.other.link.title.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 0,
+      "synthwave": 0
+    }
+  },
+  "string.other.link.title.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 2,
+      "synthwave": 3
+    }
+  },
+  "string.quoted.docstring": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.docstring.multi": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 4
+    }
+  },
+  "string.quoted.double": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.double.include.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.double.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.single": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.single.html": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.quoted.single.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.regexp": {
+    "consensusLevel": 3,
+    "confidence": 0.33,
+    "themeCount": 6,
+    "themeLevels": {
+      "dark-plus": 4,
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 0,
+      "nord": 1,
+      "synthwave": 3
+    }
+  },
+  "string.regexp.arbitrary-repitition": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.regexp.character-class": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "string.unquoted": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "strong": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "synthwave": 4
+    }
+  },
+  "support.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class": {
+    "consensusLevel": 2,
+    "confidence": 0.75,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "night-owl": 1,
+      "tokyo-night": 2,
+      "nord": 2
+    }
+  },
+  "support.class.component": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.dart": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 1
+    }
+  },
+  "support.class.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.math.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.class.stdplugin.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.attribute-name.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.attribute.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.color.w3c-standard-color-name.css": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.constant.color.w3c-standard-color-name.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.core.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.core.rust": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.constant.edge": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.constant.elm": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.constant.ext.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.font-name": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 2,
+      "tokyo-night": 1,
+      "synthwave": 3
+    }
+  },
+  "support.constant.json": {
+    "consensusLevel": 2,
+    "confidence": 0.75,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 2,
+      "night-owl": 1,
+      "tokyo-night": 2
+    }
+  },
+  "support.constant.laravel-blade": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.math": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0,
+      "night-owl": 1,
+      "tokyo-night": 2
+    }
+  },
+  "support.constant.misc.r": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.parser-token.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.property-value": {
+    "consensusLevel": 1,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 1,
+      "tokyo-night": 1
+    }
+  },
+  "support.constant.property-value.css": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "support.constant.property-value.scss": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.property.math": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.constant.std.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.constant.variable.powershell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.dictionary.json": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.directive.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.any-method": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.function.any-method.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.attribute.fsharp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.be.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.builtin.go": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.console": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.construct.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.general.tex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.go": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.lua": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.magic.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.name": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.node": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.powershell": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "support.function.r": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.section.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.std.rust": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.function.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.target.PHONY.makefile": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.textbf.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.textit.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.function.url.latex": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.module": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.module.node": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.orther.namespace.use.php": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "support.other.module.idris": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.other.namespace.php": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "tokyo-night": 2
+    }
+  },
+  "support.other.namespace.use-as.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.other.namespace.use.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.other.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.other.variable": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "support.token.decorator.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type": {
+    "consensusLevel": 2,
+    "confidence": 0.75,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "night-owl": 1,
+      "tokyo-night": 2,
+      "nord": 2
+    }
+  },
+  "support.type.builtin.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.fx.hlsl": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.object": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.object.console": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.object.dom": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.type.object.hlsl": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.object.module": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "support.type.object.rw.hlsl": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.posix-reserved.c": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.posix-reserved.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.prelude.elm": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.type.primitive": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "support.type.property-name": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 1,
+      "one-dark-pro": 1,
+      "night-owl": 2,
+      "synthwave": 3
+    }
+  },
+  "support.type.property-name.json.comments": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.property-name.media.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.type.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.type.sampler.hlsl": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.swift": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "support.type.sys-types": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "support.type.texture.hlsl": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.type.type.flowtype": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.type.vb.asp": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "support.type.vendored.property-name.css": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.type.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable": {
+    "consensusLevel": 0,
+    "confidence": 0.67,
+    "themeCount": 3,
+    "themeLevels": {
+      "dark-plus": 0,
+      "tokyo-night": 0,
+      "synthwave": 3
+    }
+  },
+  "support.variable.UnityEditor": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.UnityEngine": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.dom": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 1,
+      "tokyo-night": 2
+    }
+  },
+  "support.variable.environment.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.magic.python": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "support.variable.object.node": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.object.process": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.option.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.property": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 2,
+      "tokyo-night": 0
+    }
+  },
+  "support.variable.property.dom": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "support.variable.property.process": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "support.variable.semantic.hlsl": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "support.variable.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "support.variable.viml": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.bracketed": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "text.html.basic": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.html.laravel-blade": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.html.markdown": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.restructuredtext": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "text.variable": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "todo.bold": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "todo.emphasis": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "token.debug-token": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "monokai": 3,
+      "tokyo-night": 3,
+      "nord": 3
+    }
+  },
+  "token.error-token": {
+    "consensusLevel": 3,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "monokai": 3,
+      "tokyo-night": 4,
+      "nord": 4
+    }
+  },
+  "token.info-token": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "monokai": 3,
+      "tokyo-night": 2,
+      "nord": 1
+    }
+  },
+  "token.package": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "token.package.keyword": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "token.storage": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "token.storage.type.java": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "token.variable.parameter.java": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "token.warn-token": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "monokai": 2,
+      "tokyo-night": 0,
+      "nord": 0
+    }
+  },
+  "variable.c": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 1
+    }
+  },
+  "variable.function": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 4,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3,
+      "tokyo-night": 2,
+      "synthwave": 0
+    }
+  },
+  "variable.function.constructor": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "variable.function.r": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.graphql": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.interpolation": {
+    "consensusLevel": 4,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 4
+    }
+  },
+  "variable.language.base": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.closure-parameter.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.dart": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.fenced.markdown": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 0
+    }
+  },
+  "variable.language.kotlin": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.makefile": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.rust": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "variable.language.self.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.special.self.python": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.super": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.language.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.line-break.asciidoc": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.object.constant": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.object.property": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 0
+    }
+  },
+  "variable.other.alias": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.anonymous.elixir": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.block": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.block.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.block.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.bracket.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.class": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.class.php": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "variable.other.constant": {
+    "consensusLevel": 0,
+    "confidence": 0.25,
+    "themeCount": 4,
+    "themeLevels": {
+      "dark-plus": 2,
+      "one-dark-pro": 0,
+      "night-owl": 3,
+      "tokyo-night": 1
+    }
+  },
+  "variable.other.constant.elixir": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 2
+    }
+  },
+  "variable.other.constant.property": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "variable.other.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.erlang": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.generic-type.haskell": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 3
+    }
+  },
+  "variable.other.global.safer.php": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.lua": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.makefile": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.member.powershell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.normal.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.object": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 0,
+      "tokyo-night": 0
+    }
+  },
+  "variable.other.object.access.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.object.property": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 0
+    }
+  },
+  "variable.other.object.property.cs": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.php": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 2
+    }
+  },
+  "variable.other.positional.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.property": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 2,
+    "themeLevels": {
+      "night-owl": 0,
+      "tokyo-night": 0
+    }
+  },
+  "variable.other.property.cpp": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.property.java": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.alias": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "tokyo-night": 2
+    }
+  },
+  "variable.other.readwrite.class.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.cs": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "variable.other.readwrite.global.pre-defined.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.global.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.instance.crystal": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.instance.ruby": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.readwrite.module.elixir": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "nord": 0
+    }
+  },
+  "variable.other.readwrite.powershell": {
+    "consensusLevel": 3,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 3
+    }
+  },
+  "variable.other.ruby": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 0
+    }
+  },
+  "variable.other.special.shell": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.other.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.parameter.function": {
+    "consensusLevel": 1,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 1,
+      "night-owl": 2
+    }
+  },
+  "variable.parameter.function.coffee": {
+    "consensusLevel": 0,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 3,
+      "night-owl": 0
+    }
+  },
+  "variable.parameter.function.language.python": {
+    "consensusLevel": 2,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 2
+    }
+  },
+  "variable.parameter.function.language.special.self.python": {
+    "consensusLevel": 0,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "one-dark-pro": 0
+    }
+  },
+  "variable.parameter.function.python": {
+    "consensusLevel": 2,
+    "confidence": 0.5,
+    "themeCount": 2,
+    "themeLevels": {
+      "one-dark-pro": 2,
+      "night-owl": 3
+    }
+  },
+  "variable.parameter.function.swift": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.parameter.url.css": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.parameter.url.scss": {
+    "consensusLevel": 1,
+    "confidence": 1,
+    "themeCount": 1,
+    "themeLevels": {
+      "night-owl": 1
+    }
+  },
+  "variable.readwrite": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.readwrite.other.block": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  },
+  "variable.type.elm": {
+    "consensusLevel": null,
+    "confidence": 0,
+    "themeCount": 0,
+    "themeLevels": {}
+  }
+}

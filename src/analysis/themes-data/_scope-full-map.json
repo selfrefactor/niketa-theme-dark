@@ -1,0 +1,3850 @@
+{
+  ">": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "block.scope.begin": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "block.scope.end": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.angle": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.curly": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.quote": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.round": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.square": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.tag": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "brackethighlighter.unmatched": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.access.module.scss": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.accessor": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.accessor.cs": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.accessor.dot.kotlin": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.bracket.angle.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.colon.graphql": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.delimiter.property.dot.viml": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.dot.dart": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.operator.assignment.as.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.other.period.go": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.parens.ellipses.elm": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.parenthesis.begin": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.parenthesis.begin.python": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.parenthesis.end": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.parenthesis.end.python": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.quasi.element": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.array": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.array.begin.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.array.end.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.begin.bracket.curly.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.begin.bracket.curly.cpp": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.begin.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.end.bracket.curly.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.end.bracket.curly.cpp": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.block.end.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.class.begin.bracket.curly.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.class.begin.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.class.end": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.class.end.bracket.curly.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.class.end.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.embedded": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.embedded.begin": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.embedded.begin.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.embedded.end": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.embedded.end.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.inner-class.begin.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.inner-class.end.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.list.begin.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.list.end.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.method.begin.bracket.curly.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.method.begin.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.method.end.bracket.curly.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.method.end.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.parameters.begin.bracket.round.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.parameters.end.bracket.round.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.parens.begin.bracket.round.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.parens.end.bracket.round.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.regexp.begin.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.regexp.end.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.scope.begin.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.section.scope.end.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.argument-label.swift": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.arguments": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.arguments.python": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.clause-head-body.erlang": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.colon.viml": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.comma": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.cpp": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.delimiter": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.delimiter.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.delimiter.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.dictionary.key-value.json": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.element.python": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.generic-parameter-constraint.swift": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.inheritance-clause.swift": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.inheritance.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.key-value": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.key-value.mapping.yaml": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.key-value.restructuredtext": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.list.comma.css": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.method.crystal": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.method.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.method.ruby": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.module-function.erlang": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.namespace.access.cpp": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.namespace.ruby": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.other.crystal": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.period.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.period.python": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.pipe.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.pointer-access": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.separator.pointer-access.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.terminator.expression": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.terminator.expression.php": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.terminator.java": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.terminator.statement": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.terminator.statement.c": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "punctuation.type.flowtype": {
+    "group": "PUNCTUATIONS",
+    "level": 0
+  },
+  "beginning.punctuation.definition.list.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "beginning.punctuation.definition.list.markdown.xi": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "beginning.punctuation.definition.quote.markdown.xi": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "comment.punctuation.comma.sass": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.ability.begin.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.ability.end.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.annotation.java": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.arguments": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.arguments.begin.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.arguments.begin.python": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.arguments.end.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.arguments.end.python": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.array": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.array.begin.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.array.end.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.asciidoc": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.begin.bracket.curly.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.begin.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.block": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.block.sequence.item.yaml": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.blockquote.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.bold": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.bold.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.changed": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.comment": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.constant": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.constant.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.constant.ruby": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.delayed.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.deleted": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.end.bracket.curly.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.end.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.entity": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.entity.css": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.fenced.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.field": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.from-file.diff": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.group.capture.regexp": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.hash.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.heading.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.inserted": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.italic": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.italic.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.keyValuePair.toml": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.begin": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.begin.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.begin.python": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.begin.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.end": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.end.python": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.end.unison": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.list_item.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.metadata.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.method-parameters.begin.java": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.method-parameters.end.java": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.normal.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.parameters": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.parameters.begin.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.parameters.end.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.raw.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.scope.key-value.viml": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.section.switch-block.begin.bracket.curly.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.section.switch-block.end.bracket.curly.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.section.switch-block.start.bracket.curly.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.storage-type.begin.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.storage-type.end.bracket.round.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.string.begin.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.string.end.markdown": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.string.json": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.tag": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.tag.begin.html": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.tag.end.html": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.tag.html": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.tag.xi": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.template-expression": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.template-expression.begin": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.template-expression.end": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.to-file.diff": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.variable.elixir": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.variable.php": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.variable.powershell": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.variable.shell": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.definition.variable.viml": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "punctuation.string": {
+    "group": "PUNCTUATIONS",
+    "level": 1
+  },
+  "constant.asciidoc": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.asciidoc": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.character-class.regexp.xi": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.css.sass": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.entity": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.escape": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.format.placeholder.other.python": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.module.name": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.numeric": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.numeric.regexp": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.character.xi": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.escape": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.keyword.clojure": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.lua": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.symbol": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.symbol.double-quoted.elixir": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.symbol.elixir": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.symbol.ruby": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.unit.fsharp": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.language.unit.haskell": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.numeric.math.tex": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.numeric.module.dot": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.character-class.regexp": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.citation.link.restructuredtext": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.color": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.color.rgb-value.xi": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.database-name.sql": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.footnote.link": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.footnote.link.restructuredtext": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.fsharp": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.general.math.tex": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.gleam": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.key": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.php": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.placeholder": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.placeholder.c": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.placeholder.go": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.reference.label.latex": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.reference.link": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.reference.link.markdown": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.symbol": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.symbol.elixir": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.other.table-name.sql": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.pathname.viml": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.regexp.xi": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant.type-constructor.elm": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "rgb-value": {
+    "group": "CONSTANTS",
+    "level": 2
+  },
+  "constant": {
+    "group": "CONSTANTS",
+    "level": 4
+  },
+  "entity": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.global.clojure": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.class.identifier.namespace.type": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.class.kotlin": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.class.xi": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.constant": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.filename": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.filename.find-in-files": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function-call": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.asciidoc": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.c": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.call.cpp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.clojure": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.crystal": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.cs": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.ctor": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.ctor.idris": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.dart": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.erlang": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.gleam": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.guard.erlang": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.haskell": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.java": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.lua": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.macro.erlang": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.macro.rust": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.member.cpp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.preprocessor.c": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.preprocessor.cpp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.rust": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.swift": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.target.makefile": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.viml": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.function.xi": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.goto-label.php": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.label.cs": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.lifetime.rust": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.module": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.package.go": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.package.kotlin": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.record.field.accessor.elm": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.role.restructuredtext": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.section": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.section.fsharp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.section.latex": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.section.markdown": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.class": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.css": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.html": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.id": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.laravel-blade": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.reference": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.restructuredtext": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.wildcard.css": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.wildcard.less": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.wildcard.sass": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.wildcard.scss": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.tag.yaml": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.class": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.class.kotlin": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.class.module.erlang": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.fsharp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.instance": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.module": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.namespace": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.namespace.scope-resolution.cpp": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.rust": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.type.swift": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.variable": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.variable.field.cs": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.variable.local": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.variable.local.cs": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.variable.parameter.cs": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.other.attribute-name.html": {
+    "group": "ENTITIES",
+    "level": 0
+  },
+  "entity.name.namespace": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.name.scope-resolution": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.name.scope-resolution.function.call": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.name.scope-resolution.function.definition": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.alias.php": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.class": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.class.css": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.id": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.id.css": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.pseudo-class": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.pseudo-class.css": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.pseudo-element": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.pseudo-element.css": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.attribute-name.table.toml": {
+    "group": "ENTITIES",
+    "level": 2
+  },
+  "entity.other.inherited-class.haskell": {
+    "group": "ENTITIES",
+    "level": 4
+  },
+  "entity.other.inherited-class.kotlin": {
+    "group": "ENTITIES",
+    "level": 4
+  },
+  "entity.other.inherited-class.placeholder-selector.css.sass": {
+    "group": "ENTITIES",
+    "level": 4
+  },
+  "object": {
+    "group": "VARIABLES",
+    "level": 0
+  },
+  "function.parameter": {
+    "group": "VARIABLES",
+    "level": 1
+  },
+  "function.parameter.cs": {
+    "group": "VARIABLES",
+    "level": 1
+  },
+  "function.parameter.ruby": {
+    "group": "VARIABLES",
+    "level": 1
+  },
+  "variable.c": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.function": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.function.constructor": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.function.r": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.graphql": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.interpolation": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.line-break.asciidoc": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.object.constant": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.object.property": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.alias": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.anonymous.elixir": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.block": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.block.crystal": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.block.ruby": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.bracket.shell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.class": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.class.php": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.constant": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.constant.elixir": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.constant.property": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.crystal": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.erlang": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.generic-type.haskell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.global.safer.php": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.lua": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.makefile": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.member.powershell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.normal.shell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.object": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.object.access.cpp": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.object.property": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.object.property.cs": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.php": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.positional.shell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.property": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.property.cpp": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.property.java": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.alias": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.class.crystal": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.cs": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.global.pre-defined.ruby": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.global.ruby": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.instance.crystal": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.instance.ruby": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.module.elixir": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.readwrite.powershell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.ruby": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.special.shell": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.other.swift": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.readwrite": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.readwrite.other.block": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "variable.type.elm": {
+    "group": "VARIABLES",
+    "level": 2
+  },
+  "parameter.variable.function.elixir": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function.coffee": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function.language.python": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function.language.special.self.python": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function.python": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.function.swift": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.url.css": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.parameter.url.scss": {
+    "group": "VARIABLES",
+    "level": 3
+  },
+  "variable.language.base": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.closure-parameter.swift": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.dart": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.elixir": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.fenced.markdown": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.kotlin": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.makefile": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.ruby": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.rust": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.self.crystal": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.special.self.python": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.super": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "variable.language.swift": {
+    "group": "VARIABLES",
+    "level": 4
+  },
+  "support.variable": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.UnityEditor": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.UnityEngine": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.dom": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.environment.viml": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.magic.python": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.object.node": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.object.process": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.option.viml": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.property": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.property.dom": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.property.process": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.semantic.hlsl": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.swift": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "support.variable.viml": {
+    "group": "SUPPORTS",
+    "level": 0
+  },
+  "function.support.builtin": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "function.support.core": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.asciidoc": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.component": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.crystal": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.dart": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.kotlin": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.math.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.ruby": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.class.stdplugin.viml": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.attribute-name.asciidoc": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.attribute.viml": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.color.w3c-standard-color-name.css": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.color.w3c-standard-color-name.scss": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.core.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.core.rust": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.edge": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.elm": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.ext.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.font-name": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.json": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.laravel-blade": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.math": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.misc.r": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.parser-token.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.property-value": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.property-value.css": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.property-value.scss": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.property.math": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.std.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.constant.variable.powershell": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.dictionary.json": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.directive.restructuredtext": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.any-method": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.any-method.swift": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.attribute.fsharp": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.be.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.builtin.go": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.console": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.construct.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.general.tex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.go": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.lua": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.magic.python": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.name": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.node": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.powershell": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.r": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.section.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.std.rust": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.swift": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.target.PHONY.makefile": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.textbf.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.textit.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.function.url.latex": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.module": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.module.node": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.orther.namespace.use.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.module.idris": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.namespace.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.namespace.use-as.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.namespace.use.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.php": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.other.variable": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.token.decorator.python": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.builtin.graphql": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.fx.hlsl": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.graphql": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object.console": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object.dom": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object.hlsl": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object.module": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.object.rw.hlsl": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.posix-reserved.c": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.posix-reserved.cpp": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.prelude.elm": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.primitive": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.property-name": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.property-name.json.comments": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.property-name.media.css": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.python": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.sampler.hlsl": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.swift": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.sys-types": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.texture.hlsl": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.type.flowtype": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.vb.asp": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.vendored.property-name.css": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "support.type.viml": {
+    "group": "SUPPORTS",
+    "level": 2
+  },
+  "storage": {
+    "group": "STORAGES",
+    "level": 1
+  },
+  "import.storage.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.class.std.rust": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.control.clojure": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.identifier": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.attribute.swift": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.import": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.import.groovy": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.import.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.lifetime.rust": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.package": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.scope.viml": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.modifier.swift": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.annotation.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.annotation.kotlin": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.core.rust": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.cs": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.elm": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.format.python": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.generic.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.haskell": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.object.array.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.php": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "storage.type.powershell": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "token.storage": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "token.storage.type.java": {
+    "group": "STORAGES",
+    "level": 3
+  },
+  "interpolated.simple.source": {
+    "group": "CSS",
+    "level": 0
+  },
+  "sass.script.maps": {
+    "group": "CSS",
+    "level": 0
+  },
+  "selector.sass": {
+    "group": "CSS",
+    "level": 0
+  },
+  "keyword.key.toml": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.address.go": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.arithmetic": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.arithmetic.go": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.arithmetic.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.assignment": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.assignment.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.assignment.compound": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.assignment.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.assignment.go": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.bitwise": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.bitwise.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.bitwise.shift.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.bitwise.shift.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.channel": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.comparison": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.comparison.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.comparison.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.comparison.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.constructor": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.css": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.decrement": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.decrement.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.decrement.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.delete": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.error-control.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.delete": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.import": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.in": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.instanceof": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.keyof": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.of": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.typeof": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.expression.void": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.heredoc.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.increment": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.increment.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.increment.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.instanceof.java": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.less": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.list.shell": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.logical": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.logical.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.logical.python": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.misc.rust": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.module": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.negation.regexp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.new": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.nowdoc.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.optional": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.or.regexp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.other.elixir": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.quantifier.regexp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.regexp.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.relational": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.scss": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.sigil.rust": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.sizeof.c": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.sizeof.cpp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.ternary": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.operator.type.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.array.phpdoc.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.back-reference.regexp": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.base": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.important": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.important.css": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.important.scss": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.platform.os.swift": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.preprocessor.haskell": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.special-method": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.substitution": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.substitution.begin": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.substitution.end": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.template": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.template.begin": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.template.end": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.this": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.type.php": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.unit": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.other.using.cs": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.symbol": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.symbol.new": {
+    "group": "KEYWORDS",
+    "level": 0
+  },
+  "keyword.control": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.anchor.regexp": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.at-rule": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.class.ruby": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.clojure": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.def.ruby": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.directive.define.cpp": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.directive.include.cpp": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.flow": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.flow.python": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.from": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.if.cpp": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.import": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.import.python": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.layout.tex": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.loop": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.module.ruby": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.newline.tex": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.preamble.latex": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.ref.latex": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.return.cpp": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.ruby": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.unit.css.sass": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.control.xi": {
+    "group": "KEYWORDS",
+    "level": 1
+  },
+  "keyword.type.cs": {
+    "group": "KEYWORDS",
+    "level": 3
+  },
+  "markup.meta.attribute-list.asciidoc": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.arguments.coffee": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.array": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.assertion": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute-selector.scss": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute.class.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute.d.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute.href.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute.id.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.attribute.rust": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.block": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.class": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.declaration.data.idris": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.declaration.exports.haskell": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.declaration.module": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.declaration.module.idris": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.declaration.procedure.scheme": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.definition.class.inherited.classes.groovy": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.definition.type.extension.swift": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.definition.variable.name.groovy": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.definition.variable.name.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.delimiter": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff.header": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff.header.from-file": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff.header.git": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff.header.to-file": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.diff.range": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.directive.erlang": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.element.object.svg.path.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.element.structure.svg.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.embedded.assembly": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.embedded.block": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.export.default": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.expression.parenthesized": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.arguments": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.arguments.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.c": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.cpp": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.crystal": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.erlang": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.generic": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.generic.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.object.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.static.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.swift": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function-call.without-arguments": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.c": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.cpp": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.decorator.identifier.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.decorator.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.definition.elixir": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.definition.parameters.c": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.embedded.latex": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.lua": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.method.with-arguments.ruby": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.parameters": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.parameters.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.type-declaration.elm": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.type-declaration.haskell": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.type-record.elm": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.type-signature": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.function.type-signature.idris": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.generic-where-clause.swift": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.group": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.hashtable": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.hashtable.assignment": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.import": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.import.haskell": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.instance.constructor": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.interface.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.interpolation.cs": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.link.inline.markdown": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.link.reference.def": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.member.access.python": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method-call": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method-call.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.body.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.declaration": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.groovy": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.identifier": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.identifier.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.method.java": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.module-reference": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.module.name": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.object-literal.key": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.object.flowtype": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.other.type.phpdoc.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.other.unknown.elm": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.output": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.parameter": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.parameter.named.idris": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.preprocessor.haskell": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-list": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-list.css.sass.prop": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-list.scss": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-name": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-name.scss": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property-value": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.property.object": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.require": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.scope.prerequisites.makefile": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.scriptblock": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.selector": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.separator": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.separator.markdown": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.structure.dictionary.json": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.structure.dictionary.value": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.structure.dictionary.value.json": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.structure.tuple.erlang": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.symbol.clojure": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.attributes": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.inline.span.start.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.metadata.meta.void.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.metadata.script.end.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.metadata.script.start.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.sgml": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.body.end.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.body.start.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.head.end.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.head.start.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.html.end.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.tag.structure.html.start.html": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.template.expression": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.type.interface": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.type.object.graphql": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.use.php": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.var.expr": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.variables.graphql": {
+    "group": "METAS",
+    "level": 2
+  },
+  "meta.vector.clojure": {
+    "group": "METAS",
+    "level": 2
+  },
+  "namespace.open.fsharp": {
+    "group": "METAS",
+    "level": 2
+  },
+  "string": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.embedded": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.embedded.begin": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.embedded.end": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.interpolated": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.interpolated.dollar.shell": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.interpolated.makefile": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.other.link": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.other.link.description.markdown": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.other.link.description.title.markdown": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.other.link.title.markdown": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.other.link.title.restructuredtext": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.docstring": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.docstring.multi": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.double": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.double.include.cpp": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.double.python": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.json": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.single": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.single.html": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.quoted.single.python": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.regexp": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.regexp.arbitrary-repitition": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.regexp.character-class": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "string.unquoted": {
+    "group": "STRINGS",
+    "level": 1
+  },
+  "JSXNested": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "control.elements": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "inline-color-decoration": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "less": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.bold": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.bold.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.bold.markdown": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.list": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.list.bullet.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.list.numbered": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.other.command.restructuredtext": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.other.url": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.other.url.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.table": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.table.cell.delimiter.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "markup.table.delimiter.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "md": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.cpp": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.crystal": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.cs": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.css.scss": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.dart": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.elixir": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.elm": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.fsharp": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.graphql": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.haskell": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.idris": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.ini": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.java": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.array.json > constant.language.json": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.array.json > value.json > string.quoted.json > punctuation": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.array.json > value.json > string.quoted.json": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.dictionary.json > constant.language.json": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.json meta.structure.dictionary.json > value.json > string.quoted.json": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.makefile": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.ocaml": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.php.embedded.line.html": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.powershell": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.python": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.reason": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.regexp": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.ruby.embedded": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.rust": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.scheme": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.shell": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.swift": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.viml": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "source.yaml": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "strong": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.asciidoc": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.bracketed": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.html.basic": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.html.laravel-blade": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.html.markdown": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.restructuredtext": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "text.variable": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "token.package": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "token.package.keyword": {
+    "group": "COLOR_0",
+    "level": 0
+  },
+  "*link*": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "*uri*": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "*url*": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "heading.1.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "heading.2.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "heading.3.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "heading.4.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading punctuation.definition.heading": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.block-attribute.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.blocktitle.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.list.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.marker.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.setext": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.setext.1.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.heading.setext.2.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.highlight.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.link": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.mark.asciidoc": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.underline": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.underline.link.image.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.underline.link.markdown": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "markup.underline.substitution.restructuredtext": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "string.detected-link": {
+    "group": "COLOR_1",
+    "level": 1
+  },
+  "accent.xi": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.admonition": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.admonition.asciidoc": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.code": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.fenced_code": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.fenced_code.block.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inline": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inline.raw.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inline.raw.string.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inserted": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inserted.diff": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.inserted.git_gutter": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.macro.block.general": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.macro.inline.passthrough.asciidoc": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.block": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.block.fenced.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.block.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.inline.markdown": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.inner.restructuredtext": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.raw.restructuredtext": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "markup.substitution.attribute-reference.asciidoc": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "token.debug-token": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "token.info-token": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "token.variable.parameter.java": {
+    "group": "COLOR_2",
+    "level": 2
+  },
+  "emphasis": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.changed": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.changed.diff": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.changed.git_gutter": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.italic.markdown": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.italic.quotes.asciidoc": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "markup.quote.markdown": {
+    "group": "COLOR_3",
+    "level": 3
+  },
+  "carriage-return": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.broken": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.deprecated": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.illegal": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.illegal.bad-ampersand.html": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.illegal.non-null-typehinted.php": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.illegal.parenthesis.scheme": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.unimplemented": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "invalid.xi": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markup.deleted": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markup.deleted.diff": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markup.deleted.git_gutter": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markup.ignored": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markup.untracked": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "message.error": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "string.comment": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "todo.bold": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "todo.emphasis": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "token.error-token": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "token.warn-token": {
+    "group": "COLOR_4",
+    "level": 4
+  },
+  "markdown.heading": {
+    "group": "DROP",
+    "level": null
+  },
+  "meta.metadata.simple.clojure": {
+    "group": "DROP",
+    "level": null
+  }
+}

@@ -1,0 +1,3676 @@
+{
+  "meta.embedded": {
+    "dark-plus": "#D4D4D4",
+    "one-dark-pro": "#abb2bf",
+    "monokai": "#F8F8F2"
+  },
+  "source.groovy.embedded": {
+    "dark-plus": "#D4D4D4",
+    "monokai": "#F8F8F2"
+  },
+  "string meta.image.inline.markdown": {
+    "dark-plus": "#D4D4D4",
+    "monokai": "#F8F8F2"
+  },
+  "variable.legacy.builtin.python": {
+    "dark-plus": "#D4D4D4",
+    "monokai": "#F8F8F2"
+  },
+  "header": {
+    "dark-plus": "#000080"
+  },
+  "comment": {
+    "dark-plus": "#6A9955",
+    "monokai": "#88846f",
+    "night-owl": "#637777",
+    "tokyo-night": "#51597d",
+    "nord": "#616E88",
+    "synthwave": "#848bbd"
+  },
+  "constant.language": {
+    "dark-plus": "#569cd6",
+    "monokai": "#AE81FF",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#ff9e64",
+    "nord": "#81A1C1",
+    "synthwave": "#f97e72"
+  },
+  "constant.numeric": {
+    "dark-plus": "#b5cea8",
+    "one-dark-pro": "#d19a66",
+    "monokai": "#AE81FF",
+    "night-owl": "#F78C6C",
+    "tokyo-night": "#ff9e64",
+    "nord": "#B48EAD",
+    "synthwave": "#f97e72"
+  },
+  "variable.other.enummember": {
+    "dark-plus": "#b5cea8",
+    "tokyo-night": "#7aa2f7"
+  },
+  "keyword.operator.plus.exponent": {
+    "dark-plus": "#b5cea8"
+  },
+  "keyword.operator.minus.exponent": {
+    "dark-plus": "#b5cea8"
+  },
+  "constant.regexp": {
+    "dark-plus": "#646695",
+    "nord": "#EBCB8B"
+  },
+  "entity.name.tag": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#e06c75",
+    "monokai": "#F92672",
+    "night-owl": "#caece6",
+    "tokyo-night": "#f7768e",
+    "nord": "#81A1C1",
+    "synthwave": "#72f1b8"
+  },
+  "entity.name.tag.css": {
+    "dark-plus": "#d7ba7d",
+    "night-owl": "#ff6363",
+    "tokyo-night": "#0db9d7"
+  },
+  "entity.name.tag.less": {
+    "dark-plus": "#d7ba7d",
+    "night-owl": "#ff6363"
+  },
+  "entity.other.attribute-name": {
+    "dark-plus": "#9cdcfe",
+    "one-dark-pro": "#d19a66",
+    "monokai": "#A6E22E",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#bb9af7",
+    "nord": "#8FBCBB",
+    "synthwave": "#fede5d"
+  },
+  "entity.other.attribute-name.class.css": {
+    "dark-plus": "#d7ba7d",
+    "one-dark-pro": "#d19a66"
+  },
+  "source.css entity.other.attribute-name.class": {
+    "dark-plus": "#d7ba7d"
+  },
+  "entity.other.attribute-name.id.css": {
+    "dark-plus": "#d7ba7d"
+  },
+  "entity.other.attribute-name.parent-selector.css": {
+    "dark-plus": "#d7ba7d"
+  },
+  "entity.other.attribute-name.parent.less": {
+    "dark-plus": "#d7ba7d"
+  },
+  "source.css entity.other.attribute-name.pseudo-class": {
+    "dark-plus": "#d7ba7d"
+  },
+  "entity.other.attribute-name.pseudo-element.css": {
+    "dark-plus": "#d7ba7d"
+  },
+  "source.css.less entity.other.attribute-name.id": {
+    "dark-plus": "#d7ba7d"
+  },
+  "entity.other.attribute-name.scss": {
+    "dark-plus": "#d7ba7d"
+  },
+  "invalid": {
+    "dark-plus": "#f44747",
+    "monokai": "#F44747",
+    "night-owl": "#ffffff",
+    "tokyo-night": "#ff5370"
+  },
+  "markup.bold": {
+    "dark-plus": "#569cd6",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.heading": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#e06c75",
+    "monokai": "#A6E22E",
+    "night-owl": "#82b1ff",
+    "nord": "#88C0D0",
+    "synthwave": "#ff7edb"
+  },
+  "markup.italic": {
+    "dark-plus": "#C586C0",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.inserted": {
+    "dark-plus": "#b5cea8",
+    "one-dark-pro": "#98c379",
+    "monokai": "#A6E22E",
+    "night-owl": "#036A07",
+    "tokyo-night": "#449dab",
+    "nord": "#A3BE8C"
+  },
+  "markup.deleted": {
+    "dark-plus": "#ce9178",
+    "one-dark-pro": "#e06c75",
+    "monokai": "#F92672",
+    "night-owl": "#ff0000",
+    "tokyo-night": "#914c54",
+    "nord": "#BF616A"
+  },
+  "markup.changed": {
+    "dark-plus": "#569cd6",
+    "monokai": "#E6DB74",
+    "night-owl": "#a2bffc",
+    "tokyo-night": "#6183bb",
+    "nord": "#EBCB8B"
+  },
+  "punctuation.definition.quote.begin.markdown": {
+    "dark-plus": "#6A9955",
+    "synthwave": "#72f1b8"
+  },
+  "punctuation.definition.list.begin.markdown": {
+    "dark-plus": "#6796e6",
+    "one-dark-pro": "#e5c07b",
+    "monokai": "#A6E22E"
+  },
+  "markup.inline.raw": {
+    "dark-plus": "#ce9178",
+    "monokai": "#FD971F",
+    "night-owl": "#80CBC4"
+  },
+  "punctuation.definition.tag": {
+    "dark-plus": "#808080",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#ba3c97",
+    "nord": "#81A1C1",
+    "synthwave": "#36f9f6"
+  },
+  "meta.preprocessor": {
+    "dark-plus": "#569cd6",
+    "tokyo-night": "#73daca",
+    "nord": "#5E81AC"
+  },
+  "entity.name.function.preprocessor": {
+    "dark-plus": "#569cd6"
+  },
+  "meta.preprocessor.string": {
+    "dark-plus": "#ce9178"
+  },
+  "meta.preprocessor.numeric": {
+    "dark-plus": "#b5cea8"
+  },
+  "meta.structure.dictionary.key.python": {
+    "dark-plus": "#9cdcfe"
+  },
+  "meta.diff.header": {
+    "dark-plus": "#569cd6"
+  },
+  "storage": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "monokai": "#F92672",
+    "night-owl": "#c792ea",
+    "nord": "#81A1C1"
+  },
+  "storage.type": {
+    "dark-plus": "#569cd6",
+    "monokai": "#66D9EF",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#fede5d"
+  },
+  "storage.modifier": {
+    "dark-plus": "#569cd6",
+    "tokyo-night": "#9d7cd8",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator.noexcept": {
+    "dark-plus": "#569cd6"
+  },
+  "string": {
+    "dark-plus": "#ce9178",
+    "one-dark-pro": "#98c379",
+    "monokai": "#E6DB74",
+    "night-owl": "#ecc48d",
+    "tokyo-night": "#9ece6a",
+    "nord": "#A3BE8C"
+  },
+  "meta.embedded.assembly": {
+    "dark-plus": "#ce9178"
+  },
+  "string.tag": {
+    "dark-plus": "#ce9178"
+  },
+  "string.value": {
+    "dark-plus": "#ce9178"
+  },
+  "string.regexp": {
+    "dark-plus": "#d16969",
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#5ca7e4",
+    "tokyo-night": "#b4f9f8",
+    "nord": "#EBCB8B",
+    "synthwave": "#f97e72"
+  },
+  "punctuation.definition.template-expression.begin": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "synthwave": "#72f1b8"
+  },
+  "punctuation.definition.template-expression.end": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "synthwave": "#72f1b8"
+  },
+  "punctuation.section.embedded": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "monokai": "#F92672",
+    "night-owl": "#d3423e",
+    "tokyo-night": "#7dcfff",
+    "synthwave": "#fede5d"
+  },
+  "meta.template.expression": {
+    "dark-plus": "#d4d4d4",
+    "one-dark-pro": "#abb2bf",
+    "monokai": "#F8F8F2"
+  },
+  "support.type.vendored.property-name": {
+    "dark-plus": "#9cdcfe",
+    "tokyo-night": "#7aa2f7"
+  },
+  "support.type.property-name": {
+    "dark-plus": "#9cdcfe",
+    "one-dark-pro": "#abb2bf",
+    "night-owl": "#80CBC4",
+    "synthwave": "#ff7edb"
+  },
+  "source.css variable": {
+    "dark-plus": "#9cdcfe"
+  },
+  "source.coffee.embedded": {
+    "dark-plus": "#9cdcfe"
+  },
+  "keyword": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "monokai": "#F92672",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7",
+    "nord": "#81A1C1",
+    "synthwave": "#fede5d"
+  },
+  "keyword.control": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator": {
+    "dark-plus": "#d4d4d4",
+    "one-dark-pro": "#abb2bf",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#89ddff",
+    "nord": "#81A1C1",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator.new": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator.expression": {
+    "dark-plus": "#569cd6",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator.cast": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.sizeof": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.alignof": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.typeid": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.alignas": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.instanceof": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.operator.logical.python": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.wordlike": {
+    "dark-plus": "#569cd6"
+  },
+  "keyword.other.unit": {
+    "dark-plus": "#b5cea8",
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#FFEB95",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#f97e72"
+  },
+  "punctuation.section.embedded.begin.php": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#BE5046"
+  },
+  "punctuation.section.embedded.end.php": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#BE5046"
+  },
+  "support.function.git-rebase": {
+    "dark-plus": "#9cdcfe"
+  },
+  "constant.sha.git-rebase": {
+    "dark-plus": "#b5cea8"
+  },
+  "storage.modifier.import.java": {
+    "dark-plus": "#d4d4d4"
+  },
+  "variable.language.wildcard.java": {
+    "dark-plus": "#d4d4d4"
+  },
+  "storage.modifier.package.java": {
+    "dark-plus": "#d4d4d4"
+  },
+  "variable.language": {
+    "dark-plus": "#569cd6",
+    "one-dark-pro": "#e5c07b",
+    "monokai": "#FD971F",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#f7768e",
+    "nord": "#81A1C1",
+    "synthwave": "#fe4450"
+  },
+  "entity.name.function": {
+    "dark-plus": "#DCDCAA",
+    "one-dark-pro": "#61afef",
+    "monokai": "#A6E22E",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#7aa2f7",
+    "nord": "#88C0D0",
+    "synthwave": "#36f9f6"
+  },
+  "support.function": {
+    "dark-plus": "#DCDCAA",
+    "one-dark-pro": "#56b6c2",
+    "monokai": "#66D9EF",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#0db9d7",
+    "nord": "#88C0D0",
+    "synthwave": "#36f9f6"
+  },
+  "support.constant.handlebars": {
+    "dark-plus": "#DCDCAA",
+    "tokyo-night": "#7dcfff"
+  },
+  "source.powershell variable.other.member": {
+    "dark-plus": "#DCDCAA"
+  },
+  "entity.name.operator.custom-literal": {
+    "dark-plus": "#DCDCAA"
+  },
+  "support.class": {
+    "dark-plus": "#4EC9B0",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#0db9d7",
+    "nord": "#8FBCBB"
+  },
+  "support.type": {
+    "dark-plus": "#4EC9B0",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#0db9d7",
+    "nord": "#8FBCBB"
+  },
+  "entity.name.type": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "synthwave": "#fe4450"
+  },
+  "entity.name.namespace": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "tokyo-night": "#0db9d7"
+  },
+  "entity.other.attribute": {
+    "dark-plus": "#4EC9B0"
+  },
+  "entity.name.scope-resolution": {
+    "dark-plus": "#4EC9B0"
+  },
+  "entity.name.class": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "night-owl": "#ffcb8b",
+    "nord": "#8FBCBB"
+  },
+  "storage.type.numeric.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.byte.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.boolean.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.string.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.uintptr.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.error.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.rune.go": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.cs": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "night-owl": "#ffcb8b",
+    "tokyo-night": "#7aa2f7",
+    "synthwave": "#fe4450"
+  },
+  "storage.type.generic.cs": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.modifier.cs": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.variable.cs": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.annotation.java": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b"
+  },
+  "storage.type.generic.java": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.java": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.object.array.java": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b"
+  },
+  "storage.type.primitive.array.java": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.primitive.java": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.token.java": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.annotation.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.parameters.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.generic.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.object.array.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.primitive.array.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "storage.type.primitive.groovy": {
+    "dark-plus": "#4EC9B0"
+  },
+  "meta.type.cast.expr": {
+    "dark-plus": "#4EC9B0"
+  },
+  "meta.type.new.expr": {
+    "dark-plus": "#4EC9B0"
+  },
+  "support.constant.math": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#0db9d7"
+  },
+  "support.constant.dom": {
+    "dark-plus": "#4EC9B0"
+  },
+  "support.constant.json": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#d19a66",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#0db9d7"
+  },
+  "entity.other.inherited-class": {
+    "dark-plus": "#4EC9B0",
+    "one-dark-pro": "#e5c07b",
+    "monokai": "#A6E22E",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#bb9af7",
+    "nord": "#8FBCBB",
+    "synthwave": "#D50"
+  },
+  "punctuation.separator.namespace.ruby": {
+    "dark-plus": "#4EC9B0",
+    "monokai": "#A6E22E"
+  },
+  "source.cpp keyword.operator.new": {
+    "dark-plus": "#C586C0"
+  },
+  "keyword.operator.delete": {
+    "dark-plus": "#C586C0",
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.other.using": {
+    "dark-plus": "#C586C0"
+  },
+  "keyword.other.directive.using": {
+    "dark-plus": "#C586C0"
+  },
+  "keyword.other.operator": {
+    "dark-plus": "#C586C0"
+  },
+  "entity.name.operator": {
+    "dark-plus": "#C586C0",
+    "tokyo-night": "#89ddff"
+  },
+  "variable": {
+    "dark-plus": "#9CDCFE",
+    "one-dark-pro": "#e06c75",
+    "monokai": "#F8F8F2",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#c0caf5",
+    "synthwave": "#ff7edb"
+  },
+  "meta.definition.variable.name": {
+    "dark-plus": "#9CDCFE"
+  },
+  "support.variable": {
+    "dark-plus": "#9CDCFE",
+    "tokyo-night": "#c0caf5",
+    "synthwave": "#ff7edb"
+  },
+  "entity.name.variable": {
+    "dark-plus": "#9CDCFE",
+    "synthwave": "#ff7edb"
+  },
+  "constant.other.placeholder": {
+    "dark-plus": "#9CDCFE"
+  },
+  "variable.other.constant": {
+    "dark-plus": "#4FC1FF",
+    "one-dark-pro": "#e5c07b",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#ff9e64"
+  },
+  "meta.object-literal.key": {
+    "dark-plus": "#9CDCFE",
+    "tokyo-night": "#73daca",
+    "synthwave": "#ff7edb"
+  },
+  "support.constant.property-value": {
+    "dark-plus": "#CE9178",
+    "one-dark-pro": "#abb2bf",
+    "tokyo-night": "#ff9e64"
+  },
+  "support.constant.font-name": {
+    "dark-plus": "#CE9178",
+    "one-dark-pro": "#d19a66",
+    "tokyo-night": "#9ece6a",
+    "synthwave": "#f97e72"
+  },
+  "support.constant.media-type": {
+    "dark-plus": "#CE9178"
+  },
+  "support.constant.media": {
+    "dark-plus": "#CE9178"
+  },
+  "constant.other.color.rgb-value": {
+    "dark-plus": "#CE9178"
+  },
+  "constant.other.rgb-value": {
+    "dark-plus": "#CE9178"
+  },
+  "support.constant.color": {
+    "dark-plus": "#CE9178"
+  },
+  "punctuation.definition.group.regexp": {
+    "dark-plus": "#CE9178"
+  },
+  "punctuation.definition.group.assertion.regexp": {
+    "dark-plus": "#CE9178"
+  },
+  "punctuation.definition.character-class.regexp": {
+    "dark-plus": "#CE9178",
+    "tokyo-night": "#e0af68"
+  },
+  "punctuation.character.set.begin.regexp": {
+    "dark-plus": "#CE9178"
+  },
+  "punctuation.character.set.end.regexp": {
+    "dark-plus": "#CE9178"
+  },
+  "keyword.operator.negation.regexp": {
+    "dark-plus": "#CE9178"
+  },
+  "support.other.parenthesis.regexp": {
+    "dark-plus": "#CE9178",
+    "one-dark-pro": "#d19a66"
+  },
+  "constant.character.character-class.regexp": {
+    "dark-plus": "#d16969"
+  },
+  "constant.other.character-class.set.regexp": {
+    "dark-plus": "#d16969",
+    "tokyo-night": "#e0af68"
+  },
+  "constant.other.character-class.regexp": {
+    "dark-plus": "#d16969",
+    "one-dark-pro": "#e06c75",
+    "tokyo-night": "#bb9af7"
+  },
+  "constant.character.set.regexp": {
+    "dark-plus": "#d16969"
+  },
+  "keyword.operator.or.regexp": {
+    "dark-plus": "#DCDCAA",
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.control.anchor.regexp": {
+    "dark-plus": "#DCDCAA"
+  },
+  "keyword.operator.quantifier.regexp": {
+    "dark-plus": "#d7ba7d",
+    "one-dark-pro": "#d19a66",
+    "tokyo-night": "#89ddff"
+  },
+  "constant.character": {
+    "dark-plus": "#569cd6",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#bb9af7",
+    "nord": "#EBCB8B"
+  },
+  "constant.other.option": {
+    "dark-plus": "#569cd6"
+  },
+  "constant.character.escape": {
+    "dark-plus": "#d7ba7d",
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#F78C6C",
+    "tokyo-night": "#89ddff",
+    "nord": "#EBCB8B",
+    "synthwave": "#36f9f6"
+  },
+  "entity.name.label": {
+    "dark-plus": "#C8C8C8",
+    "one-dark-pro": "#e06c75"
+  },
+  "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison": {
+    "one-dark-pro": "#e06c75"
+  },
+  "variable.other.generic-type.haskell": {
+    "one-dark-pro": "#c678dd"
+  },
+  "storage.type.haskell": {
+    "one-dark-pro": "#d19a66"
+  },
+  "support.variable.magic.python": {
+    "one-dark-pro": "#e06c75"
+  },
+  "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "variable.parameter.function.language.special.self.python": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "variable.parameter.function.language.special.cls.python": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "storage.modifier.lifetime.rust": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "support.function.std.rust": {
+    "one-dark-pro": "#61afef"
+  },
+  "entity.name.lifetime.rust": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "variable.language.rust": {
+    "one-dark-pro": "#e06c75"
+  },
+  "support.constant.edge": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.word": {
+    "one-dark-pro": "#c678dd"
+  },
+  "variable.parameter.function": {
+    "one-dark-pro": "#abb2bf",
+    "night-owl": "#7fdbca"
+  },
+  "comment markup.link": {
+    "one-dark-pro": "#5c6370"
+  },
+  "markup.changed.diff": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff": {
+    "one-dark-pro": "#61afef"
+  },
+  "markup.inserted.diff": {
+    "one-dark-pro": "#98c379",
+    "night-owl": "#c5e478ff"
+  },
+  "markup.deleted.diff": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#EF535090"
+  },
+  "meta.function.c,meta.function.cpp": {
+    "one-dark-pro": "#e06c75"
+  },
+  "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "punctuation.separator.key-value": {
+    "one-dark-pro": "#abb2bf",
+    "synthwave": "#b6b1b1"
+  },
+  "keyword.operator.expression.import": {
+    "one-dark-pro": "#61afef"
+  },
+  "support.constant.property.math": {
+    "one-dark-pro": "#d19a66"
+  },
+  "source.java": {
+    "one-dark-pro": "#e06c75"
+  },
+  "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "meta.method.java": {
+    "one-dark-pro": "#61afef"
+  },
+  "storage.modifier.import.java,storage.type.java,storage.type.generic.java": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "keyword.operator.instanceof.java": {
+    "one-dark-pro": "#c678dd"
+  },
+  "meta.definition.variable.name.java": {
+    "one-dark-pro": "#e06c75"
+  },
+  "keyword.operator.logical": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#fede5d"
+  },
+  "keyword.operator.bitwise": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.operator.channel": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.constant.property-value.scss,support.constant.property-value.css": {
+    "one-dark-pro": "#d19a66"
+  },
+  "keyword.operator.css,keyword.operator.scss,keyword.operator.less": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss": {
+    "one-dark-pro": "#d19a66"
+  },
+  "punctuation.separator.list.comma.css": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "support.constant.color.w3c-standard-color-name.css": {
+    "one-dark-pro": "#d19a66"
+  },
+  "support.type.vendored.property-name.css": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.module.node,support.type.object.module,support.module.node": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.type.module": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node": {
+    "one-dark-pro": "#e06c75"
+  },
+  "keyword.operator.expression.instanceof": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.ternary": {
+    "one-dark-pro": "#c678dd",
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.operator.optional": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.expression.keyof": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.object.console": {
+    "one-dark-pro": "#e06c75"
+  },
+  "support.variable.property.process": {
+    "one-dark-pro": "#d19a66"
+  },
+  "entity.name.function,support.function.console": {
+    "one-dark-pro": "#61afef"
+  },
+  "keyword.operator.misc.rust": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "keyword.operator.sigil.rust": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.object.dom": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.variable.dom,support.variable.property.dom": {
+    "one-dark-pro": "#e06c75"
+  },
+  "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp": {
+    "one-dark-pro": "#c678dd"
+  },
+  "punctuation.separator.delimiter": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "punctuation.separator.c,punctuation.separator.cpp": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.posix-reserved.c,support.type.posix-reserved.cpp": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp": {
+    "one-dark-pro": "#c678dd"
+  },
+  "variable.parameter.function.language.python": {
+    "one-dark-pro": "#d19a66"
+  },
+  "support.type.python": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "variable.parameter.function.python": {
+    "one-dark-pro": "#d19a66",
+    "night-owl": "#82AAFF"
+  },
+  "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "meta.function-call.generic.python": {
+    "one-dark-pro": "#61afef",
+    "night-owl": "#B2CCD6",
+    "synthwave": "#36f9f6"
+  },
+  "constant.character.format.placeholder.other.python": {
+    "one-dark-pro": "#d19a66"
+  },
+  "keyword.operator.assignment.compound": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "variable.c": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "token.variable.parameter.java": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "import.storage.java": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "token.package.keyword": {
+    "one-dark-pro": "#c678dd"
+  },
+  "token.package": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "meta.require": {
+    "one-dark-pro": "#61afef"
+  },
+  "support.function.any-method": {
+    "one-dark-pro": "#61afef"
+  },
+  "variable.function": {
+    "one-dark-pro": "#61afef",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#7aa2f7",
+    "synthwave": "#36f9f6"
+  },
+  "entity.name.type.namespace": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "support.class, entity.name.type.class": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.class.identifier.namespace.type": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "variable.other.class.js": {
+    "one-dark-pro": "#e5c07b",
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.other.class.ts": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "variable.other.class.php": {
+    "one-dark-pro": "#e06c75"
+  },
+  "control.elements, keyword.operator.less": {
+    "one-dark-pro": "#d19a66"
+  },
+  "keyword.other.special-method": {
+    "one-dark-pro": "#61afef",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#7aa2f7"
+  },
+  "token.storage": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void": {
+    "one-dark-pro": "#c678dd"
+  },
+  "token.storage.type.java": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "support.type.property-name.toml, support.type.property-name.table.toml, support.type.property-name.array.toml": {
+    "one-dark-pro": "#e06c75"
+  },
+  "meta.tag": {
+    "one-dark-pro": "#abb2bf",
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#de5971"
+  },
+  "constant.other.symbol": {
+    "one-dark-pro": "#56b6c2",
+    "tokyo-night": "#9ece6a"
+  },
+  "constant": {
+    "one-dark-pro": "#d19a66",
+    "synthwave": "#f97e72"
+  },
+  "punctuation.definition.constant": {
+    "one-dark-pro": "#d19a66",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#ff9e64"
+  },
+  "entity.other.attribute-name.id": {
+    "one-dark-pro": "#61afef",
+    "night-owl": "#FAD430",
+    "tokyo-night": "#fc7b7b",
+    "synthwave": "#36f9f6"
+  },
+  "meta.selector": {
+    "one-dark-pro": "#c678dd",
+    "night-owl": "#c792ea"
+  },
+  "markup.heading punctuation.definition.heading, entity.name.section": {
+    "one-dark-pro": "#61afef"
+  },
+  "markup.bold,todo.bold": {
+    "one-dark-pro": "#d19a66"
+  },
+  "punctuation.definition.bold": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "markup.italic, punctuation.definition.italic,todo.emphasis": {
+    "one-dark-pro": "#c678dd"
+  },
+  "emphasis md": {
+    "one-dark-pro": "#c678dd"
+  },
+  "entity.name.section.markdown": {
+    "one-dark-pro": "#e06c75",
+    "synthwave": "#ff7edb"
+  },
+  "punctuation.definition.heading.markdown": {
+    "one-dark-pro": "#e06c75"
+  },
+  "markup.heading.setext": {
+    "one-dark-pro": "#abb2bf",
+    "monokai": "#A6E22E"
+  },
+  "punctuation.definition.bold.markdown": {
+    "one-dark-pro": "#d19a66"
+  },
+  "markup.inline.raw.markdown": {
+    "one-dark-pro": "#98c379"
+  },
+  "markup.inline.raw.string.markdown": {
+    "one-dark-pro": "#98c379",
+    "night-owl": "#c5e478",
+    "tokyo-night": "#89ddff",
+    "synthwave": "#72f1b8"
+  },
+  "punctuation.definition.raw.markdown": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "punctuation.definition.list.markdown": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "punctuation.definition.string.begin.markdown": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#ff5874"
+  },
+  "punctuation.definition.string.end.markdown": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#82b1ff"
+  },
+  "punctuation.definition.metadata.markdown": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#7fdbca"
+  },
+  "beginning.punctuation.definition.list.markdown": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#82b1ff"
+  },
+  "markup.underline.link.markdown,markup.underline.link.image.markdown": {
+    "one-dark-pro": "#c678dd",
+    "monokai": "#E6DB74"
+  },
+  "string.other.link.title.markdown,string.other.link.description.markdown": {
+    "one-dark-pro": "#61afef",
+    "monokai": "#AE81FF"
+  },
+  "markup.raw.monospace.asciidoc": {
+    "one-dark-pro": "#98c379"
+  },
+  "punctuation.definition.asciidoc": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "markup.list.asciidoc": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "markup.link.asciidoc,markup.other.url.asciidoc": {
+    "one-dark-pro": "#c678dd"
+  },
+  "string.unquoted.asciidoc,markup.other.url.asciidoc": {
+    "one-dark-pro": "#61afef"
+  },
+  "punctuation.section.embedded, variable.interpolation": {
+    "one-dark-pro": "#e06c75"
+  },
+  "punctuation.section.embedded.begin,punctuation.section.embedded.end": {
+    "one-dark-pro": "#c678dd"
+  },
+  "invalid.illegal": {
+    "one-dark-pro": "#ffffff",
+    "night-owl": "#ffffff",
+    "tokyo-night": "#ff5370",
+    "nord": "#D8DEE9"
+  },
+  "invalid.illegal.bad-ampersand.html": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "invalid.illegal.unrecognized-tag.html": {
+    "one-dark-pro": "#e06c75"
+  },
+  "invalid.broken": {
+    "one-dark-pro": "#ffffff",
+    "night-owl": "#020e14"
+  },
+  "invalid.deprecated": {
+    "one-dark-pro": "#ffffff",
+    "monokai": "#F44747",
+    "night-owl": "#ffffff",
+    "tokyo-night": "#bb9af7",
+    "nord": "#D8DEE9"
+  },
+  "invalid.deprecated.entity.other.attribute-name.html": {
+    "one-dark-pro": "#d19a66"
+  },
+  "invalid.unimplemented": {
+    "one-dark-pro": "#ffffff",
+    "night-owl": "#ffffff"
+  },
+  "source.json meta.structure.dictionary.json > string.quoted.json": {
+    "one-dark-pro": "#e06c75"
+  },
+  "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string": {
+    "one-dark-pro": "#e06c75"
+  },
+  "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation": {
+    "one-dark-pro": "#98c379"
+  },
+  "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.type.property-name.json": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#7fdbca",
+    "synthwave": "#72f1b8"
+  },
+  "support.type.property-name.json punctuation": {
+    "one-dark-pro": "#e06c75"
+  },
+  "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade": {
+    "one-dark-pro": "#c678dd"
+  },
+  "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.other.namespace.use.php,support.other.namespace.use-as.php,entity.other.alias.php,meta.interface.php": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "keyword.operator.error-control.php": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.type.php": {
+    "one-dark-pro": "#c678dd"
+  },
+  "punctuation.section.array.begin.php": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "punctuation.section.array.end.php": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "invalid.illegal.non-null-typehinted.php": {
+    "one-dark-pro": "#f44747"
+  },
+  "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php": {
+    "one-dark-pro": "#61afef"
+  },
+  "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "support.constant.core.rust": {
+    "one-dark-pro": "#d19a66"
+  },
+  "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php": {
+    "one-dark-pro": "#d19a66"
+  },
+  "entity.name.goto-label.php,support.other.php": {
+    "one-dark-pro": "#61afef"
+  },
+  "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "keyword.operator.regexp.php": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.comparison.php": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "keyword.operator.heredoc.php,keyword.operator.nowdoc.php": {
+    "one-dark-pro": "#c678dd"
+  },
+  "meta.function.decorator.python": {
+    "one-dark-pro": "#61afef"
+  },
+  "support.token.decorator.python,meta.function.decorator.identifier.python": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "function.parameter": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "function.brace": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "function.parameter.ruby, function.parameter.cs": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "constant.language.symbol.ruby": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#7fdbca"
+  },
+  "constant.language.symbol.hashkey.ruby": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#7fdbca"
+  },
+  "rgb-value": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "inline-color-decoration rgb-value": {
+    "one-dark-pro": "#d19a66"
+  },
+  "less rgb-value": {
+    "one-dark-pro": "#d19a66"
+  },
+  "selector.sass": {
+    "one-dark-pro": "#e06c75"
+  },
+  "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "block.scope.end,block.scope.begin": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "entity.name.variable.local.cs": {
+    "one-dark-pro": "#e06c75",
+    "synthwave": "#ff7edb"
+  },
+  "token.info-token": {
+    "one-dark-pro": "#61afef",
+    "monokai": "#6796e6",
+    "tokyo-night": "#0db9d7",
+    "nord": "#88c0d0"
+  },
+  "token.warn-token": {
+    "one-dark-pro": "#d19a66",
+    "monokai": "#cd9731",
+    "tokyo-night": "#ffdb69",
+    "nord": "#ebcb8b"
+  },
+  "token.error-token": {
+    "one-dark-pro": "#f44747",
+    "monokai": "#f44747",
+    "tokyo-night": "#db4b4b",
+    "nord": "#bf616a"
+  },
+  "token.debug-token": {
+    "one-dark-pro": "#c678dd",
+    "monokai": "#b267e6",
+    "tokyo-night": "#b267e6",
+    "nord": "#b48ead"
+  },
+  "keyword.operator.module": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.type.flowtype": {
+    "one-dark-pro": "#61afef"
+  },
+  "support.type.primitive": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "meta.property.object": {
+    "one-dark-pro": "#e06c75"
+  },
+  "variable.parameter.function.js": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#7986E7"
+  },
+  "keyword.other.template.begin": {
+    "one-dark-pro": "#98c379"
+  },
+  "keyword.other.template.end": {
+    "one-dark-pro": "#98c379"
+  },
+  "keyword.other.substitution.begin": {
+    "one-dark-pro": "#98c379"
+  },
+  "keyword.other.substitution.end": {
+    "one-dark-pro": "#98c379"
+  },
+  "keyword.operator.assignment": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#c792ea",
+    "synthwave": "#ffffffee"
+  },
+  "keyword.operator.assignment.go": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "keyword.operator.arithmetic.go": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.address.go": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.arithmetic.c": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.operator.arithmetic.cpp": {
+    "one-dark-pro": "#c678dd"
+  },
+  "entity.name.package.go": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "support.type.prelude.elm": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "support.constant.elm": {
+    "one-dark-pro": "#d19a66"
+  },
+  "punctuation.quasi.element": {
+    "one-dark-pro": "#c678dd"
+  },
+  "constant.character.entity": {
+    "one-dark-pro": "#e06c75"
+  },
+  "entity.other.attribute-name.pseudo-element": {
+    "one-dark-pro": "#56b6c2",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#D50"
+  },
+  "entity.other.attribute-name.pseudo-class": {
+    "one-dark-pro": "#56b6c2",
+    "tokyo-night": "#bb9af7",
+    "synthwave": "#D50"
+  },
+  "entity.global.clojure": {
+    "one-dark-pro": "#e5c07b",
+    "synthwave": "#36f9f6"
+  },
+  "meta.symbol.clojure": {
+    "one-dark-pro": "#e06c75",
+    "synthwave": "#ff7edbff"
+  },
+  "constant.keyword.clojure": {
+    "one-dark-pro": "#56b6c2",
+    "night-owl": "#7fdbca"
+  },
+  "meta.arguments.coffee": {
+    "one-dark-pro": "#e06c75"
+  },
+  "variable.parameter.function.coffee": {
+    "one-dark-pro": "#e06c75",
+    "night-owl": "#d6deeb"
+  },
+  "source.ini": {
+    "one-dark-pro": "#98c379"
+  },
+  "meta.scope.prerequisites.makefile": {
+    "one-dark-pro": "#e06c75"
+  },
+  "source.makefile": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "storage.modifier.import.groovy": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "meta.method.groovy": {
+    "one-dark-pro": "#61afef"
+  },
+  "meta.definition.variable.name.groovy": {
+    "one-dark-pro": "#e06c75"
+  },
+  "meta.definition.class.inherited.classes.groovy": {
+    "one-dark-pro": "#98c379"
+  },
+  "support.variable.semantic.hlsl": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "support.type.texture.hlsl": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.sampler.hlsl": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.object.hlsl": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.object.rw.hlsl": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.type.fx.hlsl": {
+    "one-dark-pro": "#c678dd"
+  },
+  "text.variable": {
+    "one-dark-pro": "#e06c75"
+  },
+  "text.bracketed": {
+    "one-dark-pro": "#e06c75"
+  },
+  "support.type.swift": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "support.type.vb.asp": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.function.xi": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.class.xi": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "constant.character.character-class.regexp.xi": {
+    "one-dark-pro": "#e06c75"
+  },
+  "constant.regexp.xi": {
+    "one-dark-pro": "#c678dd"
+  },
+  "keyword.control.xi": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "invalid.xi": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "beginning.punctuation.definition.quote.markdown.xi": {
+    "one-dark-pro": "#98c379"
+  },
+  "beginning.punctuation.definition.list.markdown.xi": {
+    "one-dark-pro": "#7f848e"
+  },
+  "constant.character.xi": {
+    "one-dark-pro": "#61afef"
+  },
+  "accent.xi": {
+    "one-dark-pro": "#61afef"
+  },
+  "wikiword.xi": {
+    "one-dark-pro": "#d19a66"
+  },
+  "constant.other.color.rgb-value.xi": {
+    "one-dark-pro": "#ffffff"
+  },
+  "punctuation.definition.tag.xi": {
+    "one-dark-pro": "#5c6370"
+  },
+  "entity.name.label.cs": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.scope-resolution.function.call": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.scope-resolution.function.definition": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "markup.heading.setext.1.markdown": {
+    "one-dark-pro": "#e06c75"
+  },
+  "markup.heading.setext.2.markdown": {
+    "one-dark-pro": "#e06c75"
+  },
+  "meta.brace.square": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "comment, punctuation.definition.comment": {
+    "one-dark-pro": "#7f848e"
+  },
+  "markup.quote.markdown": {
+    "one-dark-pro": "#5c6370",
+    "monokai": "#75715E",
+    "synthwave": "#72f1b8"
+  },
+  "punctuation.definition.block.sequence.item.yaml": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "constant.language.symbol.elixir": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "constant.language.symbol.double-quoted.elixir": {
+    "one-dark-pro": "#56b6c2"
+  },
+  "entity.name.variable.parameter.cs": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "entity.name.variable.field.cs": {
+    "one-dark-pro": "#e06c75",
+    "synthwave": "#ff7edb"
+  },
+  "support.other.namespace.php": {
+    "one-dark-pro": "#abb2bf",
+    "tokyo-night": "#0db9d7"
+  },
+  "variable.parameter.function.latex": {
+    "one-dark-pro": "#e06c75"
+  },
+  "variable.other.object": {
+    "one-dark-pro": "#e5c07b",
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.other.constant.property": {
+    "one-dark-pro": "#e06c75"
+  },
+  "variable.other.readwrite.c": {
+    "one-dark-pro": "#e06c75"
+  },
+  "entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php": {
+    "one-dark-pro": "#abb2bf"
+  },
+  "constant.numeric.decimal.asm.x86_64": {
+    "one-dark-pro": "#c678dd"
+  },
+  "log.info": {
+    "one-dark-pro": "#98c379"
+  },
+  "log.warning": {
+    "one-dark-pro": "#e5c07b"
+  },
+  "log.error": {
+    "one-dark-pro": "#e06c75"
+  },
+  "keyword.operator.expression.is": {
+    "one-dark-pro": "#c678dd"
+  },
+  "support.class.math.block.environment.latex": {
+    "one-dark-pro": "#61afef"
+  },
+  "constant.other.general.math.tex": {
+    "one-dark-pro": "#61afef"
+  },
+  "constant.character.math.tex": {
+    "one-dark-pro": "#98c379"
+  },
+  "punctuation.definition.template-expression": {
+    "monokai": "#F92672",
+    "tokyo-night": "#7dcfff"
+  },
+  "constant.character, constant.other": {
+    "monokai": "#AE81FF"
+  },
+  "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution": {
+    "monokai": "#A6E22E"
+  },
+  "variable.parameter": {
+    "monokai": "#FD971F",
+    "night-owl": "#ffcb8b",
+    "tokyo-night": "#e0af68",
+    "nord": "#D8DEE9"
+  },
+  "support.constant": {
+    "monokai": "#66D9EF",
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#ff9e64",
+    "nord": "#81A1C1"
+  },
+  "support.type, support.class": {
+    "monokai": "#66D9EF"
+  },
+  "meta.structure.dictionary.json string.quoted.double.json": {
+    "monokai": "#CFCFC2"
+  },
+  "meta.diff, meta.diff.header": {
+    "monokai": "#75715E"
+  },
+  "constant.numeric.line-number.find-in-files - match": {
+    "monokai": "#AE81FFA0"
+  },
+  "entity.name.filename.find-in-files": {
+    "monokai": "#E6DB74"
+  },
+  "markup.quote": {
+    "monokai": "#F92672",
+    "night-owl": "#697098",
+    "synthwave": "#b6b1b1cc"
+  },
+  "markup.list": {
+    "monokai": "#E6DB74"
+  },
+  "markup.bold, markup.italic": {
+    "monokai": "#66D9EF"
+  },
+  "markup.list.unnumbered.markdown, markup.list.numbered.markdown": {
+    "monokai": "#f8f8f2"
+  },
+  "meta.diff.header.git": {
+    "night-owl": "#a2bffc"
+  },
+  "meta.diff.header.from-file": {
+    "night-owl": "#a2bffc"
+  },
+  "meta.diff.header.to-file": {
+    "night-owl": "#a2bffc"
+  },
+  "punctuation.definition.comment": {
+    "night-owl": "#637777",
+    "tokyo-night": "#51597d",
+    "nord": "#616E88"
+  },
+  "string.quoted": {
+    "night-owl": "#ecc48d",
+    "synthwave": "#ff8b39"
+  },
+  "variable.other.readwrite.js": {
+    "night-owl": "#ecc48d"
+  },
+  "constant.character.numeric": {
+    "night-owl": "#F78C6C"
+  },
+  "constant.other": {
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#e0af68"
+  },
+  "string.regexp keyword.other": {
+    "night-owl": "#5ca7e4"
+  },
+  "meta.function punctuation.separator.comma": {
+    "night-owl": "#5f7e97"
+  },
+  "punctuation.accessor": {
+    "night-owl": "#c792ea"
+  },
+  "meta.var.expr": {
+    "night-owl": "#c792ea"
+  },
+  "meta.class meta.method.declaration meta.var.expr storage.type.js": {
+    "night-owl": "#c792ea"
+  },
+  "storage.type.property.js": {
+    "night-owl": "#c792ea"
+  },
+  "storage.type.property.ts": {
+    "night-owl": "#c792ea"
+  },
+  "storage.type.property.tsx": {
+    "night-owl": "#c792ea"
+  },
+  "meta.class entity.name.type.class": {
+    "night-owl": "#ffcb8b"
+  },
+  "meta.tag.other.html": {
+    "night-owl": "#caece6"
+  },
+  "meta.tag.other.js": {
+    "night-owl": "#caece6"
+  },
+  "meta.tag.other.tsx": {
+    "night-owl": "#caece6"
+  },
+  "entity.name.tag.tsx": {
+    "night-owl": "#caece6"
+  },
+  "entity.name.tag.js": {
+    "night-owl": "#caece6"
+  },
+  "meta.tag.js": {
+    "night-owl": "#caece6"
+  },
+  "meta.tag.tsx": {
+    "night-owl": "#caece6"
+  },
+  "meta.tag.html": {
+    "night-owl": "#caece6"
+  },
+  "entity.name.tag.custom": {
+    "night-owl": "#f78c6c"
+  },
+  "support.constant.meta.property-value": {
+    "night-owl": "#7fdbca"
+  },
+  "support.variable.dom": {
+    "night-owl": "#c5e478",
+    "tokyo-night": "#0db9d7"
+  },
+  "keyword.operator.relational": {
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.operator.arithmetic": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.operator.increment": {
+    "night-owl": "#c792ea"
+  },
+  "comment.line.double-slash": {
+    "night-owl": "#637777"
+  },
+  "object": {
+    "night-owl": "#cdebf7"
+  },
+  "constant.language.null": {
+    "night-owl": "#ff5874"
+  },
+  "meta.brace": {
+    "night-owl": "#d6deeb",
+    "tokyo-night": "#9abdf5"
+  },
+  "meta.delimiter.period": {
+    "night-owl": "#c792ea"
+  },
+  "punctuation.definition.string": {
+    "night-owl": "#d9f5dd",
+    "tokyo-night": "#89ddff",
+    "synthwave": "#ff8b39"
+  },
+  "constant.language.boolean": {
+    "night-owl": "#ff5874"
+  },
+  "object.comma": {
+    "night-owl": "#ffffff"
+  },
+  "support.type.vendor.property-name": {
+    "night-owl": "#80CBC4"
+  },
+  "support.constant.vendor.property-value": {
+    "night-owl": "#80CBC4"
+  },
+  "meta.property-list entity.name.tag": {
+    "night-owl": "#80CBC4"
+  },
+  "meta.property-list entity.name.tag.reference": {
+    "night-owl": "#57eaf1"
+  },
+  "constant.other.color.rgb-value punctuation.definition.constant": {
+    "night-owl": "#F78C6C"
+  },
+  "constant.other.color": {
+    "night-owl": "#FFEB95",
+    "tokyo-night": "#9aa5ce",
+    "synthwave": "#f97e72"
+  },
+  "meta.property-name": {
+    "night-owl": "#80CBC4"
+  },
+  "entity.name.tag.doctype": {
+    "night-owl": "#c792ea"
+  },
+  "meta.tag.sgml.doctype": {
+    "night-owl": "#c792ea"
+  },
+  "punctuation.definition.parameters": {
+    "night-owl": "#d9f5dd",
+    "tokyo-night": "#9abdf5",
+    "nord": "#ECEFF4"
+  },
+  "keyword.control.operator": {
+    "night-owl": "#7fdbca"
+  },
+  "variable.instance": {
+    "night-owl": "#baebe2"
+  },
+  "variable.other.instance": {
+    "night-owl": "#baebe2"
+  },
+  "variable.readwrite.instance": {
+    "night-owl": "#baebe2"
+  },
+  "variable.other.readwrite.instance": {
+    "night-owl": "#baebe2"
+  },
+  "variable.other.property": {
+    "night-owl": "#baebe2",
+    "tokyo-night": "#7dcfff"
+  },
+  "variable.other.object.property": {
+    "night-owl": "#faf39f",
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.language.this.js": {
+    "night-owl": "#41eec6"
+  },
+  "keyword.operator.comparison": {
+    "night-owl": "#c792ea",
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.control.flow.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.flow.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.flow.tsx": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.ruby": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.module.ruby": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.class.ruby": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.def.ruby": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.loop.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.loop.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.import.js": {
+    "night-owl": "#c792ea",
+    "synthwave": "#72f1b8"
+  },
+  "keyword.control.import.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.import.tsx": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.from.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.from.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.from.tsx": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.operator.instanceof.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.operator.expression.instanceof.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.operator.expression.instanceof.tsx": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.conditional.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.conditional.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.switch.js": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.control.switch.ts": {
+    "night-owl": "#c792ea"
+  },
+  "keyword.other.new": {
+    "night-owl": "#7fdbca",
+    "nord": "#81A1C1"
+  },
+  "keyword.other.debugger": {
+    "night-owl": "#7fdbca"
+  },
+  "support.variable.property": {
+    "night-owl": "#7fdbca",
+    "tokyo-night": "#7dcfff"
+  },
+  "variable.interpolation": {
+    "night-owl": "#ec5f67"
+  },
+  "meta.function-call": {
+    "night-owl": "#82AAFF",
+    "tokyo-night": "#7aa2f7"
+  },
+  "punctuation.terminator.expression": {
+    "night-owl": "#d6deeb"
+  },
+  "punctuation.definition.arguments": {
+    "night-owl": "#d6deeb",
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.array": {
+    "night-owl": "#d6deeb",
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.section.array": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.array": {
+    "night-owl": "#d6deeb"
+  },
+  "punctuation.definition.list.begin": {
+    "night-owl": "#d9f5dd"
+  },
+  "punctuation.definition.list.end": {
+    "night-owl": "#d9f5dd"
+  },
+  "punctuation.separator.arguments": {
+    "night-owl": "#d9f5dd"
+  },
+  "punctuation.definition.list": {
+    "night-owl": "#d9f5dd"
+  },
+  "string.template meta.template.expression": {
+    "night-owl": "#d3423e"
+  },
+  "string.template punctuation.definition.string": {
+    "night-owl": "#d6deeb"
+  },
+  "italic": {
+    "night-owl": "#c792ea"
+  },
+  "bold": {
+    "night-owl": "#c5e478"
+  },
+  "quote": {
+    "night-owl": "#697098"
+  },
+  "raw": {
+    "night-owl": "#80CBC4"
+  },
+  "variable.assignment.coffee": {
+    "night-owl": "#31e1eb"
+  },
+  "variable.other.readwrite.cs": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.type.class.cs": {
+    "night-owl": "#ffcb8b"
+  },
+  "entity.name.type.namespace.cs": {
+    "night-owl": "#B2CCD6"
+  },
+  "string.unquoted.preprocessor.message.cs": {
+    "night-owl": "#d6deeb"
+  },
+  "punctuation.separator.hash.cs": {
+    "night-owl": "#ffcb8b"
+  },
+  "keyword.preprocessor.region.cs": {
+    "night-owl": "#ffcb8b"
+  },
+  "keyword.preprocessor.endregion.cs": {
+    "night-owl": "#ffcb8b"
+  },
+  "variable.other.object.cs": {
+    "night-owl": "#B2CCD6"
+  },
+  "entity.name.type.enum.cs": {
+    "night-owl": "#c5e478"
+  },
+  "string.interpolated.single.dart": {
+    "night-owl": "#FFCB8B",
+    "synthwave": "#f97e72"
+  },
+  "string.interpolated.double.dart": {
+    "night-owl": "#FFCB8B"
+  },
+  "support.class.dart": {
+    "night-owl": "#FFCB8B"
+  },
+  "entity.name.tag.custom.css": {
+    "night-owl": "#ff6363"
+  },
+  "support.constant.property-value.css": {
+    "night-owl": "#ff6363"
+  },
+  "entity.name.tag.wildcard.css": {
+    "night-owl": "#7fdbca"
+  },
+  "entity.name.tag.wildcard.less": {
+    "night-owl": "#7fdbca"
+  },
+  "entity.name.tag.wildcard.scss": {
+    "night-owl": "#7fdbca"
+  },
+  "entity.name.tag.wildcard.sass": {
+    "night-owl": "#7fdbca"
+  },
+  "keyword.other.unit.css": {
+    "night-owl": "#FFEB95"
+  },
+  "meta.attribute-selector.css entity.other.attribute-name.attribute": {
+    "night-owl": "#F78C6C"
+  },
+  "source.elixir support.type.elixir": {
+    "night-owl": "#82AAFF",
+    "synthwave": "#36f9f6"
+  },
+  "source.elixir meta.module.elixir entity.name.class.elixir": {
+    "night-owl": "#82AAFF",
+    "synthwave": "#36f9f6"
+  },
+  "source.elixir entity.name.function": {
+    "night-owl": "#c5e478",
+    "synthwave": "#72f1b8"
+  },
+  "source.elixir constant.other.symbol.elixir": {
+    "night-owl": "#82AAFF",
+    "synthwave": "#36f9f6"
+  },
+  "source.elixir constant.other.keywords.elixir": {
+    "night-owl": "#82AAFF",
+    "synthwave": "#36f9f6"
+  },
+  "source.elixir punctuation.definition.string": {
+    "night-owl": "#c5e478",
+    "synthwave": "#72f1b8"
+  },
+  "source.elixir variable.other.readwrite.module.elixir": {
+    "night-owl": "#c5e478",
+    "synthwave": "#72f1b8"
+  },
+  "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir": {
+    "night-owl": "#c5e478",
+    "synthwave": "#72f1b8"
+  },
+  "source.elixir .punctuation.binary.elixir": {
+    "night-owl": "#c792ea",
+    "synthwave": "#ff7edb"
+  },
+  "source.go meta.function-call.go": {
+    "night-owl": "#DDDDDD",
+    "synthwave": "#36f9f6"
+  },
+  "source.go keyword.package.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.import.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.function.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.type.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.struct.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#72f1b8"
+  },
+  "source.go keyword.interface.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#72f1b8"
+  },
+  "source.go keyword.const.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.var.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.map.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.channel.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go keyword.control.go": {
+    "night-owl": "#c792ea",
+    "synthwave": "#fede5d"
+  },
+  "source.go constant.language.go": {
+    "night-owl": "#ff5874",
+    "synthwave": "#2EE2FA"
+  },
+  "source.go constant.other.placeholder.go": {
+    "night-owl": "#ff5874",
+    "nord": "#EBCB8B",
+    "synthwave": "#2EE2FA"
+  },
+  "entity.name.function.preprocessor.cpp": {
+    "night-owl": "#7fdbcaff"
+  },
+  "entity.scope.name.cpp": {
+    "night-owl": "#7fdbcaff"
+  },
+  "meta.namespace-block.cpp": {
+    "night-owl": "#e0dec6"
+  },
+  "storage.type.language.primitive.cpp": {
+    "night-owl": "#ff5874"
+  },
+  "meta.preprocessor.macro.cpp": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.readwrite.powershell": {
+    "night-owl": "#82AAFF"
+  },
+  "support.function.powershell": {
+    "night-owl": "#7fdbcaff"
+  },
+  "entity.other.attribute-name.id.html": {
+    "night-owl": "#c5e478",
+    "tokyo-night": "#bb9af7"
+  },
+  "punctuation.definition.tag.html": {
+    "night-owl": "#6ae9f0"
+  },
+  "meta.tag.sgml.doctype.html": {
+    "night-owl": "#c792ea"
+  },
+  "meta.class entity.name.type.class.js": {
+    "night-owl": "#ffcb8b"
+  },
+  "meta.method.declaration storage.type.js": {
+    "night-owl": "#82AAFF"
+  },
+  "terminator.js": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.js punctuation.definition.js": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.type.instance.jsdoc": {
+    "night-owl": "#5f7e97"
+  },
+  "entity.name.type.instance.phpdoc": {
+    "night-owl": "#5f7e97"
+  },
+  "variable.other.jsdoc": {
+    "night-owl": "#78ccf0"
+  },
+  "variable.other.phpdoc": {
+    "night-owl": "#78ccf0"
+  },
+  "variable.other.meta.import.js": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.import.js variable.other": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.meta.export.js": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.export.js variable.other": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.object.js": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.object.jsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.object.property.js": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.object.property.jsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.js": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.js": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.type.js": {
+    "night-owl": "#ffcb8b"
+  },
+  "entity.name.type.module.js": {
+    "night-owl": "#ffcb8b"
+  },
+  "support.class.js": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.structure.dictionary.value.json string.quoted.double": {
+    "night-owl": "#c789d6"
+  },
+  "string.quoted.double.json punctuation.definition.string.json": {
+    "night-owl": "#80CBC4"
+  },
+  "meta.structure.dictionary.json meta.structure.dictionary.value constant.language": {
+    "night-owl": "#ff5874"
+  },
+  "variable.other.ruby": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.type.class.ruby": {
+    "night-owl": "#ecc48d"
+  },
+  "meta.attribute-selector.less entity.other.attribute-name.attribute": {
+    "night-owl": "#F78C6C"
+  },
+  "markup.heading.setext.1": {
+    "night-owl": "#82b1ff"
+  },
+  "markup.heading.setext.2": {
+    "night-owl": "#82b1ff"
+  },
+  "markup.underline.link": {
+    "night-owl": "#ff869a",
+    "tokyo-night": "#73daca",
+    "synthwave": "#D50"
+  },
+  "markup.underline.link.image": {
+    "night-owl": "#ff869a"
+  },
+  "string.other.link.title.markdown": {
+    "night-owl": "#d6deeb",
+    "synthwave": "#fede5d"
+  },
+  "string.other.link.description.markdown": {
+    "night-owl": "#d6deeb"
+  },
+  "punctuation.definition.string.markdown": {
+    "night-owl": "#82b1ff"
+  },
+  "meta.link.inline.markdown punctuation.definition.string": {
+    "night-owl": "#82b1ff"
+  },
+  "variable.other.php": {
+    "night-owl": "#bec5d4"
+  },
+  "variable.other.property.php": {
+    "night-owl": "#bec5d4"
+  },
+  "support.class.php": {
+    "night-owl": "#ffcb8b"
+  },
+  "meta.function-call.php punctuation": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.global.php": {
+    "night-owl": "#c5e478"
+  },
+  "variable.other.global.php punctuation.definition.variable": {
+    "night-owl": "#c5e478"
+  },
+  "constant.language.python": {
+    "night-owl": "#ff5874"
+  },
+  "meta.function-call.arguments.python": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.function-call.python": {
+    "night-owl": "#B2CCD6"
+  },
+  "punctuation.python": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.function.decorator.python": {
+    "night-owl": "#c5e478"
+  },
+  "source.python variable.language.special": {
+    "night-owl": "#8EACE3"
+  },
+  "variable.scss": {
+    "night-owl": "#c5e478"
+  },
+  "variable.sass": {
+    "night-owl": "#c5e478"
+  },
+  "variable.parameter.url.scss": {
+    "night-owl": "#c5e478"
+  },
+  "variable.parameter.url.sass": {
+    "night-owl": "#c5e478"
+  },
+  "source.css.scss meta.at-rule variable": {
+    "night-owl": "#82AAFF"
+  },
+  "source.css.sass meta.at-rule variable": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.attribute-selector.scss entity.other.attribute-name.attribute": {
+    "night-owl": "#F78C6C"
+  },
+  "meta.attribute-selector.sass entity.other.attribute-name.attribute": {
+    "night-owl": "#F78C6C"
+  },
+  "entity.name.tag.scss": {
+    "night-owl": "#7fdbca"
+  },
+  "entity.name.tag.sass": {
+    "night-owl": "#7fdbca"
+  },
+  "keyword.other.unit.scss": {
+    "night-owl": "#FFEB95"
+  },
+  "keyword.other.unit.sass": {
+    "night-owl": "#FFEB95"
+  },
+  "variable.other.readwrite.alias.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.readwrite.alias.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.readwrite.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.readwrite.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.object.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.object.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.object.property.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.object.property.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.other.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "variable.ts": {
+    "night-owl": "#d6deeb"
+  },
+  "entity.name.type.ts": {
+    "night-owl": "#ffcb8b"
+  },
+  "entity.name.type.tsx": {
+    "night-owl": "#ffcb8b"
+  },
+  "support.class.node.ts": {
+    "night-owl": "#82AAFF"
+  },
+  "support.class.node.tsx": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.type.parameters.ts entity.name.type": {
+    "night-owl": "#5f7e97"
+  },
+  "meta.type.parameters.tsx entity.name.type": {
+    "night-owl": "#5f7e97"
+  },
+  "meta.import.ts punctuation.definition.block": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.import.tsx punctuation.definition.block": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.export.ts punctuation.definition.block": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.export.tsx punctuation.definition.block": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.decorator punctuation.decorator.ts": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.decorator punctuation.decorator.tsx": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.tag.js meta.jsx.children.tsx": {
+    "night-owl": "#82AAFF"
+  },
+  "entity.name.tag.yaml": {
+    "night-owl": "#7fdbca"
+  },
+  "support.class.component.js": {
+    "night-owl": "#f78c6c"
+  },
+  "support.class.component.tsx": {
+    "night-owl": "#f78c6c"
+  },
+  "meta.jsx.children": {
+    "night-owl": "#d6deeb",
+    "tokyo-night": "#9aa5ce"
+  },
+  "meta.jsx.children.js": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.jsx.children.tsx": {
+    "night-owl": "#d6deeb"
+  },
+  "meta.class entity.name.type.class.tsx": {
+    "night-owl": "#ffcb8b"
+  },
+  "entity.name.type.module.tsx": {
+    "night-owl": "#ffcb8b"
+  },
+  "meta.class.ts meta.var.expr.ts storage.type.ts": {
+    "night-owl": "#C792EA"
+  },
+  "meta.class.tsx meta.var.expr.tsx storage.type.tsx": {
+    "night-owl": "#C792EA"
+  },
+  "meta.method.declaration storage.type.ts": {
+    "night-owl": "#82AAFF"
+  },
+  "meta.method.declaration storage.type.tsx": {
+    "night-owl": "#82AAFF"
+  },
+  "comment.block.documentation": {
+    "tokyo-night": "#51597d"
+  },
+  "comment.block.documentation punctuation": {
+    "tokyo-night": "#51597d"
+  },
+  "string.quoted.docstring.multi": {
+    "tokyo-night": "#51597d"
+  },
+  "string.quoted.docstring.multi.python punctuation.definition.string.begin": {
+    "tokyo-night": "#51597d"
+  },
+  "string.quoted.docstring.multi.python punctuation.definition.string.end": {
+    "tokyo-night": "#51597d"
+  },
+  "string.quoted.docstring.multi.python constant.character.escape": {
+    "tokyo-night": "#51597d"
+  },
+  "keyword.operator.assignment.jsdoc": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation variable": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation storage": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation keyword": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation support": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation markup": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation markup.inline.raw.string.markdown": {
+    "tokyo-night": "#5a638c"
+  },
+  "meta.other.type.phpdoc.php keyword.other.type.php": {
+    "tokyo-night": "#5a638c"
+  },
+  "meta.other.type.phpdoc.php support.other.namespace.php": {
+    "tokyo-night": "#5a638c"
+  },
+  "meta.other.type.phpdoc.php punctuation.separator.inheritance.php": {
+    "tokyo-night": "#5a638c"
+  },
+  "meta.other.type.phpdoc.php support.class": {
+    "tokyo-night": "#5a638c"
+  },
+  "keyword.other.phpdoc.php": {
+    "tokyo-night": "#5a638c"
+  },
+  "log.date": {
+    "tokyo-night": "#5a638c"
+  },
+  "comment.block.documentation storage.type": {
+    "tokyo-night": "#646e9c"
+  },
+  "comment.block.documentation punctuation.definition.block.tag": {
+    "tokyo-night": "#646e9c"
+  },
+  "comment.block.documentation entity.name.type.instance": {
+    "tokyo-night": "#646e9c"
+  },
+  "constant.other.caps": {
+    "tokyo-night": "#ff9e64"
+  },
+  "constant.other.key": {
+    "tokyo-night": "#9ece6a"
+  },
+  "meta.attribute-selector": {
+    "tokyo-night": "#9ece6a"
+  },
+  "string constant.character": {
+    "tokyo-night": "#9ece6a"
+  },
+  "constant.other.color.rgb-value.hex punctuation.definition.constant": {
+    "tokyo-night": "#9aa5ce"
+  },
+  "meta.var.expr storage.type": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "meta.embedded.line.tag.smarty": {
+    "tokyo-night": "#7dcfff"
+  },
+  "punctuation.section.tag.twig": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.control.smarty": {
+    "tokyo-night": "#0db9d7"
+  },
+  "keyword.control.twig": {
+    "tokyo-night": "#0db9d7"
+  },
+  "support.constant.handlebars keyword.control": {
+    "tokyo-night": "#0db9d7"
+  },
+  "keyword.operator.comparison.twig": {
+    "tokyo-night": "#0db9d7"
+  },
+  "keyword.blade": {
+    "tokyo-night": "#0db9d7"
+  },
+  "entity.name.function.blade": {
+    "tokyo-night": "#0db9d7"
+  },
+  "meta.tag.blade keyword.other.type.php": {
+    "tokyo-night": "#0db9d7"
+  },
+  "keyword.operator.spread": {
+    "tokyo-night": "#f7768e"
+  },
+  "keyword.operator.rest": {
+    "tokyo-night": "#f7768e"
+  },
+  "keyword.control.as": {
+    "tokyo-night": "#89ddff"
+  },
+  "keyword.other": {
+    "tokyo-night": "#89ddff"
+  },
+  "keyword.operator.bitwise.shift": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation": {
+    "tokyo-night": "#89ddff",
+    "nord": "#ECEFF4"
+  },
+  "expression.embbeded.vue punctuation.definition.tag": {
+    "tokyo-night": "#89ddff"
+  },
+  "text.html.twig meta.tag.inline.any.html": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.tag.template.value.twig meta.function.arguments.twig": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.directive.vue punctuation.separator.key-value.html": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.definition.constant.markdown": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.support.type.property-name": {
+    "tokyo-night": "#89ddff"
+  },
+  "text.html.vue-html meta.tag": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.attribute.directive": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.definition.keyword": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.terminator.rule": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.definition.entity": {
+    "tokyo-night": "#89ddff"
+  },
+  "punctuation.separator.inheritance.php": {
+    "tokyo-night": "#89ddff"
+  },
+  "keyword.other.template": {
+    "tokyo-night": "#89ddff"
+  },
+  "keyword.other.substitution": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.property-list punctuation.separator.key-value": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.at-rule.mixin punctuation.separator.key-value": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.at-rule.function variable.parameter.url": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.embedded.inline.phpx punctuation.definition.tag.begin.html": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.embedded.inline.phpx punctuation.definition.tag.end.html": {
+    "tokyo-night": "#89ddff"
+  },
+  "keyword.control.module.js": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.control.import": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.control.export": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.control.from": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.control.default": {
+    "tokyo-night": "#7dcfff"
+  },
+  "meta.import keyword.other": {
+    "tokyo-night": "#7dcfff"
+  },
+  "keyword.other.important": {
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.other.DML": {
+    "tokyo-night": "#7dcfff"
+  },
+  "storage.type.function": {
+    "tokyo-night": "#bb9af7"
+  },
+  "entity.name.tag support.class.component": {
+    "tokyo-night": "#de5971"
+  },
+  "meta.tag.custom entity.name.tag": {
+    "tokyo-night": "#de5971"
+  },
+  "meta.tag.other.unrecognized.html.derivative entity.name.tag": {
+    "tokyo-night": "#de5971"
+  },
+  "text.html.php meta.embedded.block.html meta.tag.metadata.script.end.html punctuation.definition.tag.begin.html text.html.basic": {
+    "tokyo-night": "#ba3c97"
+  },
+  "constant.other.php": {
+    "tokyo-night": "#e0af68"
+  },
+  "variable.other.global.safer": {
+    "tokyo-night": "#e0af68"
+  },
+  "variable.other.global.safer punctuation.definition.variable": {
+    "tokyo-night": "#e0af68"
+  },
+  "variable.other.global": {
+    "tokyo-night": "#e0af68"
+  },
+  "variable.other.global punctuation.definition.variable": {
+    "tokyo-night": "#e0af68"
+  },
+  "string constant.other.placeholder": {
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.parameter.handlebars": {
+    "tokyo-night": "#c0caf5"
+  },
+  "meta.fstring": {
+    "tokyo-night": "#c0caf5"
+  },
+  "meta.function-call meta.function-call.arguments": {
+    "tokyo-night": "#c0caf5"
+  },
+  "meta.embedded.inline.phpx constant.other.php": {
+    "tokyo-night": "#c0caf5"
+  },
+  "meta.array.literal variable": {
+    "tokyo-night": "#7dcfff"
+  },
+  "entity.name.type.hcl": {
+    "tokyo-night": "#73daca"
+  },
+  "string.alias.graphql": {
+    "tokyo-night": "#73daca"
+  },
+  "string.unquoted.graphql": {
+    "tokyo-night": "#73daca"
+  },
+  "string.unquoted.alias.graphql": {
+    "tokyo-night": "#73daca"
+  },
+  "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js": {
+    "tokyo-night": "#73daca"
+  },
+  "meta.field.declaration.ts variable.object.property": {
+    "tokyo-night": "#73daca"
+  },
+  "meta.block entity.name.label": {
+    "tokyo-night": "#73daca"
+  },
+  "support.variable.property.dom": {
+    "tokyo-night": "#7dcfff"
+  },
+  "meta.function-call variable.other.object.property": {
+    "tokyo-night": "#7dcfff"
+  },
+  "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key": {
+    "tokyo-night": "#41a6b5"
+  },
+  "source.cpp meta.block variable.other": {
+    "tokyo-night": "#f7768e"
+  },
+  "support.other.variable": {
+    "tokyo-night": "#f7768e"
+  },
+  "meta.class-method.js entity.name.function.js": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "entity.name.method.js": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "variable.function.constructor": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "meta.function-call entity.name.function": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "meta.definition.method entity.name.function": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "meta.object-literal entity.name.function": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "variable.parameter.function.language.special": {
+    "tokyo-night": "#e0af68"
+  },
+  "meta.function.parameters punctuation.definition.variable": {
+    "tokyo-night": "#e0af68"
+  },
+  "meta.function.parameter variable": {
+    "tokyo-night": "#e0af68"
+  },
+  "keyword.other.type.php": {
+    "tokyo-night": "#bb9af7"
+  },
+  "storage.type.php": {
+    "tokyo-night": "#bb9af7"
+  },
+  "constant.escape": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.definition.variable variable.other.constant": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.definition.variable variable.other.readwrite": {
+    "tokyo-night": "#bb9af7"
+  },
+  "variable.declaration.hcl variable.other.readwrite.hcl": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.mapping.key.hcl variable.other.readwrite.hcl": {
+    "tokyo-night": "#bb9af7"
+  },
+  "variable.other.declaration": {
+    "tokyo-night": "#bb9af7"
+  },
+  "variable.other.readwrite.alias": {
+    "tokyo-night": "#0db9d7"
+  },
+  "support.orther.namespace.use.php": {
+    "tokyo-night": "#0db9d7"
+  },
+  "meta.use.php": {
+    "tokyo-night": "#0db9d7"
+  },
+  "support.type.sys-types": {
+    "tokyo-night": "#0db9d7"
+  },
+  "support.type.object.module": {
+    "tokyo-night": "#0db9d7"
+  },
+  "meta.import.qualifier": {
+    "tokyo-night": "#0db9d7"
+  },
+  "variable.other.constant.object": {
+    "tokyo-night": "#0db9d7"
+  },
+  "entity.name": {
+    "tokyo-night": "#c0caf5",
+    "synthwave": "#fe4450"
+  },
+  "source.css support.type.property-name": {
+    "tokyo-night": "#7aa2f7",
+    "nord": "#D8DEE9"
+  },
+  "source.sass support.type.property-name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.scss support.type.property-name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.less support.type.property-name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.stylus support.type.property-name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.postcss support.type.property-name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "support.type.property-name.css": {
+    "tokyo-night": "#7aa2f7",
+    "synthwave": "#72f1b8"
+  },
+  "support.type.map.key": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "meta.definition.variable": {
+    "tokyo-night": "#9ece6a"
+  },
+  "entity.other.attribute-name.class": {
+    "tokyo-night": "#9ece6a"
+  },
+  "meta.at-rule.mixin.scss entity.name.function.scss": {
+    "tokyo-night": "#9ece6a"
+  },
+  "entity.other.attribute-name.pseudo-class punctuation.definition.entity": {
+    "tokyo-night": "#e0af68"
+  },
+  "entity.other.attribute-name.pseudo-element punctuation.definition.entity": {
+    "tokyo-night": "#e0af68"
+  },
+  "entity.other.attribute-name.class punctuation.definition.entity": {
+    "tokyo-night": "#e0af68"
+  },
+  "entity.name.tag.reference": {
+    "tokyo-night": "#e0af68"
+  },
+  "meta.property-list": {
+    "tokyo-night": "#9abdf5"
+  },
+  "meta.property-list meta.at-rule.if": {
+    "tokyo-night": "#ff9e64"
+  },
+  "meta.at-rule.return variable.parameter.url": {
+    "tokyo-night": "#ff9e64"
+  },
+  "meta.property-list meta.at-rule.else": {
+    "tokyo-night": "#ff9e64"
+  },
+  "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css": {
+    "tokyo-night": "#73daca"
+  },
+  "meta.property-list meta.property-list": {
+    "tokyo-night": "#9abdf5"
+  },
+  "meta.at-rule.mixin keyword.control.at-rule.mixin": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.at-rule.include entity.name.function.scss": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.at-rule.include keyword.control.at-rule.include": {
+    "tokyo-night": "#bb9af7"
+  },
+  "keyword.control.at-rule.include punctuation.definition.keyword": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "keyword.control.at-rule.mixin punctuation.definition.keyword": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "keyword.control.at-rule.extend punctuation.definition.keyword": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "meta.at-rule.extend keyword.control.at-rule.extend": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "entity.other.attribute-name.placeholder.css punctuation.definition.entity.css": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "meta.at-rule.media keyword.control.at-rule.media": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "meta.at-rule.function keyword.control.at-rule.function": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "keyword.control punctuation.definition.keyword": {
+    "tokyo-night": "#9d7cd8"
+  },
+  "meta.property-list meta.at-rule.include": {
+    "tokyo-night": "#c0caf5"
+  },
+  "entity.name.module.js": {
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.import.parameter.js": {
+    "tokyo-night": "#c0caf5"
+  },
+  "variable.other punctuation.definition.variable": {
+    "tokyo-night": "#c0caf5"
+  },
+  "source.js constant.other.object.key.js string.unquoted.label.js": {
+    "tokyo-night": "#f7768e"
+  },
+  "variable.language.this punctuation.definition.variable": {
+    "tokyo-night": "#f7768e"
+  },
+  "keyword.other.this": {
+    "tokyo-night": "#f7768e"
+  },
+  "text.html.basic entity.other.attribute-name.html": {
+    "tokyo-night": "#bb9af7"
+  },
+  "text.html.basic entity.other.attribute-name": {
+    "tokyo-night": "#bb9af7"
+  },
+  "text.html constant.character.entity": {
+    "tokyo-night": "#0DB9D7"
+  },
+  "meta.directive.vue entity.other.attribute-name.html": {
+    "tokyo-night": "#bb9af7"
+  },
+  "source.sass keyword.control": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "entity.other.attribute-name.placeholder": {
+    "tokyo-night": "#bb9af7"
+  },
+  "meta.property-list meta.property-value": {
+    "tokyo-night": "#bb9af7"
+  },
+  "punctuation.definition.group": {
+    "tokyo-night": "#f7768e"
+  },
+  "constant.character.escape.backslash": {
+    "tokyo-night": "#c0caf5"
+  },
+  "tag.decorator.js entity.name.tag.js": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "tag.decorator.js punctuation.definition.tag.js": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#0db9d7"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#7dcfff"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#bb9af7"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#e0af68"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#0db9d7"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#73daca"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#f7768e"
+  },
+  "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json": {
+    "tokyo-night": "#9ece6a"
+  },
+  "punctuation.definition.list_item.markdown": {
+    "tokyo-night": "#9abdf5"
+  },
+  "meta.block": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.block": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.use": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.class": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.begin.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.end.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.switch-expression.begin.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.switch-expression.end.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.section.switch-block.begin.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.section.switch-block.end.bracket": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.group.shell": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.definition.dictionary": {
+    "tokyo-night": "#9abdf5"
+  },
+  "punctuation.section": {
+    "tokyo-night": "#9abdf5",
+    "nord": "#ECEFF4"
+  },
+  "meta.embedded.block": {
+    "tokyo-night": "#c0caf5"
+  },
+  "meta.tag JSXNested": {
+    "tokyo-night": "#9aa5ce"
+  },
+  "text.html": {
+    "tokyo-night": "#9aa5ce",
+    "synthwave": "#ffffffee"
+  },
+  "text.log": {
+    "tokyo-night": "#9aa5ce"
+  },
+  "text.html.markdown markup.inline.raw.markdown": {
+    "tokyo-night": "#bb9af7"
+  },
+  "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown": {
+    "tokyo-night": "#4E5579"
+  },
+  "heading.1.markdown entity.name": {
+    "tokyo-night": "#89ddff"
+  },
+  "heading.1.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#89ddff"
+  },
+  "heading.2.markdown entity.name": {
+    "tokyo-night": "#61bdf2"
+  },
+  "heading.2.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#61bdf2"
+  },
+  "heading.3.markdown entity.name": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "heading.3.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "heading.4.markdown entity.name": {
+    "tokyo-night": "#6d91de"
+  },
+  "heading.4.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#6d91de"
+  },
+  "heading.5.markdown entity.name": {
+    "tokyo-night": "#9aa5ce"
+  },
+  "heading.5.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#9aa5ce"
+  },
+  "heading.6.markdown entity.name": {
+    "tokyo-night": "#747ca1"
+  },
+  "heading.6.markdown punctuation.definition.heading.markdown": {
+    "tokyo-night": "#747ca1"
+  },
+  "markup.italic punctuation": {
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.bold punctuation": {
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.bold markup.italic": {
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.bold markup.italic punctuation": {
+    "tokyo-night": "#c0caf5"
+  },
+  "markup.quote punctuation.definition.blockquote.markdown": {
+    "tokyo-night": "#4e5579"
+  },
+  "string.other.link": {
+    "tokyo-night": "#73daca"
+  },
+  "constant.other.reference.link.markdown": {
+    "tokyo-night": "#73daca"
+  },
+  "string.other.link.description.title.markdown": {
+    "tokyo-night": "#73daca"
+  },
+  "markup.fenced_code.block.markdown": {
+    "tokyo-night": "#89ddff"
+  },
+  "variable.language.fenced.markdown": {
+    "tokyo-night": "#89ddff"
+  },
+  "meta.separator": {
+    "tokyo-night": "#51597d"
+  },
+  "markup.table": {
+    "tokyo-night": "#c0cefc"
+  },
+  "entity.tag.apacheconf": {
+    "tokyo-night": "#f7768e"
+  },
+  "source.env": {
+    "tokyo-night": "#7aa2f7"
+  },
+  "entity.name.type.class": {
+    "nord": "#8FBCBB"
+  },
+  "punctuation.definition.method-parameters": {
+    "nord": "#ECEFF4"
+  },
+  "punctuation.definition.function-parameters": {
+    "nord": "#ECEFF4"
+  },
+  "punctuation.end.definition.comment": {
+    "nord": "#616E88"
+  },
+  "punctuation.start.definition.comment": {
+    "nord": "#616E88"
+  },
+  "punctuation.section.embedded.begin": {
+    "nord": "#81A1C1"
+  },
+  "punctuation.section.embedded.end": {
+    "nord": "#81A1C1"
+  },
+  "punctuation.terminator": {
+    "nord": "#81A1C1"
+  },
+  "punctuation.definition.variable": {
+    "nord": "#81A1C1"
+  },
+  "support.function.construct": {
+    "nord": "#81A1C1"
+  },
+  "support.type.exception": {
+    "nord": "#8FBCBB"
+  },
+  "variable.other": {
+    "nord": "#D8DEE9"
+  },
+  "punctuation.separator.pointer-access.c": {
+    "nord": "#81A1C1"
+  },
+  "source.c meta.preprocessor.include": {
+    "nord": "#8FBCBB"
+  },
+  "source.c string.quoted.other.lt-gt.include": {
+    "nord": "#8FBCBB"
+  },
+  "source.cpp keyword.control.directive.conditional": {
+    "nord": "#5E81AC"
+  },
+  "source.cpp punctuation.definition.directive": {
+    "nord": "#5E81AC"
+  },
+  "source.c keyword.control.directive.conditional": {
+    "nord": "#5E81AC"
+  },
+  "source.c punctuation.definition.directive": {
+    "nord": "#5E81AC"
+  },
+  "source.css constant.other.color.rgb-value": {
+    "nord": "#B48EAD"
+  },
+  "source.css meta.property-value": {
+    "nord": "#88C0D0"
+  },
+  "source.css keyword.control.at-rule.media": {
+    "nord": "#D08770"
+  },
+  "source.css keyword.control.at-rule.media punctuation.definition.keyword": {
+    "nord": "#D08770"
+  },
+  "source.css punctuation.definition.keyword": {
+    "nord": "#81A1C1"
+  },
+  "source.diff meta.diff.range.context": {
+    "nord": "#8FBCBB"
+  },
+  "source.diff meta.diff.header.from-file": {
+    "nord": "#8FBCBB"
+  },
+  "source.diff punctuation.definition.from-file": {
+    "nord": "#8FBCBB"
+  },
+  "source.diff punctuation.definition.range": {
+    "nord": "#8FBCBB"
+  },
+  "source.diff punctuation.definition.separator": {
+    "nord": "#81A1C1"
+  },
+  "entity.name.type.module.elixir": {
+    "nord": "#8FBCBB"
+  },
+  "variable.other.readwrite.module.elixir": {
+    "nord": "#D8DEE9"
+  },
+  "constant.other.symbol.elixir": {
+    "nord": "#D8DEE9"
+  },
+  "variable.other.constant.elixir": {
+    "nord": "#8FBCBB"
+  },
+  "source.java comment.block.documentation.javadoc punctuation.definition.entity.html": {
+    "nord": "#81A1C1"
+  },
+  "source.java constant.other": {
+    "nord": "#D8DEE9"
+  },
+  "source.java keyword.other.documentation": {
+    "nord": "#8FBCBB"
+  },
+  "source.java keyword.other.documentation.author.javadoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.java keyword.other.documentation.directive": {
+    "nord": "#8FBCBB"
+  },
+  "source.java keyword.other.documentation.custom": {
+    "nord": "#8FBCBB"
+  },
+  "source.java keyword.other.documentation.see.javadoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.java meta.method-call meta.method": {
+    "nord": "#88C0D0"
+  },
+  "source.java meta.tag.template.link.javadoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.java string.other.link.title.javadoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.java meta.tag.template.value.javadoc": {
+    "nord": "#88C0D0"
+  },
+  "source.java punctuation.definition.keyword.javadoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.java punctuation.definition.tag.begin.javadoc": {
+    "nord": "#616E88"
+  },
+  "source.java punctuation.definition.tag.end.javadoc": {
+    "nord": "#616E88"
+  },
+  "source.java storage.modifier.import": {
+    "nord": "#8FBCBB"
+  },
+  "source.java storage.modifier.package": {
+    "nord": "#8FBCBB"
+  },
+  "source.java storage.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.java storage.type.annotation": {
+    "nord": "#D08770"
+  },
+  "source.java storage.type.generic": {
+    "nord": "#8FBCBB"
+  },
+  "source.java storage.type.primitive": {
+    "nord": "#81A1C1"
+  },
+  "source.js punctuation.decorator": {
+    "nord": "#D08770"
+  },
+  "source.js meta.decorator variable.other.readwrite": {
+    "nord": "#D08770"
+  },
+  "source.js meta.decorator entity.name.function": {
+    "nord": "#D08770"
+  },
+  "source.js meta.object-literal.key": {
+    "nord": "#88C0D0"
+  },
+  "source.js storage.type.class.jsdoc": {
+    "nord": "#8FBCBB"
+  },
+  "source.js string.quoted.template punctuation.quasi.element.begin": {
+    "nord": "#81A1C1"
+  },
+  "source.js string.quoted.template punctuation.quasi.element.end": {
+    "nord": "#81A1C1"
+  },
+  "source.js string.template punctuation.definition.template-expression": {
+    "nord": "#81A1C1"
+  },
+  "source.js string.quoted.template meta.method-call.with-arguments": {
+    "nord": "#ECEFF4"
+  },
+  "source.js string.template meta.template.expression support.variable.property": {
+    "nord": "#D8DEE9"
+  },
+  "source.js string.template meta.template.expression variable.other.object": {
+    "nord": "#D8DEE9"
+  },
+  "source.js support.type.primitive": {
+    "nord": "#81A1C1"
+  },
+  "source.js variable.other.object": {
+    "nord": "#D8DEE9"
+  },
+  "source.js variable.other.readwrite.alias": {
+    "nord": "#8FBCBB"
+  },
+  "source.js meta.embedded.line meta.brace.square": {
+    "nord": "#ECEFF4"
+  },
+  "source.js meta.embedded.line meta.brace.round": {
+    "nord": "#ECEFF4"
+  },
+  "source.js string.quoted.template meta.brace.square": {
+    "nord": "#ECEFF4"
+  },
+  "source.js string.quoted.template meta.brace.round": {
+    "nord": "#ECEFF4"
+  },
+  "text.html.basic constant.character.entity.html": {
+    "nord": "#EBCB8B"
+  },
+  "text.html.basic constant.other.inline-data": {
+    "nord": "#D08770"
+  },
+  "text.html.basic meta.tag.sgml.doctype": {
+    "nord": "#5E81AC"
+  },
+  "text.html.basic punctuation.definition.entity": {
+    "nord": "#81A1C1"
+  },
+  "source.properties entity.name.section.group-title.ini": {
+    "nord": "#88C0D0"
+  },
+  "source.properties punctuation.separator.key-value.ini": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown markup.fenced_code.block": {
+    "nord": "#8FBCBB"
+  },
+  "text.html.markdown markup.fenced_code.block punctuation.definition": {
+    "nord": "#8FBCBB"
+  },
+  "text.html.markdown markup.inline.raw": {
+    "nord": "#8FBCBB"
+  },
+  "text.html.markdown markup.inline.raw punctuation.definition.raw": {
+    "nord": "#8FBCBB"
+  },
+  "text.html.markdown beginning.punctuation.definition.list": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown beginning.punctuation.definition.quote": {
+    "nord": "#8FBCBB"
+  },
+  "text.html.markdown markup.quote": {
+    "nord": "#616E88"
+  },
+  "text.html.markdown constant.character.math.tex": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown punctuation.definition.math.begin": {
+    "nord": "#5E81AC"
+  },
+  "text.html.markdown punctuation.definition.math.end": {
+    "nord": "#5E81AC"
+  },
+  "text.html.markdown punctuation.definition.function.math.tex": {
+    "nord": "#88C0D0"
+  },
+  "text.html.markdown punctuation.math.operator.latex": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown punctuation.definition.heading": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown punctuation.definition.constant": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown punctuation.definition.string": {
+    "nord": "#81A1C1"
+  },
+  "text.html.markdown constant.other.reference.link": {
+    "nord": "#88C0D0"
+  },
+  "text.html.markdown string.other.link.description": {
+    "nord": "#88C0D0"
+  },
+  "text.html.markdown string.other.link.title": {
+    "nord": "#88C0D0"
+  },
+  "source.perl punctuation.definition.variable": {
+    "nord": "#D8DEE9"
+  },
+  "source.php meta.function-call": {
+    "nord": "#88C0D0"
+  },
+  "source.php meta.function-call.object": {
+    "nord": "#88C0D0"
+  },
+  "source.python entity.name.function.decorator": {
+    "nord": "#D08770"
+  },
+  "source.python meta.function.decorator support.type": {
+    "nord": "#D08770"
+  },
+  "source.python meta.function-call.generic": {
+    "nord": "#88C0D0"
+  },
+  "source.python support.type": {
+    "nord": "#88C0D0"
+  },
+  "source.python variable.parameter.function.language": {
+    "nord": "#D8DEE9"
+  },
+  "source.python meta.function.parameters variable.parameter.function.language.special.self": {
+    "nord": "#81A1C1"
+  },
+  "source.rust entity.name.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.rust meta.macro entity.name.function": {
+    "nord": "#88C0D0"
+  },
+  "source.rust meta.attribute": {
+    "nord": "#5E81AC"
+  },
+  "source.rust meta.attribute punctuation": {
+    "nord": "#5E81AC"
+  },
+  "source.rust meta.attribute keyword.operator": {
+    "nord": "#5E81AC"
+  },
+  "source.rust punctuation.definition.interpolation": {
+    "nord": "#EBCB8B"
+  },
+  "source.css.scss punctuation.definition.interpolation.begin.bracket.curly": {
+    "nord": "#81A1C1"
+  },
+  "source.css.scss punctuation.definition.interpolation.end.bracket.curly": {
+    "nord": "#81A1C1"
+  },
+  "source.css.scss variable.interpolation": {
+    "nord": "#D8DEE9"
+  },
+  "source.ts punctuation.decorator": {
+    "nord": "#D08770"
+  },
+  "source.ts meta.decorator variable.other.readwrite": {
+    "nord": "#D08770"
+  },
+  "source.ts meta.decorator entity.name.function": {
+    "nord": "#D08770"
+  },
+  "source.tsx punctuation.decorator": {
+    "nord": "#D08770"
+  },
+  "source.tsx meta.decorator variable.other.readwrite": {
+    "nord": "#D08770"
+  },
+  "source.tsx meta.decorator entity.name.function": {
+    "nord": "#D08770"
+  },
+  "source.ts meta.object-literal.key": {
+    "nord": "#D8DEE9"
+  },
+  "source.tsx meta.object-literal.key": {
+    "nord": "#D8DEE9"
+  },
+  "source.ts meta.object-literal.key entity.name.function": {
+    "nord": "#88C0D0"
+  },
+  "source.tsx meta.object-literal.key entity.name.function": {
+    "nord": "#88C0D0"
+  },
+  "source.ts support.class": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts support.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts entity.name.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts entity.name.class": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx support.class": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx support.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx entity.name.type": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx entity.name.class": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts support.constant.math": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts support.constant.dom": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts support.constant.json": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx support.constant.math": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx support.constant.dom": {
+    "nord": "#8FBCBB"
+  },
+  "source.tsx support.constant.json": {
+    "nord": "#8FBCBB"
+  },
+  "source.ts support.variable": {
+    "nord": "#D8DEE9"
+  },
+  "source.tsx support.variable": {
+    "nord": "#D8DEE9"
+  },
+  "source.ts meta.embedded.line meta.brace.square": {
+    "nord": "#ECEFF4"
+  },
+  "source.ts meta.embedded.line meta.brace.round": {
+    "nord": "#ECEFF4"
+  },
+  "source.tsx meta.embedded.line meta.brace.square": {
+    "nord": "#ECEFF4"
+  },
+  "source.tsx meta.embedded.line meta.brace.round": {
+    "nord": "#ECEFF4"
+  },
+  "text.xml entity.name.tag.namespace": {
+    "nord": "#8FBCBB"
+  },
+  "text.xml keyword.other.doctype": {
+    "nord": "#5E81AC"
+  },
+  "text.xml meta.tag.preprocessor entity.name.tag": {
+    "nord": "#5E81AC"
+  },
+  "text.xml string.unquoted.cdata": {
+    "nord": "#D08770"
+  },
+  "text.xml string.unquoted.cdata punctuation.definition.string": {
+    "nord": "#D08770"
+  },
+  "source.yaml entity.name.tag": {
+    "nord": "#8FBCBB"
+  },
+  "string.quoted.docstring.multi.python": {
+    "synthwave": "#848bbd"
+  },
+  "string.quoted.docstring.multi.python punctuation.definition.string.begin.python": {
+    "synthwave": "#848bbd"
+  },
+  "string.quoted.docstring.multi.python punctuation.definition.string.end.python": {
+    "synthwave": "#848bbd"
+  },
+  "string.template": {
+    "synthwave": "#ff8b39"
+  },
+  "string.template meta.embedded.line": {
+    "synthwave": "#b6b1b1"
+  },
+  "entity.other.attribute-name.html": {
+    "synthwave": "#fede5d"
+  },
+  "meta.attribute.class.html": {
+    "synthwave": "#fe4450"
+  },
+  "keyword.control.export.js": {
+    "synthwave": "#72f1b8"
+  },
+  "constant.numeric.decimal.js": {
+    "synthwave": "#2EE2FA"
+  },
+  "support": {
+    "synthwave": "#fe4450"
+  },
+  "switch-block.expr.js": {
+    "synthwave": "#72f1b8"
+  },
+  "variable.other.constant.property.js, variable.other.property.js": {
+    "synthwave": "#2ee2fa"
+  },
+  "support.function.misc.css": {
+    "synthwave": "#fe4450"
+  },
+  "entity.name.section": {
+    "synthwave": "#ff7edb"
+  },
+  "beginning.punctuation.definition.list": {
+    "synthwave": "#ff7edb"
+  },
+  "string.other.link.description": {
+    "synthwave": "#f97e72"
+  },
+  "variable.parameter.function-call.python": {
+    "synthwave": "#72f1b8"
+  },
+  "entity.name.variable.property.cs": {
+    "synthwave": "#ff7edb"
+  },
+  "constant.other.placeholder.c": {
+    "synthwave": "#72f1b8"
+  },
+  "keyword.control.directive.include.c": {
+    "synthwave": "#72f1b8"
+  },
+  "keyword.control.directive.define.c": {
+    "synthwave": "#72f1b8"
+  },
+  "storage.modifier.c": {
+    "synthwave": "#fe4450"
+  },
+  "source.cpp keyword.operator": {
+    "synthwave": "#fede5d"
+  },
+  "constant.other.placeholder.cpp": {
+    "synthwave": "#72f1b8"
+  },
+  "keyword.control.directive.include.cpp": {
+    "synthwave": "#72f1b8"
+  },
+  "keyword.control.directive.define.cpp": {
+    "synthwave": "#72f1b8"
+  },
+  "storage.modifier.specifier.const.cpp": {
+    "synthwave": "#fe4450"
+  },
+  "storage.control.clojure": {
+    "synthwave": "#36f9f6"
+  },
+  "meta.metadata.simple.clojure": {
+    "synthwave": "#fe4450"
+  },
+  "meta.metadata.map.clojure": {
+    "synthwave": "#fe4450"
+  },
+  "source.go": {
+    "synthwave": "#ff7edbff"
+  },
+  "source.go storage.type": {
+    "synthwave": "#72f1b8"
+  },
+  "source.go variable": {
+    "synthwave": "#2EE2FA"
+  },
+  "markup.underline.link.markdown": {
+    "synthwave": "#72f1b8"
+  },
+  "markup.heading.markdown": {
+    "synthwave": "#ff7edb"
+  },
+  "markup.italic.markdown": {
+    "synthwave": "#2EE2FA"
+  },
+  "markup.bold.markdown": {
+    "synthwave": "#2EE2FA"
+  },
+  "source.dart": {
+    "synthwave": "#ff7edbff"
+  },
+  "source.python": {
+    "synthwave": "#ff7edbff"
+  },
+  "source.scala": {
+    "synthwave": "#ff7edbff"
+  },
+  "variable.parameter.dart": {
+    "synthwave": "#72f1b8"
+  },
+  "constant.numeric.dart": {
+    "synthwave": "#2EE2FA"
+  },
+  "variable.parameter.scala": {
+    "synthwave": "#2EE2FA"
+  },
+  "meta.template.expression.scala": {
+    "synthwave": "#72f1b8"
+  }
+}

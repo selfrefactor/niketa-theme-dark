@@ -3,7 +3,8 @@ const { pascalCase } = require('string-fn')
 
 const { generateThemeData } = require('./generate-theme-data')
 const { writeJson } = require('./lib/write-json')
-const palette = require('./assets/palette.json')
+const palette = require('./palette.json')
+// const palette = require('./assets/palette.json')
 
 function sortObjectPredicate(aProp, bProp) {
   return aProp > bProp ? 1 : -1
