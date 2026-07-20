@@ -23,13 +23,13 @@
 
 ![VSCode theme screen](screens/cleveland.show.png)
 
-### Curb Your Enthusiasm
-
-![VSCode theme screen](screens/curb.your.enthusiasm.png)
-
 ### Dilbert
 
 ![VSCode theme screen](screens/dilbert.png)
+
+### Home Movies
+
+![VSCode theme screen](screens/home.movies.png)
 
 ### South Park
 

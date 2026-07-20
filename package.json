@@ -6,7 +6,9 @@
     "test": "node src/combinatorics-contast.js",
     "out:dark": "jest src/create-multiple-themes-dark.spec.js",
     "out:light": "jest src/create-multiple-themes-light.spec.js",
-    "out": "yarn out:dark && yarn out:light"
+    "out": "yarn out:dark && yarn out:light",
+    "screenshots": "node src/e2e-screenshots/generate-screenshots.js",
+    "screenshots:full": "yarn screenshots && node src/e2e-screenshots/populate-screens.js"
   },
   "niketaScripts": {
     "**/*.js": "yarn jest:file"
@@ -22,16 +24,18 @@
   "version": "3.73.0",
   "devDependencies": {
     "@mdhnpm/color-contrast-ratio-calculator": "1.0.4",
-    "colord": "2.9.3",
     "color": "5.0.0",
+    "colord": "2.9.3",
     "fs-extra": "11.3.0",
     "get-contrast-ratio": "1.0.0-0",
     "helpers-fn": "2.0.0",
     "hexsorter": "1.5.0",
     "jest": "30.0.0-alpha.7",
     "js-combinatorics": "2.1.2",
+    "puppeteer-core": "^25.3.0",
     "rambda": "10.0.0-beta.3",
     "rambdax": "11.3.1",
+    "shiki": "^4.3.1",
     "string-fn": "3.6.3"
   },
   "repository": {
