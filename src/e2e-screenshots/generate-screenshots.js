@@ -78,14 +78,86 @@ async function generateHighlightedHtml(highlighter, themeJson, combinedCode) {
 }
 
 /**
- * Build a full HTML page with VS Code editor styling.
+ * Build a full HTML page with VS Code editor + sidebar styling.
+ *
+ * Layout:
+ * ┌─ Title bar ─────────────────────────┐
+ * │ ● ● ●  sample.js                   │
+ * ├─── Sidebar ───┬── Editor ──────────┤
+ * │ EXPLORER      │  highlighted code  │
+ * │ ├─ src/       │                    │
+ * │ │ ├─ sample   │                    │
+ * │ │ ├─ utils    │                    │
+ * │ │ └─ styles   │                    │
+ * │ ├─ tests/     │                    │
+ * │ └─ package    │                    │
+ * ├─── Status bar ─────────────────────┤
+ * │ main  │ JS │ UTF-8 │ Sp: 2        │
+ * └────────────────────────────────────┘
  */
 function buildPageHtml(highlightedHtml, themeJson) {
-  const bg = themeJson.colors?.['editor.background'] || '#1E1E1E'
-  const fg = themeJson.colors?.['editor.foreground'] || '#D4D4D4'
+  const editorBg = themeJson.colors?.['editor.background'] || '#1E1E1E'
+  const editorFg = themeJson.colors?.['editor.foreground'] || '#D4D4D4'
+  const sidebarBg = themeJson.colors?.['sideBar.background'] || editorBg
+  const sidebarFg = themeJson.colors?.['sideBar.foreground'] || '#CCCCCC'
+  const sidebarTitleBg = themeJson.colors?.['sideBarTitle.background'] || sidebarBg
+  const sidebarTitleFg = themeJson.colors?.['sideBarTitle.foreground'] || '#888888'
+  const activityBarBg = themeJson.colors?.['activityBar.background'] || sidebarBg
+  const statusBarBg = themeJson.colors?.['statusBar.background'] || '#007ACC'
+  const statusBarFg = themeJson.colors?.['statusBar.foreground'] || '#FFFFFF'
+  const lineHighlight = themeJson.colors?.['editor.lineHighlightBackground'] || 'rgba(255,255,255,0.05)'
 
-  // Extract the inner content from shiki's <pre> output for more control
-  // Shiki wraps in <pre class="shiki ..."><code>...</code></pre>
+  // File tree structure for the sidebar
+  const fileTree = `
+    <div class="section-header">EXPLORER</div>
+    <div class="tree">
+      <div class="tree-item dir open">
+        <span class="arrow">▾</span>
+        <span class="icon folder-open">📂</span>
+        <span>niketa-theme-dark</span>
+      </div>
+      <div class="tree-children">
+        <div class="tree-item dir open">
+          <span class="arrow">▾</span>
+          <span class="icon folder-open">📂</span>
+          <span>src</span>
+        </div>
+        <div class="tree-children">
+          <div class="tree-item dir">
+            <span class="arrow">▸</span>
+            <span class="icon folder">📁</span>
+            <span>assets</span>
+          </div>
+          <div class="tree-item dir">
+            <span class="arrow">▸</span>
+            <span class="icon folder">📁</span>
+            <span>generate-palette</span>
+          </div>
+          <div class="tree-item file active">
+            <span class="icon file">📄</span>
+            <span>sample.js</span>
+          </div>
+          <div class="tree-item file">
+            <span class="icon file">📄</span>
+            <span>utils.js</span>
+          </div>
+          <div class="tree-item file">
+            <span class="icon file">📄</span>
+            <span>styles.css</span>
+          </div>
+        </div>
+        <div class="tree-item dir">
+          <span class="arrow">▸</span>
+          <span class="icon folder">📁</span>
+          <span>themes</span>
+        </div>
+        <div class="tree-item file">
+          <span class="icon file">📄</span>
+          <span>package.json</span>
+        </div>
+      </div>
+    </div>`
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -93,82 +165,255 @@ function buildPageHtml(highlightedHtml, themeJson) {
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    background: ${bg};
+    background: #0d1117;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    min-height: 720px;
     padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
   .editor-window {
-    background: ${bg};
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     width: 1240px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
   }
+
+  /* ── Title bar ── */
   .title-bar {
     display: flex;
     align-items: center;
-    padding: 8px 16px;
-    background: ${bg};
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: 10px 16px;
+    background: ${editorBg};
+    border-bottom: 1px solid rgba(255,255,255,0.06);
   }
   .title-bar .dots {
     display: flex;
-    gap: 6px;
-    margin-right: 16px;
+    gap: 8px;
+    margin-right: 20px;
   }
   .title-bar .dot {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
+    flex-shrink: 0;
   }
   .title-bar .dot.red { background: #ff5f56; }
   .title-bar .dot.yellow { background: #ffbd2e; }
   .title-bar .dot.green { background: #27c93f; }
   .title-bar .filename {
-    color: rgba(255,255,255,0.5);
-    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+    color: rgba(255,255,255,0.4);
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace;
     font-size: 13px;
   }
-  .editor-content {
-    padding: 12px 0;
+
+  /* ── Body: sidebar + editor ── */
+  .window-body {
+    display: flex;
+    flex-direction: row;
+    height: 560px;
   }
-  pre.shiki {
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 260px;
+    background: ${sidebarBg};
+    color: ${sidebarFg};
+    border-right: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .sidebar .section-header {
+    padding: 10px 16px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: ${sidebarTitleFg};
+    text-transform: uppercase;
+  }
+  .sidebar .tree {
+    padding: 0 0 0 8px;
+    flex: 1;
+    overflow: auto;
+  }
+  .tree-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    font-size: 13px;
+    line-height: 24px;
+    cursor: default;
+    color: ${sidebarFg};
+    white-space: nowrap;
+  }
+  .tree-item .arrow {
+    width: 16px;
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.6;
+    flex-shrink: 0;
+  }
+  .tree-item .icon {
+    width: 16px;
+    text-align: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .tree-item.active {
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+  }
+  .tree-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #0078d4;
+  }
+  .tree-children {
+    padding-left: 20px;
+  }
+  .dir .arrow {
+    visibility: visible;
+  }
+
+  /* ── Editor ── */
+  .editor-pane {
+    flex: 1;
+    background: ${editorBg};
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .editor-tabs {
+    display: flex;
+    background: rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding: 0;
+  }
+  .editor-tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    border-right: 1px solid rgba(255,255,255,0.06);
+    cursor: default;
+  }
+  .editor-tab.active {
+    background: ${editorBg};
+    color: ${editorFg};
+    border-bottom: 1px solid ${editorBg};
+    margin-bottom: -1px;
+  }
+  .editor-tab .tab-icon {
+    font-size: 11px;
+  }
+  .editor-tab .tab-close {
+    opacity: 0.4;
+    font-size: 14px;
+    margin-left: 4px;
+  }
+  .editor-content {
+    flex: 1;
+    overflow: auto;
+    padding: 8px 0;
+  }
+  .editor-content pre.shiki {
     background: transparent !important;
     padding: 0 16px !important;
     margin: 0 !important;
     font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace !important;
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-    overflow: visible !important;
+    font-size: 13px !important;
+    line-height: 1.7 !important;
   }
-  pre.shiki code {
+  .editor-content pre.shiki code {
     background: transparent !important;
   }
-  .line-number {
-    display: inline-block;
-    width: 32px;
-    text-align: right;
-    margin-right: 16px;
-    color: rgba(255,255,255,0.15);
-    user-select: none;
+
+  /* ── Status bar ── */
+  .status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 12px;
+    background: ${statusBarBg};
+    color: ${statusBarFg};
+    font-size: 12px;
+    height: 24px;
+  }
+  .status-bar .status-left,
+  .status-bar .status-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .status-bar .status-item {
+    opacity: 0.8;
   }
 </style>
 </head>
 <body>
   <div class="editor-window">
+    <!-- Title bar -->
     <div class="title-bar">
       <div class="dots">
         <div class="dot red"></div>
         <div class="dot yellow"></div>
         <div class="dot green"></div>
       </div>
-      <span class="filename">sample.js</span>
+      <span class="filename">sample.js — niketa-theme-dark</span>
     </div>
-    <div class="editor-content">
-      ${highlightedHtml}
+
+    <!-- Body: sidebar + editor -->
+    <div class="window-body">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        ${fileTree}
+      </div>
+
+      <!-- Editor -->
+      <div class="editor-pane">
+        <div class="editor-tabs">
+          <div class="editor-tab active">
+            <span class="tab-icon">📄</span>
+            sample.js
+            <span class="tab-close">×</span>
+          </div>
+          <div class="editor-tab">
+            <span class="tab-icon">📄</span>
+            utils.js
+            <span class="tab-close">×</span>
+          </div>
+          <div class="editor-tab">
+            <span class="tab-icon">📄</span>
+            styles.css
+            <span class="tab-close">×</span>
+          </div>
+        </div>
+        <div class="editor-content">
+          ${highlightedHtml}
+        </div>
+      </div>
+    </div>
+
+    <!-- Status bar -->
+    <div class="status-bar">
+      <div class="status-left">
+        <span class="status-item">main</span>
+        <span class="status-item">◎</span>
+      </div>
+      <div class="status-right">
+        <span class="status-item">JavaScript</span>
+        <span class="status-item">UTF-8</span>
+        <span class="status-item">Spaces: 2</span>
+        <span class="status-item">Ln 1, Col 1</span>
+      </div>
     </div>
   </div>
 </body>
