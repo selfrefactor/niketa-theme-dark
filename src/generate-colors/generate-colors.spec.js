@@ -2,7 +2,7 @@ const { generateColors } = require('./generate-colors')
 
 test('happy', () => {
   generateColors({
-    input: ['#b19cd9', '#000000'],
+    input: ['#fe6629', '#F7EC11'],
     levels: 100,
   })
 })
