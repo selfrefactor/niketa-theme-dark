@@ -12,6 +12,10 @@ exports.otherColors = {
   'checkbox.foreground': '#d8dce8',
   'debugToolBar.border': '#c4cadc',
   'diffEditor.border': '#c4cadc',
+  'diffEditor.insertedTextBackground': '#387b544d',
+  'diffEditor.insertedLineBackground': '#387b5426',
+  'diffEditor.removedTextBackground': '#de5a0233',
+  'diffEditor.removedLineBackground': '#de5a0226',
   // IMPORTANT - before there was a border which is now back color
   'editor.lineHighlightBackground': '#2C2C2C',
   'editor.lineHighlightBorder': '#2C2C2C',

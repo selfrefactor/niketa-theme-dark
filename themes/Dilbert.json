@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "colors": {
     "activityBar.activeBackground": "#0f141c",
     "activityBar.dropBorder": "#12a8c2",
@@ -10,6 +11,10 @@
     "checkbox.foreground": "#d8dce8",
     "debugToolBar.border": "#c4cadc",
     "diffEditor.border": "#c4cadc",
+    "diffEditor.insertedLineBackground": "#387b5426",
+    "diffEditor.insertedTextBackground": "#387b544d",
+    "diffEditor.removedLineBackground": "#de5a0226",
+    "diffEditor.removedTextBackground": "#de5a0233",
     "editor.background": "#171717",
     "editor.findMatchBackground": "#555",
     "editor.findMatchHighlightBackground": "#556",
@@ -2880,6 +2885,14 @@
       }
     },
     {
+      "name": "markup.strikethrough",
+      "scope": "markup.strikethrough",
+      "settings": {
+        "fontStyle": "strikethrough",
+        "foreground": "#ff6900"
+      }
+    },
+    {
       "name": "markup.table",
       "scope": "markup.table",
       "settings": {
@@ -4658,6 +4671,13 @@
     {
       "name": "string",
       "scope": "string",
+      "settings": {
+        "foreground": "#ff7eba"
+      }
+    },
+    {
+      "name": "string variable",
+      "scope": "string variable",
       "settings": {
         "foreground": "#ff7eba"
       }

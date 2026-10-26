@@ -168,7 +168,8 @@ const dropBackgrounds = {
 }
 
 const possibleErrors = {
-  'editorIndentGuide.activeBackground': '#363b54',
+  'editorIndentGuide.background1': '#363b54',
+  'editorIndentGuide.activeBackground1': '#363b54',
   'editorPane.background': '#363b5477',
   'notificationCenterHeader.background': '#10101477',
   'activityBarBadge.foreground': DARK,
@@ -247,7 +248,9 @@ let colors = {
   'badge.foreground': '#070',
   descriptionForeground: '#528ff0',
   'diffEditor.insertedTextBackground': '#9c824a55',
+  'diffEditor.insertedLineBackground': '#9c824a26',
   'diffEditor.removedTextBackground': '#64B5F655',
+  'diffEditor.removedLineBackground': '#64B5F626',
   'editor.background': BACK_COLOR,
   'editor.foldBackground': '#fafafa',
 	// 'editor.foreground': DARK,
