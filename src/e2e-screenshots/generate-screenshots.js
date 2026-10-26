@@ -12,7 +12,7 @@
 
 const { createHighlighter } = require('shiki')
 const puppeteer = require('puppeteer-core')
-const { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } = require('fs')
+const { readFileSync, readdirSync, mkdirSync, existsSync, rmSync } = require('fs')
 const { resolve, extname } = require('node:path')
 
 const THEMES_DIR = resolve(__dirname, '../../themes')
@@ -427,10 +427,9 @@ async function generateAllScreenshots() {
   console.log('E2E Screenshot Generator')
   console.log('=' .repeat(50))
 
-  // Ensure output dir
-  if (!existsSync(RAW_SCREENS_DIR)) {
-    mkdirSync(RAW_SCREENS_DIR, { recursive: true })
-  }
+  // Start from a clean directory so no stale screenshot can be copied forward
+  rmSync(RAW_SCREENS_DIR, { recursive: true, force: true })
+  mkdirSync(RAW_SCREENS_DIR, { recursive: true })
 
   // Find chromium
   const chromiumPath = findChromium()
@@ -521,6 +520,9 @@ async function generateAllScreenshots() {
   await browser.close()
   console.log(`\nDone! ${success} succeeded, ${failure} failed`)
   console.log(`Screenshots saved to ${RAW_SCREENS_DIR}`)
+
+  // A partial run must not be copied into screens/ by populate-screens.js
+  if (failure > 0) process.exit(1)
 }
 
 generateAllScreenshots().catch(err => {
